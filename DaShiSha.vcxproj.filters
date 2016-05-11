@@ -1,0 +1,2421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene">
+      <UniqueIdentifier>{fbe948e5-6faf-4fae-b2aa-2ff512b541f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\net">
+      <UniqueIdentifier>{980b815d-e9cd-4668-8639-1cfe6358da97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\tools">
+      <UniqueIdentifier>{8b68d714-93f2-4696-ac2d-9bfe5e6e763e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CCTK">
+      <UniqueIdentifier>{d84c027a-385c-42a5-991c-5b20da94f547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\alive">
+      <UniqueIdentifier>{4ddbdfc6-95ab-405a-bab5-52949cce1a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\effect">
+      <UniqueIdentifier>{0d18648b-2e5a-4c2c-95ed-23f719bcb084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\state">
+      <UniqueIdentifier>{6aadb42b-7c43-4d28-8fdf-5b1d010a26d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\layer">
+      <UniqueIdentifier>{d8f53bbf-60a7-4aa1-89f7-5617ae7a105c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\google">
+      <UniqueIdentifier>{4e60659d-6ced-45c0-b5e3-88574f53cea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\google\protobuf">
+      <UniqueIdentifier>{751190a7-a9c5-4753-a660-543504a54a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\google\protobuf\io">
+      <UniqueIdentifier>{a6ee1546-ba13-407a-829f-5197045f46ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\google\protobuf\stubs">
+      <UniqueIdentifier>{acb92564-539f-4441-9457-60558f3b1675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\protos">
+      <UniqueIdentifier>{2f087de6-14d4-47cb-85c9-975120aba150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\protos\common">
+      <UniqueIdentifier>{aa704d93-5f5b-4104-8150-6b2b59688cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\netcontrol">
+      <UniqueIdentifier>{693a40ad-e3aa-45ae-ad1c-a33a2ffec500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\common">
+      <UniqueIdentifier>{c1d1a844-d870-4da7-a5a3-c0e9e080bd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\jsonCpp">
+      <UniqueIdentifier>{9dfeb24e-1a4b-4330-b9dc-7adecc327e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\warScene">
+      <UniqueIdentifier>{8d8a67e9-87fe-48da-b0ae-eaefed57af59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\filter">
+      <UniqueIdentifier>{d397d216-25cf-45cc-ac76-384034af9967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\mainCity">
+      <UniqueIdentifier>{6962f394-600e-4c3b-846d-eb74a1d87be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\warScene\Effect">
+      <UniqueIdentifier>{e7304451-78a9-4514-96ea-18a4f2a64d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\model">
+      <UniqueIdentifier>{79cb24c6-689c-4c16-9eb1-7f44c98fb910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\bag">
+      <UniqueIdentifier>{f119f236-67b4-42c8-9d39-9c6000802533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\warScene\Layer">
+      <UniqueIdentifier>{2b7eabff-6f5f-4748-a2b2-c20ad44a4325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\army">
+      <UniqueIdentifier>{3fad6ca5-ebb3-4dd7-a594-4d46a8178c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\tollgate">
+      <UniqueIdentifier>{699466a1-a8dd-4380-9690-c83ef7b54a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\shop">
+      <UniqueIdentifier>{f623bdec-07ed-4192-b097-dadfe7ed17b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\task">
+      <UniqueIdentifier>{58efe0c8-9111-40cc-9e5e-2081ec26f35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\mail">
+      <UniqueIdentifier>{7693c5c1-e303-441b-a24b-f1a10f4cc8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\hero">
+      <UniqueIdentifier>{cb626b4d-deeb-4fbd-88d2-101595468b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sign">
+      <UniqueIdentifier>{31397301-e39a-4212-a670-1a54bc023f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\mainCity\Recurit">
+      <UniqueIdentifier>{54505f15-32f9-4fcd-b8dc-cb1dae9585a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\roleImg">
+      <UniqueIdentifier>{0ff3dd76-553b-4f26-82d0-dd7c7bbfd6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\friend">
+      <UniqueIdentifier>{faeaf8dd-7e7e-444d-bb46-994ca0ce559f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\vip">
+      <UniqueIdentifier>{f7da96a5-8351-4156-8020-6285bf0a1341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\guide">
+      <UniqueIdentifier>{10a7c60d-3f64-4d02-b6f1-ebd25313d625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\warScene\Guide">
+      <UniqueIdentifier>{e9c9852b-c19d-4a81-bb89-f00f4f476252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\reward">
+      <UniqueIdentifier>{bb16587a-65eb-4fe1-bcd2-b7b490bd323a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\set">
+      <UniqueIdentifier>{c110507c-40ff-4dbe-86ed-04ccd8759ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\activity">
+      <UniqueIdentifier>{bffd4be4-2dd4-402e-86b6-fe1aface1a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\update">
+      <UniqueIdentifier>{f1498acc-0282-416f-bd01-112a9c282630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\jni">
+      <UniqueIdentifier>{f8b2105b-beff-4966-8005-f544c8c6c342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SDK">
+      <UniqueIdentifier>{7d3c48f3-52d5-4bc9-8a01-b171411a4ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\C2DXShareSDK">
+      <UniqueIdentifier>{7e44ab86-c23c-448b-b063-525f52a5d84d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\rank">
+      <UniqueIdentifier>{f9368048-dd83-4c0e-aa88-119e84f1c146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle">
+      <UniqueIdentifier>{c9f5d3f5-b58a-48ea-83a0-124e63cc436c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Macro">
+      <UniqueIdentifier>{701adb87-5ba0-4c83-95da-06be7c8d318d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Data">
+      <UniqueIdentifier>{8f16d6b3-2e85-42ff-8701-2f300274a5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Data\SpineData">
+      <UniqueIdentifier>{3fe6d4d3-e916-422c-ae25-eeb9dfc25917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Data\RoleConfig">
+      <UniqueIdentifier>{ecec8cd3-3b04-435b-a696-602cb7d3c8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Data\RoleServerData">
+      <UniqueIdentifier>{65339de6-c14d-45db-add2-bbd30c5beb73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Data\Story">
+      <UniqueIdentifier>{4786afef-e72b-4e5a-a013-a75cf2304f80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\array.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\Button.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\CheckBox.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\ControlView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\GridPageView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\GridView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\ImageView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\ImageViewScale9.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\inetaddress.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\Label.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\LabelAtlas.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\LabelBMFont.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\ListView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\Lua_cocos2dx_widget.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\netbean.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\PageView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\popupbox.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\ProgressBar.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\Scale9Sprite.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\scene.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\scenemanager.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\ScrollView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\Slider.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\socket.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\stream.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\TableView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\ToggleView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\Widget.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\WidgetProtocol.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\UIFactory.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\UITools.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\VirtualScreen.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\LogoScene.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\LoadScene.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\LoginScene.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\MZCursorTextField.cpp">
+      <Filter>Classes\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\WarScene.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\alive\HPObject.cpp">
+      <Filter>Classes\scene\alive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\alive\AliveObject.cpp">
+      <Filter>Classes\scene\alive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\DataCenter.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\MapManager.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\WarManager.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\DataDefine.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\effect\EffectObject.cpp">
+      <Filter>Classes\scene\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\AnimationManager.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\state\StateManager.cpp">
+      <Filter>Classes\scene\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\state\PostureState.cpp">
+      <Filter>Classes\scene\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\state\GameStateManager.cpp">
+      <Filter>Classes\scene\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\alive\ActObject.cpp">
+      <Filter>Classes\scene\alive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\state\GameTransition.cpp">
+      <Filter>Classes\scene\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\FileUtils.cpp">
+      <Filter>Classes\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\StringUtil.cpp">
+      <Filter>Classes\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\SelectHeroScene.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\UserManager.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\SetPanel.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\PauseLayer.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\WarAliveLayer.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\WarMapLayer.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\MathUtil.cpp">
+      <Filter>Classes\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\StoryLayer.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\WuJiangGM.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\LayerManager.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\EmBattleModel.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\SkillGM.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\TollgateGM.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\net\CNetSocket.cpp">
+      <Filter>Classes\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\io\gzip_stream.cc">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\io\printer.cc">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\io\tokenizer.cc">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\io\zero_copy_stream.cc">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\io\zero_copy_stream_impl.cc">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\io\zero_copy_stream_impl_lite.cc">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\io\coded_stream.cc">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\stubs\atomicops_internals_x86_gcc.cc">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\stubs\atomicops_internals_x86_msvc.cc">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\stubs\common.cc">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\stubs\once.cc">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\stubs\structurally_valid.cc">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\stubs\strutil.cc">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\stubs\substitute.cc">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\descriptor.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\descriptor.pb.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\descriptor_database.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\dynamic_message.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\extension_set.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\extension_set_heavy.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\generated_message_reflection.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\generated_message_util.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\message.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\message_lite.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\reflection_ops.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\repeated_field.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\service.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\text_format.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\unknown_field_set.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\wire_format.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\wire_format_lite.cc">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\google\protobuf\stubs\stringprintf.cc">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\auth_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\role_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\net\CNetClient.cpp">
+      <Filter>Classes\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\net\CProtoType.cpp">
+      <Filter>Classes\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\role_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\netcontrol\CPlayerControl.cpp">
+      <Filter>Classes\netcontrol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\stage_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\hero_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\monster_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\skill_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\BattleData.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\hero_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\trap_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\GameTip.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\system_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\GameTip.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\WaitLayer.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\CCShake.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CommonFunction.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\ShowTexttip.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\texttip.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\TerrainManager.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\loadWar.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CursorTextField.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\BackLayer.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jsonCpp\json_reader.cpp">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jsonCpp\json_value.cpp">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jsonCpp\json_writer.cpp">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\ArmatureBtn.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\CircleMenu.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\ColorView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\ExpandableListView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\GradientView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\Layout.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\NumericStepper.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\TextArea.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\TextRich.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\WidgetWindow.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\WitlsMacros.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\RadioButton.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\RadioBtnGroup.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\BufExp.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\TerrainExp.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\BuffManage.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\alive\RageObject.cpp">
+      <Filter>Classes\scene\alive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\CPopTip.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\UICloneMgr.cpp">
+      <Filter>Classes\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\filter\CCColorFlashFilter.cpp">
+      <Filter>Classes\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\filter\CCFilter.cpp">
+      <Filter>Classes\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\filter\CCFlashFilter.cpp">
+      <Filter>Classes\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\filter\CCGodRayFilter.cpp">
+      <Filter>Classes\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\filter\CCGrayFilter.cpp">
+      <Filter>Classes\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\filter\CCWaveFilter.cpp">
+      <Filter>Classes\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCSpriteWithFilter.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\mainCityUI.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\RollLabel.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\EffectData.cpp">
+      <Filter>Classes\warScene\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\mainScene.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\GoldMineLayer.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\city_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\city_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\MainCityControl.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\PixelSprite.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\bag\BagScene.cpp">
+      <Filter>Classes\bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\bag\BagInfoTip.cpp">
+      <Filter>Classes\bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\item_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\armor_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\item_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\prop_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\DefendWuJiang.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\CityData.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\bag\bagData.cpp">
+      <Filter>Classes\bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\CultivateLayer.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\WarBackLayer.cpp">
+      <Filter>Classes\warScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\QuickProduct.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\ProgressLabel.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\union_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\army\union.cpp">
+      <Filter>Classes\army</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tollgate\Chapter.cpp">
+      <Filter>Classes\tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tollgate\TollgateLayer.cpp">
+      <Filter>Classes\tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tollgate\Sweep.cpp">
+      <Filter>Classes\tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\shop\ShopLayer.cpp">
+      <Filter>Classes\shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\shop_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\Strengthen.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\smith_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\CCompaseLayer.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\PixelButton.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\soul_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\CommandLayer.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\task_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\task\task.cpp">
+      <Filter>Classes\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\task\CTaskLayer.cpp">
+      <Filter>Classes\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\task_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\task\TaskControl.cpp">
+      <Filter>Classes\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mail\EmailLayer.cpp">
+      <Filter>Classes\mail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mail\EmailData.cpp">
+      <Filter>Classes\mail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mail\EmailControl.cpp">
+      <Filter>Classes\mail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\mail_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\DropItem.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\MoveRule.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\HurtCount.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\WarAssist.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\CombatTask.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\CombatEffect.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\SkillRange.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\StrengthenItem.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\FilterItem.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\SmeltArmor.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\MultLanguage.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroList.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroControl.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroAttribute.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroSkill.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroDetail.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroMove.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroEvolve.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroData.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\TaskGM.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroExp.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\CaptainSkill.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroExpItem.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\sign_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sign\SignLayer.cpp">
+      <Filter>Classes\sign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sign\SignData.cpp">
+      <Filter>Classes\sign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\lottery_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sign\PopItem.cpp">
+      <Filter>Classes\sign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\Recruit.cpp">
+      <Filter>Classes\mainCity\Recurit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\RecruitData.cpp">
+      <Filter>Classes\mainCity\Recurit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\RecruitResult.cpp">
+      <Filter>Classes\mainCity\Recurit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\RoleNameGM.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tollgate\TollgatePreview.cpp">
+      <Filter>Classes\tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tollgate\MonsterInfo.cpp">
+      <Filter>Classes\tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\HeroInfoGM.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\roleImg\ChangeHeadImg.cpp">
+      <Filter>Classes\roleImg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\roleImg\ChangeName.cpp">
+      <Filter>Classes\roleImg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\roleImg\RoleInfo.cpp">
+      <Filter>Classes\roleImg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroPromote.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\friend\FriendLayer.cpp">
+      <Filter>Classes\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\friend_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\friend\Friend.cpp">
+      <Filter>Classes\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\SkillTips.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\vip\VipLayer.cpp">
+      <Filter>Classes\vip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\vip_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\vip\VipPower.cpp">
+      <Filter>Classes\vip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\vip\VipData.cpp">
+      <Filter>Classes\vip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCTK\MovieView.cpp">
+      <Filter>Classes\CCTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tollgate\SelectFriend.cpp">
+      <Filter>Classes\tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tollgate\SelectArmy.cpp">
+      <Filter>Classes\tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\shop\ShopBuy.cpp">
+      <Filter>Classes\shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\ItemGM.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\exchange_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\bag\ItemTip.cpp">
+      <Filter>Classes\bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\bag\StuffTip.cpp">
+      <Filter>Classes\bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\WarControl.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\guide\GuideData.cpp">
+      <Filter>Classes\guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\TouchIntercept.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\CombatGuideManage.cpp">
+      <Filter>Classes\warScene\Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\CombatGuideData.cpp">
+      <Filter>Classes\warScene\Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\guide\GuideManager.cpp">
+      <Filter>Classes\guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\guide\GuideLayer.cpp">
+      <Filter>Classes\guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\CombatGuideLayer.cpp">
+      <Filter>Classes\warScene\Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\MapEffect.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\ComBatDataSaveXML.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\TerrainLayer.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\BatchLayer.cpp">
+      <Filter>Classes\warScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\BattleResult.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroUpdate.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroBreak.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\ExchangeData.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\ExchangeTip.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\reward\RewardLayer.cpp">
+      <Filter>Classes\reward</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\RewardGM.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\reward\RewardHardLayer.cpp">
+      <Filter>Classes\reward</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\bounty_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\set\ExchangeCode.cpp">
+      <Filter>Classes\set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\set\SetPush.cpp">
+      <Filter>Classes\set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\set\SetLayer.cpp">
+      <Filter>Classes\set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\ArmatureEventDataMgr.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\WarFailLayer.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\WarWinLayer.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\SkillDesc.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\activity\ActivityControl.cpp">
+      <Filter>Classes\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\activity\ActivityData.cpp">
+      <Filter>Classes\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\activity\ActivityLayer.cpp">
+      <Filter>Classes\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\activity\HttpLoadImage.cpp">
+      <Filter>Classes\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\act_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\RandomBusineseMan.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\CPlayerSkillData.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\ShaderDataHelper.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\army\SelectEquipment.cpp">
+      <Filter>Classes\army</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\PropGetInfo.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tollgate\ItemInfo.cpp">
+      <Filter>Classes\tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CGameSound.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CHeroBodyShowData.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CShowToBuyResource.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\CWholeBodyShowData.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\CNewHero.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CTransitionDelay.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\update\CUpdateLayer.cpp">
+      <Filter>Classes\update</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jni\CJniHelper.cpp">
+      <Filter>Classes\jni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\gate_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\update\CVersionJson.cpp">
+      <Filter>Classes\update</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SDK\FaceBookSDK.cpp">
+      <Filter>Classes\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C2DXShareSDK\C2DXShareSDK.cpp">
+      <Filter>Classes\C2DXShareSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroAdvance.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroCall.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\CHeroSoundData.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\WarRelive.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\reward\WorldBoss.cpp">
+      <Filter>Classes\reward</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\reward\WBossLayer.cpp">
+      <Filter>Classes\reward</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\reward\WRuleLayer.cpp">
+      <Filter>Classes\reward</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\reward\WShopLayer.cpp">
+      <Filter>Classes\reward</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\boss_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\reward\SkillInfo.cpp">
+      <Filter>Classes\reward</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\WorldBossEndLayer.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CMultiProgressBar.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\rank\RankData.cpp">
+      <Filter>Classes\rank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\rank\RankLayer.cpp">
+      <Filter>Classes\rank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\rank_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CCMixLabelAction.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\update\CDownloadPackage.cpp">
+      <Filter>Classes\update</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\ParseFileData.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\warscene\BattleTools.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\vip\CVipPay.cpp">
+      <Filter>Classes\vip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CCRollLabelAction.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\LoadSpineData.cpp">
+      <Filter>Classes\Battle\Data\SpineData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\GameRoleData.cpp">
+      <Filter>Classes\Battle\Data\RoleServerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\RoleBaseData.cpp">
+      <Filter>Classes\Battle\Data\RoleServerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ReloadResCoverLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\StarUpItem.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\LevelUpItem.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\TopLayer.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tollgate\StageData.cpp">
+      <Filter>Classes\tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\BuyResource.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\roleImg\RoleUpdate.cpp">
+      <Filter>Classes\roleImg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleDataCenter.cpp">
+      <Filter>Classes\Battle\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\RoleConfigData.cpp">
+      <Filter>Classes\Battle\Data\RoleConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\ParseRoleConfigFile.cpp">
+      <Filter>Classes\Battle\Data\RoleConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\HeroRole.cpp">
+      <Filter>Classes\Battle\Data\RoleServerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MonsterRole.cpp">
+      <Filter>Classes\Battle\Data\RoleServerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\DataPool.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\common\prize_common.pb.cc">
+      <Filter>Classes\protos\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\CAccessLayer.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\PanelTips.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CSpecialProgress.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\LoadPngData.cpp" />
+    <ClCompile Include="..\Classes\warscene\ComBatLogic.cpp">
+      <Filter>Classes\warScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\array.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\base.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\Button.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\CheckBox.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\cocos-widget.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\ControlView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\GridPageView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\GridView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\ImageView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\ImageViewScale9.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\inetaddress.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\inetpredef.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\Label.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\LabelAtlas.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\LabelBMFont.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\ListView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\Lua_cocos2dx_widget.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\net.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\netbean.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\PageView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\popupbox.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\ProgressBar.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\Scale9Sprite.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\scene.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\scenemanager.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\ScrollView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\Slider.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\socket.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\stream.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\TableView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\ToggleView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\Widget.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\WidgetMacros.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\WidgetProtocol.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppUI.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\UIFactory.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\UITools.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\VirtualScreen.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\LogoScene.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\LoadScene.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\LoginScene.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\MZCursorTextField.h">
+      <Filter>Classes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\WarScene.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\alive\AliveObject.h">
+      <Filter>Classes\scene\alive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\alive\HPObject.h">
+      <Filter>Classes\scene\alive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\DataCenter.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\MapManager.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\DataDefine.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\WarManager.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\effect\EffectObject.h">
+      <Filter>Classes\scene\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\AnimationManager.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\state\StateManager.h">
+      <Filter>Classes\scene\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\state\StateDefine.h">
+      <Filter>Classes\scene\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\state\PostureState.h">
+      <Filter>Classes\scene\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\state\GameStateManager.h">
+      <Filter>Classes\scene\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\alive\ActObject.h">
+      <Filter>Classes\scene\alive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\state\GameTransition.h">
+      <Filter>Classes\scene\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\SceneDefine.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\alive\AliveDefine.h">
+      <Filter>Classes\scene\alive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\ToolDefine.h">
+      <Filter>Classes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\FileUtils.h">
+      <Filter>Classes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\StringUtil.h">
+      <Filter>Classes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\SelectHeroScene.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\UserManager.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\LayerDefine.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\SetPanel.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\PauseLayer.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\WarAliveLayer.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\WarMapLayer.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\MathUtil.h">
+      <Filter>Classes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\StoryLayer.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\WuJiangGM.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\LayerManager.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\EmBattleModel.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\SkillGM.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\TollgateGM.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\net\CNetSocket.h">
+      <Filter>Classes\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\io\coded_stream.h">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\io\coded_stream_inl.h">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\io\gzip_stream.h">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\io\package_info.h">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\io\printer.h">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\io\tokenizer.h">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\io\zero_copy_stream.h">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\io\zero_copy_stream_impl.h">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\io\zero_copy_stream_impl_lite.h">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_arm_qnx.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_atomicword_compat.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_macosx.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_mips_gcc.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_pnacl.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_x86_gcc.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_x86_msvc.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\common.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\hash.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\map-util.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\once.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\platform_macros.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\stl_util.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\strutil.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\substitute.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\template_util.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\type_traits.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_arm_gcc.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\descriptor.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\descriptor.pb.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\descriptor_database.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\dynamic_message.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\extension_set.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\generated_enum_reflection.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\generated_message_reflection.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\generated_message_util.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\message.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\message_lite.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\package_info.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\reflection_ops.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\repeated_field.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\service.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\test_util.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\test_util_lite.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\text_format.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\unknown_field_set.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\wire_format.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\wire_format_lite.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\wire_format_lite_inl.h">
+      <Filter>Classes\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\google\protobuf\stubs\stringprintf.h">
+      <Filter>Classes\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\auth_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\role_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\net\CNetClient.h">
+      <Filter>Classes\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\ProtoDefine.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\net\CProtoType.h">
+      <Filter>Classes\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\net\MessageHandler.h">
+      <Filter>Classes\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\role_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\protocol.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\netcontrol\CPlayerControl.h">
+      <Filter>Classes\netcontrol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\stage_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\hero_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\monster_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\skill_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\BattleData.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\hero_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\trap_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\GameTip.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\system_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\GameTip.h" />
+    <ClInclude Include="..\Classes\scene\layer\WaitLayer.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\CCShake.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\commonDef.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CommonFunction.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\color.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\ShowTexttip.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\texttip.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\TerrainManager.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\loadWar.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CursorTextField.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\BackLayer.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jsonCpp\autolink.h">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jsonCpp\config.h">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jsonCpp\features.h">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jsonCpp\forwards.h">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jsonCpp\json.h">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jsonCpp\json_batchallocator.h">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jsonCpp\reader.h">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jsonCpp\value.h">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jsonCpp\writer.h">
+      <Filter>Classes\jsonCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\ArmatureBtn.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\CircleMenu.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\ColorView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\ExpandableListView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\GradientView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\Layout.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\NumericStepper.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\TextArea.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\TextRich.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\WidgetWindow.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\WitlsMacros.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\RadioButton.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\RadioBtnGroup.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\BufExp.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\TerrainExp.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\BuffManage.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\alive\RageObject.h">
+      <Filter>Classes\scene\alive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\CPopTip.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\UICloneMgr.h">
+      <Filter>Classes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\ConstNum.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\filter\CCColorFlashFilter.h">
+      <Filter>Classes\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\filter\CCFilter.h">
+      <Filter>Classes\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\filter\CCFlashFilter.h">
+      <Filter>Classes\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\filter\CCGodRayFilter.h">
+      <Filter>Classes\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\filter\CCGrayFilter.h">
+      <Filter>Classes\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\filter\CCWaveFilter.h">
+      <Filter>Classes\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCSpriteWidthFilter.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\mainCityUI.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\RollLabel.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\EffectData.h">
+      <Filter>Classes\warScene\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\mainScene.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\GoldMineLayer.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\city_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\city_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\MainCityControl.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\PixelSprite.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\bag\BagScene.h">
+      <Filter>Classes\bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\bag\BagInfoTip.h">
+      <Filter>Classes\bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\item_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\armor_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\item_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\prop_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\bag\bagData.h">
+      <Filter>Classes\bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\DefendWuJiang.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\CityData.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\CultivateLayer.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\WarBackLayer.h">
+      <Filter>Classes\warScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\QuickProduct.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\ProgressLabel.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\union_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\army\union.h">
+      <Filter>Classes\army</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tollgate\Chapter.h">
+      <Filter>Classes\tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tollgate\TollgateLayer.h">
+      <Filter>Classes\tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tollgate\Sweep.h">
+      <Filter>Classes\tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\shop\ShopLayer.h">
+      <Filter>Classes\shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\shop_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\Strengthen.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\smith_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\commonString.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\alive\ActionDef.h">
+      <Filter>Classes\scene\alive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\CCompaseLayer.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\PixelButton.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\soul_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\CommandLayer.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\task\task.h">
+      <Filter>Classes\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\task_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\task_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\task\CTaskLayer.h">
+      <Filter>Classes\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\task\TaskControl.h">
+      <Filter>Classes\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mail\EmailLayer.h">
+      <Filter>Classes\mail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mail\EmailData.h">
+      <Filter>Classes\mail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mail\EmailControl.h">
+      <Filter>Classes\mail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\mail_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\DropItem.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\MoveRule.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\HurtCount.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\WarAssist.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\CombatTask.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\CombatEffect.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\SkillRange.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\StrengthenItem.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\FilterItem.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\SmeltArmor.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\MultLanguage.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroList.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroControl.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroAttribute.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroSkill.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroDetail.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroMove.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroEvolve.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroData.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\TaskGM.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroExp.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\CaptainSkill.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroExpItem.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\sign_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sign\SignLayer.h">
+      <Filter>Classes\sign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sign\SignData.h">
+      <Filter>Classes\sign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\lottery_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sign\PopItem.h">
+      <Filter>Classes\sign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\Recruit.h">
+      <Filter>Classes\mainCity\Recurit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\RecruitData.h">
+      <Filter>Classes\mainCity\Recurit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\RecruitResult.h">
+      <Filter>Classes\mainCity\Recurit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\RoleNameGM.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tollgate\TollgatePreview.h">
+      <Filter>Classes\tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tollgate\MonsterInfo.h">
+      <Filter>Classes\tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\HeroInfoGM.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\roleImg\ChangeHeadImg.h">
+      <Filter>Classes\roleImg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\roleImg\ChangeName.h">
+      <Filter>Classes\roleImg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\roleImg\RoleInfo.h">
+      <Filter>Classes\roleImg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroPromote.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\friend\FriendLayer.h">
+      <Filter>Classes\friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\friend_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\friend\Friend.h">
+      <Filter>Classes\friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\SkillTips.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\vip\VipLayer.h">
+      <Filter>Classes\vip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\vip_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\vip\VipPower.h">
+      <Filter>Classes\vip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\vip\VipData.h">
+      <Filter>Classes\vip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCTK\MovieView.h">
+      <Filter>Classes\CCTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GMessage.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tollgate\SelectFriend.h">
+      <Filter>Classes\tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tollgate\SelectArmy.h">
+      <Filter>Classes\tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\shop\ShopBuy.h">
+      <Filter>Classes\shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\ItemGM.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\exchange_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\bag\ItemTip.h">
+      <Filter>Classes\bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\bag\StuffTip.h">
+      <Filter>Classes\bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\WarControl.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\guide\GuideData.h">
+      <Filter>Classes\guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\TouchIntercept.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\CombatGuideManage.h">
+      <Filter>Classes\warScene\Guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\CombatGuideData.h">
+      <Filter>Classes\warScene\Guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\guide\GuideManager.h">
+      <Filter>Classes\guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\guide\GuideLayer.h">
+      <Filter>Classes\guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\CombatGuideLayer.h">
+      <Filter>Classes\warScene\Guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\MapEffect.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\ComBatDataSaveXML.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\TerrainLayer.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\BatchLayer.h">
+      <Filter>Classes\warScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\BattleResult.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroUpdate.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroBreak.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\ExchangeData.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\ExchangeTip.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\reward\RewardLayer.h">
+      <Filter>Classes\reward</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\RewardGM.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\reward\RewardHardLayer.h">
+      <Filter>Classes\reward</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\bounty_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\set\ExchangeCode.h">
+      <Filter>Classes\set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\set\SetPush.h">
+      <Filter>Classes\set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\set\SetLayer.h">
+      <Filter>Classes\set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\ArmatureEventDataMgr.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\WarFailLayer.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\WarWinLayer.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\SkillDesc.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\activity\ActivityControl.h">
+      <Filter>Classes\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\activity\ActivityData.h">
+      <Filter>Classes\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\activity\ActivityLayer.h">
+      <Filter>Classes\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\activity\HttpLoadImage.h">
+      <Filter>Classes\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\act_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\RandomBusineseMan.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\CPlayerSkillData.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\ShaderDataHelper.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\army\SelectEquipment.h">
+      <Filter>Classes\army</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CheckMoney.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\PropGetInfo.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tollgate\ItemInfo.h">
+      <Filter>Classes\tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CGameSound.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CHeroBodyShowData.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CShowToBuyResource.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\CWholeBodyShowData.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\CNewHero.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CTransitionDelay.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\update\CUpdateLayer.h">
+      <Filter>Classes\update</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jni\CJniHelper.h">
+      <Filter>Classes\jni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\gate_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\update\CVersionJson.h">
+      <Filter>Classes\update</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SDK\FaceBookSDK.h">
+      <Filter>Classes\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C2DXShareSDK\C2DXShareSDK.h">
+      <Filter>Classes\C2DXShareSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C2DXShareSDK\C2DXShareSDKTypeDef.h">
+      <Filter>Classes\C2DXShareSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroAdvance.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroCall.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\CHeroSoundData.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\WarRelive.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\reward\WorldBoss.h">
+      <Filter>Classes\reward</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\reward\WBossLayer.h">
+      <Filter>Classes\reward</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\reward\WRuleLayer.h">
+      <Filter>Classes\reward</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\reward\WShopLayer.h">
+      <Filter>Classes\reward</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\boss_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\reward\SkillInfo.h">
+      <Filter>Classes\reward</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\WorldBossEndLayer.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CMultiProgressBar.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rank\RankData.h">
+      <Filter>Classes\rank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rank\RankLayer.h">
+      <Filter>Classes\rank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\rank_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CCMixLabelAction.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\update\CDownloadPackage.h">
+      <Filter>Classes\update</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\update\CUpdateData.h">
+      <Filter>Classes\update</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UserDefaultData.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\ParseFileData.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\warscene\BattleTools.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\update\CDownloadPackageDelegate.h">
+      <Filter>Classes\update</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\vip\CVipPay.h">
+      <Filter>Classes\vip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CCRollLabelAction.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ApplicationDefine.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleMacro.h">
+      <Filter>Classes\Battle\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleMessage.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\LoadSpineData.h">
+      <Filter>Classes\Battle\Data\SpineData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\GameRoleData.h">
+      <Filter>Classes\Battle\Data\RoleServerData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleBaseData.h">
+      <Filter>Classes\Battle\Data\RoleServerData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ReloadResCoverLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\StarUpItem.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\LevelUpItem.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\TopLayer.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tollgate\StageData.h">
+      <Filter>Classes\tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\BuyResource.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\roleImg\RoleUpdate.h">
+      <Filter>Classes\roleImg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleDataCenter.h">
+      <Filter>Classes\Battle\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleConfigData.h">
+      <Filter>Classes\Battle\Data\RoleConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\ParseRoleConfigFile.h">
+      <Filter>Classes\Battle\Data\RoleConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\HeroRole.h">
+      <Filter>Classes\Battle\Data\RoleServerData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MonsterRole.h">
+      <Filter>Classes\Battle\Data\RoleServerData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\DataPool.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\common\prize_common.pb.h">
+      <Filter>Classes\protos\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\CAccessLayer.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\PanelTips.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CSpecialProgress.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\LoadPngData.h" />
+    <ClInclude Include="..\Classes\warscene\ComBatLogic.h">
+      <Filter>Classes\warScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\google\protobuf\io\gzip_stream_unittest.sh">
+      <Filter>Classes\google\protobuf\io</Filter>
+    </None>
+    <None Include="..\Classes\google\protobuf\descriptor.proto">
+      <Filter>Classes\google\protobuf</Filter>
+    </None>
+  </ItemGroup>
+</Project>

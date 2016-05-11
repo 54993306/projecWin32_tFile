@@ -1,0 +1,907 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;D:\Program Files %28x86%29\Visual Leak Detector\lib\Win32;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Program Files %28x86%29\Visual Leak Detector\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\pthread;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;4018;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\activity\ActivityControl.cpp" />
+    <ClCompile Include="..\Classes\activity\ActivityData.cpp" />
+    <ClCompile Include="..\Classes\activity\ActivityLayer.cpp" />
+    <ClCompile Include="..\Classes\activity\HttpLoadImage.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\army\SelectEquipment.cpp" />
+    <ClCompile Include="..\Classes\army\union.cpp" />
+    <ClCompile Include="..\Classes\bag\bagData.cpp" />
+    <ClCompile Include="..\Classes\bag\BagInfoTip.cpp" />
+    <ClCompile Include="..\Classes\bag\BagScene.cpp" />
+    <ClCompile Include="..\Classes\bag\ItemTip.cpp" />
+    <ClCompile Include="..\Classes\bag\StuffTip.cpp" />
+    <ClCompile Include="..\Classes\Battle\BattleDataCenter.cpp" />
+    <ClCompile Include="..\Classes\Battle\GameRoleData.cpp" />
+    <ClCompile Include="..\Classes\Battle\HeroRole.cpp" />
+    <ClCompile Include="..\Classes\Battle\LoadPngData.cpp" />
+    <ClCompile Include="..\Classes\Battle\LoadSpineData.cpp" />
+    <ClCompile Include="..\Classes\Battle\MonsterRole.cpp" />
+    <ClCompile Include="..\Classes\Battle\ParseRoleConfigFile.cpp" />
+    <ClCompile Include="..\Classes\Battle\RoleBaseData.cpp" />
+    <ClCompile Include="..\Classes\Battle\RoleConfigData.cpp" />
+    <ClCompile Include="..\Classes\C2DXShareSDK\C2DXShareSDK.cpp" />
+    <ClCompile Include="..\Classes\CCSpriteWithFilter.cpp" />
+    <ClCompile Include="..\Classes\CCTK\ArmatureBtn.cpp" />
+    <ClCompile Include="..\Classes\CCTK\array.cpp" />
+    <ClCompile Include="..\Classes\CCTK\Button.cpp" />
+    <ClCompile Include="..\Classes\CCTK\CheckBox.cpp" />
+    <ClCompile Include="..\Classes\CCTK\CircleMenu.cpp" />
+    <ClCompile Include="..\Classes\CCTK\ColorView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\ControlView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\ExpandableListView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\GradientView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\GridPageView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\GridView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\ImageView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\ImageViewScale9.cpp" />
+    <ClCompile Include="..\Classes\CCTK\inetaddress.cpp" />
+    <ClCompile Include="..\Classes\CCTK\Label.cpp" />
+    <ClCompile Include="..\Classes\CCTK\LabelAtlas.cpp" />
+    <ClCompile Include="..\Classes\CCTK\LabelBMFont.cpp" />
+    <ClCompile Include="..\Classes\CCTK\Layout.cpp" />
+    <ClCompile Include="..\Classes\CCTK\ListView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\Lua_cocos2dx_widget.cpp" />
+    <ClCompile Include="..\Classes\CCTK\MovieView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\netbean.cpp" />
+    <ClCompile Include="..\Classes\CCTK\NumericStepper.cpp" />
+    <ClCompile Include="..\Classes\CCTK\PageView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\popupbox.cpp" />
+    <ClCompile Include="..\Classes\CCTK\ProgressBar.cpp" />
+    <ClCompile Include="..\Classes\CCTK\RadioBtnGroup.cpp" />
+    <ClCompile Include="..\Classes\CCTK\RadioButton.cpp" />
+    <ClCompile Include="..\Classes\CCTK\Scale9Sprite.cpp" />
+    <ClCompile Include="..\Classes\CCTK\scene.cpp" />
+    <ClCompile Include="..\Classes\CCTK\scenemanager.cpp" />
+    <ClCompile Include="..\Classes\CCTK\ScrollView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\Slider.cpp" />
+    <ClCompile Include="..\Classes\CCTK\socket.cpp" />
+    <ClCompile Include="..\Classes\CCTK\stream.cpp" />
+    <ClCompile Include="..\Classes\CCTK\TableView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\TextArea.cpp" />
+    <ClCompile Include="..\Classes\CCTK\TextRich.cpp" />
+    <ClCompile Include="..\Classes\CCTK\ToggleView.cpp" />
+    <ClCompile Include="..\Classes\CCTK\Widget.cpp" />
+    <ClCompile Include="..\Classes\CCTK\WidgetProtocol.cpp" />
+    <ClCompile Include="..\Classes\CCTK\WidgetWindow.cpp" />
+    <ClCompile Include="..\Classes\CCTK\WitlsMacros.cpp" />
+    <ClCompile Include="..\Classes\common\CCMixLabelAction.cpp" />
+    <ClCompile Include="..\Classes\common\CCRollLabelAction.cpp" />
+    <ClCompile Include="..\Classes\common\CGameSound.cpp" />
+    <ClCompile Include="..\Classes\common\CHeroBodyShowData.cpp" />
+    <ClCompile Include="..\Classes\common\CMultiProgressBar.cpp" />
+    <ClCompile Include="..\Classes\common\CommonFunction.cpp" />
+    <ClCompile Include="..\Classes\common\CShowToBuyResource.cpp" />
+    <ClCompile Include="..\Classes\common\CSpecialProgress.cpp" />
+    <ClCompile Include="..\Classes\common\CTransitionDelay.cpp" />
+    <ClCompile Include="..\Classes\common\CursorTextField.cpp" />
+    <ClCompile Include="..\Classes\common\MultLanguage.cpp" />
+    <ClCompile Include="..\Classes\common\PixelButton.cpp" />
+    <ClCompile Include="..\Classes\common\PixelSprite.cpp" />
+    <ClCompile Include="..\Classes\common\ProgressLabel.cpp" />
+    <ClCompile Include="..\Classes\common\RollLabel.cpp" />
+    <ClCompile Include="..\Classes\common\ShaderDataHelper.cpp" />
+    <ClCompile Include="..\Classes\filter\CCColorFlashFilter.cpp" />
+    <ClCompile Include="..\Classes\filter\CCFilter.cpp" />
+    <ClCompile Include="..\Classes\filter\CCFlashFilter.cpp" />
+    <ClCompile Include="..\Classes\filter\CCGodRayFilter.cpp" />
+    <ClCompile Include="..\Classes\filter\CCGrayFilter.cpp" />
+    <ClCompile Include="..\Classes\filter\CCWaveFilter.cpp" />
+    <ClCompile Include="..\Classes\friend\Friend.cpp" />
+    <ClCompile Include="..\Classes\friend\FriendLayer.cpp" />
+    <ClCompile Include="..\Classes\google\protobuf\descriptor.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\descriptor.pb.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\descriptor_database.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\dynamic_message.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\extension_set.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\extension_set_heavy.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\generated_message_reflection.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\generated_message_util.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\io\coded_stream.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\io\gzip_stream.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\io\printer.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\io\tokenizer.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\io\zero_copy_stream.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\io\zero_copy_stream_impl.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\io\zero_copy_stream_impl_lite.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\message.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\message_lite.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\reflection_ops.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\repeated_field.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\service.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\stubs\atomicops_internals_x86_gcc.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\stubs\common.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\stubs\once.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\stubs\stringprintf.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\stubs\structurally_valid.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\stubs\strutil.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\stubs\substitute.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\text_format.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\unknown_field_set.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\wire_format.cc" />
+    <ClCompile Include="..\Classes\google\protobuf\wire_format_lite.cc" />
+    <ClCompile Include="..\Classes\guide\GuideData.cpp" />
+    <ClCompile Include="..\Classes\guide\GuideLayer.cpp" />
+    <ClCompile Include="..\Classes\guide\GuideManager.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroAdvance.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroAttribute.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroBreak.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroCall.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroControl.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroData.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroDetail.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroEvolve.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroExp.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroExpItem.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroList.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroMove.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroPromote.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroSkill.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroUpdate.cpp" />
+    <ClCompile Include="..\Classes\hero\SkillDesc.cpp" />
+    <ClCompile Include="..\Classes\jni\CJniHelper.cpp" />
+    <ClCompile Include="..\Classes\jsonCpp\json_reader.cpp" />
+    <ClCompile Include="..\Classes\jsonCpp\json_value.cpp" />
+    <ClCompile Include="..\Classes\jsonCpp\json_writer.cpp" />
+    <ClCompile Include="..\Classes\mail\EmailControl.cpp" />
+    <ClCompile Include="..\Classes\mail\EmailData.cpp" />
+    <ClCompile Include="..\Classes\mail\EmailLayer.cpp" />
+    <ClCompile Include="..\Classes\mainCity\BuyResource.cpp" />
+    <ClCompile Include="..\Classes\mainCity\CAccessLayer.cpp" />
+    <ClCompile Include="..\Classes\mainCity\CCompaseLayer.cpp" />
+    <ClCompile Include="..\Classes\mainCity\CityData.cpp" />
+    <ClCompile Include="..\Classes\mainCity\CNewHero.cpp" />
+    <ClCompile Include="..\Classes\mainCity\CommandLayer.cpp" />
+    <ClCompile Include="..\Classes\mainCity\CultivateLayer.cpp" />
+    <ClCompile Include="..\Classes\mainCity\DefendWuJiang.cpp" />
+    <ClCompile Include="..\Classes\mainCity\ExchangeData.cpp" />
+    <ClCompile Include="..\Classes\mainCity\ExchangeTip.cpp" />
+    <ClCompile Include="..\Classes\mainCity\FilterItem.cpp" />
+    <ClCompile Include="..\Classes\mainCity\GoldMineLayer.cpp" />
+    <ClCompile Include="..\Classes\mainCity\LevelUpItem.cpp" />
+    <ClCompile Include="..\Classes\mainCity\MainCityControl.cpp" />
+    <ClCompile Include="..\Classes\mainCity\mainCityUI.cpp" />
+    <ClCompile Include="..\Classes\mainCity\mainScene.cpp" />
+    <ClCompile Include="..\Classes\mainCity\PanelTips.cpp" />
+    <ClCompile Include="..\Classes\mainCity\QuickProduct.cpp" />
+    <ClCompile Include="..\Classes\mainCity\Recruit.cpp" />
+    <ClCompile Include="..\Classes\mainCity\RecruitData.cpp" />
+    <ClCompile Include="..\Classes\mainCity\RecruitResult.cpp" />
+    <ClCompile Include="..\Classes\mainCity\SmeltArmor.cpp" />
+    <ClCompile Include="..\Classes\mainCity\StarUpItem.cpp" />
+    <ClCompile Include="..\Classes\mainCity\Strengthen.cpp" />
+    <ClCompile Include="..\Classes\mainCity\StrengthenItem.cpp" />
+    <ClCompile Include="..\Classes\mainCity\TopLayer.cpp" />
+    <ClCompile Include="..\Classes\model\BattleData.cpp" />
+    <ClCompile Include="..\Classes\model\BuffManage.cpp" />
+    <ClCompile Include="..\Classes\model\CWholeBodyShowData.cpp" />
+    <ClCompile Include="..\Classes\model\DataCenter.cpp" />
+    <ClCompile Include="..\Classes\model\DataDefine.cpp" />
+    <ClCompile Include="..\Classes\model\DataPool.cpp" />
+    <ClCompile Include="..\Classes\model\EmBattleModel.cpp" />
+    <ClCompile Include="..\Classes\model\HeroInfoGM.cpp" />
+    <ClCompile Include="..\Classes\model\ItemGM.cpp" />
+    <ClCompile Include="..\Classes\model\MapManager.cpp" />
+    <ClCompile Include="..\Classes\model\RewardGM.cpp" />
+    <ClCompile Include="..\Classes\model\RoleNameGM.cpp" />
+    <ClCompile Include="..\Classes\model\SkillGM.cpp" />
+    <ClCompile Include="..\Classes\model\TaskGM.cpp" />
+    <ClCompile Include="..\Classes\model\TerrainLayer.cpp" />
+    <ClCompile Include="..\Classes\model\TerrainManager.cpp" />
+    <ClCompile Include="..\Classes\model\TollgateGM.cpp" />
+    <ClCompile Include="..\Classes\model\UserManager.cpp" />
+    <ClCompile Include="..\Classes\model\WarManager.cpp" />
+    <ClCompile Include="..\Classes\model\WuJiangGM.cpp" />
+    <ClCompile Include="..\Classes\netcontrol\CPlayerControl.cpp" />
+    <ClCompile Include="..\Classes\net\CNetClient.cpp" />
+    <ClCompile Include="..\Classes\net\CNetSocket.cpp" />
+    <ClCompile Include="..\Classes\net\CProtoType.cpp" />
+    <ClCompile Include="..\Classes\protos\act_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\auth_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\boss_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\bounty_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\city_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\armor_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\city_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\hero_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\item_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\monster_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\prize_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\prop_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\role_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\skill_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\soul_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\task_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\common\trap_common.pb.cc" />
+    <ClCompile Include="..\Classes\protos\exchange_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\friend_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\gate_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\hero_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\item_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\lottery_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\mail_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\rank_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\role_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\shop_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\sign_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\smith_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\stage_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\system_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\task_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\union_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\vip_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\rank\RankData.cpp" />
+    <ClCompile Include="..\Classes\rank\RankLayer.cpp" />
+    <ClCompile Include="..\Classes\ReloadResCoverLayer.cpp" />
+    <ClCompile Include="..\Classes\reward\SkillInfo.cpp" />
+    <ClCompile Include="..\Classes\reward\RewardHardLayer.cpp" />
+    <ClCompile Include="..\Classes\reward\RewardLayer.cpp" />
+    <ClCompile Include="..\Classes\reward\WBossLayer.cpp" />
+    <ClCompile Include="..\Classes\reward\WorldBoss.cpp" />
+    <ClCompile Include="..\Classes\reward\WRuleLayer.cpp" />
+    <ClCompile Include="..\Classes\reward\WShopLayer.cpp" />
+    <ClCompile Include="..\Classes\roleImg\ChangeHeadImg.cpp" />
+    <ClCompile Include="..\Classes\roleImg\ChangeName.cpp" />
+    <ClCompile Include="..\Classes\roleImg\RoleInfo.cpp" />
+    <ClCompile Include="..\Classes\roleImg\RoleUpdate.cpp" />
+    <ClCompile Include="..\Classes\scene\alive\ActObject.cpp" />
+    <ClCompile Include="..\Classes\scene\alive\AliveObject.cpp" />
+    <ClCompile Include="..\Classes\scene\alive\HPObject.cpp" />
+    <ClCompile Include="..\Classes\scene\alive\RageObject.cpp" />
+    <ClCompile Include="..\Classes\scene\AnimationManager.cpp" />
+    <ClCompile Include="..\Classes\scene\CPopTip.cpp" />
+    <ClCompile Include="..\Classes\scene\effect\EffectObject.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\BackLayer.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\GameTip.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\LayerManager.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\PauseLayer.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\PropGetInfo.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\SetPanel.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\StoryLayer.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\WaitLayer.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\WarAliveLayer.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\WarMapLayer.cpp" />
+    <ClCompile Include="..\Classes\scene\LoadScene.cpp" />
+    <ClCompile Include="..\Classes\scene\loadWar.cpp" />
+    <ClCompile Include="..\Classes\scene\LoginScene.cpp" />
+    <ClCompile Include="..\Classes\scene\LogoScene.cpp" />
+    <ClCompile Include="..\Classes\scene\SelectHeroScene.cpp" />
+    <ClCompile Include="..\Classes\scene\state\GameStateManager.cpp" />
+    <ClCompile Include="..\Classes\scene\state\GameTransition.cpp" />
+    <ClCompile Include="..\Classes\scene\state\PostureState.cpp" />
+    <ClCompile Include="..\Classes\scene\state\StateManager.cpp" />
+    <ClCompile Include="..\Classes\scene\UIFactory.cpp" />
+    <ClCompile Include="..\Classes\scene\UITools.cpp" />
+    <ClCompile Include="..\Classes\scene\VirtualScreen.cpp" />
+    <ClCompile Include="..\Classes\scene\WarScene.cpp" />
+    <ClCompile Include="..\Classes\SDK\FaceBookSDK.cpp" />
+    <ClCompile Include="..\Classes\set\ExchangeCode.cpp" />
+    <ClCompile Include="..\Classes\set\SetLayer.cpp" />
+    <ClCompile Include="..\Classes\set\SetPush.cpp" />
+    <ClCompile Include="..\Classes\shop\ShopBuy.cpp" />
+    <ClCompile Include="..\Classes\shop\ShopLayer.cpp" />
+    <ClCompile Include="..\Classes\sign\PopItem.cpp" />
+    <ClCompile Include="..\Classes\sign\SignData.cpp" />
+    <ClCompile Include="..\Classes\sign\SignLayer.cpp" />
+    <ClCompile Include="..\Classes\task\CTaskLayer.cpp" />
+    <ClCompile Include="..\Classes\task\task.cpp" />
+    <ClCompile Include="..\Classes\task\TaskControl.cpp" />
+    <ClCompile Include="..\Classes\tollgate\Chapter.cpp" />
+    <ClCompile Include="..\Classes\tollgate\ItemInfo.cpp" />
+    <ClCompile Include="..\Classes\tollgate\MonsterInfo.cpp" />
+    <ClCompile Include="..\Classes\tollgate\SelectArmy.cpp" />
+    <ClCompile Include="..\Classes\tollgate\SelectFriend.cpp" />
+    <ClCompile Include="..\Classes\tollgate\StageData.cpp" />
+    <ClCompile Include="..\Classes\tollgate\Sweep.cpp" />
+    <ClCompile Include="..\Classes\tollgate\TollgateLayer.cpp" />
+    <ClCompile Include="..\Classes\tollgate\TollgatePreview.cpp" />
+    <ClCompile Include="..\Classes\tools\CCShake.cpp" />
+    <ClCompile Include="..\Classes\tools\FileUtils.cpp" />
+    <ClCompile Include="..\Classes\tools\MathUtil.cpp" />
+    <ClCompile Include="..\Classes\tools\MZCursorTextField.cpp" />
+    <ClCompile Include="..\Classes\tools\ShowTexttip.cpp" />
+    <ClCompile Include="..\Classes\tools\StringUtil.cpp" />
+    <ClCompile Include="..\Classes\tools\texttip.cpp" />
+    <ClCompile Include="..\Classes\tools\UICloneMgr.cpp" />
+    <ClCompile Include="..\Classes\update\CDownloadPackage.cpp" />
+    <ClCompile Include="..\Classes\update\CUpdateLayer.cpp" />
+    <ClCompile Include="..\Classes\update\CVersionJson.cpp" />
+    <ClCompile Include="..\Classes\vip\CVipPay.cpp" />
+    <ClCompile Include="..\Classes\vip\VipData.cpp" />
+    <ClCompile Include="..\Classes\vip\VipLayer.cpp" />
+    <ClCompile Include="..\Classes\vip\VipPower.cpp" />
+    <ClCompile Include="..\Classes\warscene\ArmatureEventDataMgr.cpp" />
+    <ClCompile Include="..\Classes\warscene\BatchLayer.cpp" />
+    <ClCompile Include="..\Classes\warscene\BattleResult.cpp" />
+    <ClCompile Include="..\Classes\warscene\BattleTools.cpp" />
+    <ClCompile Include="..\Classes\warscene\BufExp.cpp" />
+    <ClCompile Include="..\Classes\warscene\CaptainSkill.cpp" />
+    <ClCompile Include="..\Classes\warscene\CHeroSoundData.cpp" />
+    <ClCompile Include="..\Classes\warscene\ComBatDataSaveXML.cpp" />
+    <ClCompile Include="..\Classes\warscene\CombatEffect.cpp" />
+    <ClCompile Include="..\Classes\warscene\CombatGuideLayer.cpp" />
+    <ClCompile Include="..\Classes\warscene\CombatGuideData.cpp" />
+    <ClCompile Include="..\Classes\warscene\CombatGuideManage.cpp" />
+    <ClCompile Include="..\Classes\warscene\ComBatLogic.cpp" />
+    <ClCompile Include="..\Classes\warscene\CombatTask.cpp" />
+    <ClCompile Include="..\Classes\warscene\CPlayerSkillData.cpp" />
+    <ClCompile Include="..\Classes\warscene\DropItem.cpp" />
+    <ClCompile Include="..\Classes\warscene\EffectData.cpp" />
+    <ClCompile Include="..\Classes\warscene\HurtCount.cpp" />
+    <ClCompile Include="..\Classes\warscene\MapEffect.cpp" />
+    <ClCompile Include="..\Classes\warscene\MoveRule.cpp" />
+    <ClCompile Include="..\Classes\warscene\ParseFileData.cpp" />
+    <ClCompile Include="..\Classes\warscene\RandomBusineseMan.cpp" />
+    <ClCompile Include="..\Classes\warscene\SkillRange.cpp" />
+    <ClCompile Include="..\Classes\warscene\SkillTips.cpp" />
+    <ClCompile Include="..\Classes\warscene\TerrainExp.cpp" />
+    <ClCompile Include="..\Classes\warscene\TouchIntercept.cpp" />
+    <ClCompile Include="..\Classes\warscene\WarAssist.cpp" />
+    <ClCompile Include="..\Classes\warscene\WarBackLayer.cpp" />
+    <ClCompile Include="..\Classes\warscene\WarControl.cpp" />
+    <ClCompile Include="..\Classes\warscene\WarFailLayer.cpp" />
+    <ClCompile Include="..\Classes\warscene\WarRelive.cpp" />
+    <ClCompile Include="..\Classes\warscene\WarWinLayer.cpp" />
+    <ClCompile Include="..\Classes\warscene\WorldBossEndLayer.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\activity\ActivityControl.h" />
+    <ClInclude Include="..\Classes\activity\ActivityData.h" />
+    <ClInclude Include="..\Classes\activity\ActivityLayer.h" />
+    <ClInclude Include="..\Classes\activity\HttpLoadImage.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\ApplicationDefine.h" />
+    <ClInclude Include="..\Classes\AppUI.h" />
+    <ClInclude Include="..\Classes\army\SelectEquipment.h" />
+    <ClInclude Include="..\Classes\army\union.h" />
+    <ClInclude Include="..\Classes\bag\bagData.h" />
+    <ClInclude Include="..\Classes\bag\BagInfoTip.h" />
+    <ClInclude Include="..\Classes\bag\BagScene.h" />
+    <ClInclude Include="..\Classes\bag\ItemTip.h" />
+    <ClInclude Include="..\Classes\bag\StuffTip.h" />
+    <ClInclude Include="..\Classes\Battle\BattleDataCenter.h" />
+    <ClInclude Include="..\Classes\Battle\BattleMacro.h" />
+    <ClInclude Include="..\Classes\Battle\BattleMessage.h" />
+    <ClInclude Include="..\Classes\Battle\GameRoleData.h" />
+    <ClInclude Include="..\Classes\Battle\HeroRole.h" />
+    <ClInclude Include="..\Classes\Battle\LoadPngData.h" />
+    <ClInclude Include="..\Classes\Battle\LoadSpineData.h" />
+    <ClInclude Include="..\Classes\Battle\MonsterRole.h" />
+    <ClInclude Include="..\Classes\Battle\ParseRoleConfigFile.h" />
+    <ClInclude Include="..\Classes\Battle\RoleBaseData.h" />
+    <ClInclude Include="..\Classes\Battle\RoleConfigData.h" />
+    <ClInclude Include="..\Classes\C2DXShareSDK\C2DXShareSDK.h" />
+    <ClInclude Include="..\Classes\C2DXShareSDK\C2DXShareSDKTypeDef.h" />
+    <ClInclude Include="..\Classes\CCSpriteWidthFilter.h" />
+    <ClInclude Include="..\Classes\CCTK\ArmatureBtn.h" />
+    <ClInclude Include="..\Classes\CCTK\array.h" />
+    <ClInclude Include="..\Classes\CCTK\base.h" />
+    <ClInclude Include="..\Classes\CCTK\Button.h" />
+    <ClInclude Include="..\Classes\CCTK\CheckBox.h" />
+    <ClInclude Include="..\Classes\CCTK\CircleMenu.h" />
+    <ClInclude Include="..\Classes\CCTK\cocos-widget.h" />
+    <ClInclude Include="..\Classes\CCTK\ColorView.h" />
+    <ClInclude Include="..\Classes\CCTK\ControlView.h" />
+    <ClInclude Include="..\Classes\CCTK\ExpandableListView.h" />
+    <ClInclude Include="..\Classes\CCTK\GradientView.h" />
+    <ClInclude Include="..\Classes\CCTK\GridPageView.h" />
+    <ClInclude Include="..\Classes\CCTK\GridView.h" />
+    <ClInclude Include="..\Classes\CCTK\ImageView.h" />
+    <ClInclude Include="..\Classes\CCTK\ImageViewScale9.h" />
+    <ClInclude Include="..\Classes\CCTK\inetaddress.h" />
+    <ClInclude Include="..\Classes\CCTK\inetpredef.h" />
+    <ClInclude Include="..\Classes\CCTK\Label.h" />
+    <ClInclude Include="..\Classes\CCTK\LabelAtlas.h" />
+    <ClInclude Include="..\Classes\CCTK\LabelBMFont.h" />
+    <ClInclude Include="..\Classes\CCTK\Layout.h" />
+    <ClInclude Include="..\Classes\CCTK\ListView.h" />
+    <ClInclude Include="..\Classes\CCTK\Lua_cocos2dx_widget.h" />
+    <ClInclude Include="..\Classes\CCTK\MovieView.h" />
+    <ClInclude Include="..\Classes\CCTK\net.h" />
+    <ClInclude Include="..\Classes\CCTK\netbean.h" />
+    <ClInclude Include="..\Classes\CCTK\NumericStepper.h" />
+    <ClInclude Include="..\Classes\CCTK\PageView.h" />
+    <ClInclude Include="..\Classes\CCTK\popupbox.h" />
+    <ClInclude Include="..\Classes\CCTK\ProgressBar.h" />
+    <ClInclude Include="..\Classes\CCTK\RadioBtnGroup.h" />
+    <ClInclude Include="..\Classes\CCTK\RadioButton.h" />
+    <ClInclude Include="..\Classes\CCTK\Scale9Sprite.h" />
+    <ClInclude Include="..\Classes\CCTK\scene.h" />
+    <ClInclude Include="..\Classes\CCTK\scenemanager.h" />
+    <ClInclude Include="..\Classes\CCTK\ScrollView.h" />
+    <ClInclude Include="..\Classes\CCTK\Slider.h" />
+    <ClInclude Include="..\Classes\CCTK\socket.h" />
+    <ClInclude Include="..\Classes\CCTK\stream.h" />
+    <ClInclude Include="..\Classes\CCTK\TableView.h" />
+    <ClInclude Include="..\Classes\CCTK\TextArea.h" />
+    <ClInclude Include="..\Classes\CCTK\TextRich.h" />
+    <ClInclude Include="..\Classes\CCTK\ToggleView.h" />
+    <ClInclude Include="..\Classes\CCTK\Widget.h" />
+    <ClInclude Include="..\Classes\CCTK\WidgetMacros.h" />
+    <ClInclude Include="..\Classes\CCTK\WidgetProtocol.h" />
+    <ClInclude Include="..\Classes\CCTK\WidgetWindow.h" />
+    <ClInclude Include="..\Classes\CCTK\WitlsMacros.h" />
+    <ClInclude Include="..\Classes\common\CCMixLabelAction.h" />
+    <ClInclude Include="..\Classes\common\CCRollLabelAction.h" />
+    <ClInclude Include="..\Classes\common\CGameSound.h" />
+    <ClInclude Include="..\Classes\common\CheckMoney.h" />
+    <ClInclude Include="..\Classes\common\CHeroBodyShowData.h" />
+    <ClInclude Include="..\Classes\common\CMultiProgressBar.h" />
+    <ClInclude Include="..\Classes\common\color.h" />
+    <ClInclude Include="..\Classes\common\CommonFunction.h" />
+    <ClInclude Include="..\Classes\common\commonString.h" />
+    <ClInclude Include="..\Classes\common\CShowToBuyResource.h" />
+    <ClInclude Include="..\Classes\common\CSpecialProgress.h" />
+    <ClInclude Include="..\Classes\common\CTransitionDelay.h" />
+    <ClInclude Include="..\Classes\common\CursorTextField.h" />
+    <ClInclude Include="..\Classes\common\MultLanguage.h" />
+    <ClInclude Include="..\Classes\common\PixelButton.h" />
+    <ClInclude Include="..\Classes\common\PixelSprite.h" />
+    <ClInclude Include="..\Classes\common\ProgressLabel.h" />
+    <ClInclude Include="..\Classes\common\RollLabel.h" />
+    <ClInclude Include="..\Classes\common\ShaderDataHelper.h" />
+    <ClInclude Include="..\Classes\filter\CCColorFlashFilter.h" />
+    <ClInclude Include="..\Classes\filter\CCFilter.h" />
+    <ClInclude Include="..\Classes\filter\CCFlashFilter.h" />
+    <ClInclude Include="..\Classes\filter\CCGodRayFilter.h" />
+    <ClInclude Include="..\Classes\filter\CCGrayFilter.h" />
+    <ClInclude Include="..\Classes\filter\CCWaveFilter.h" />
+    <ClInclude Include="..\Classes\friend\Friend.h" />
+    <ClInclude Include="..\Classes\friend\FriendLayer.h" />
+    <ClInclude Include="..\Classes\Global.h" />
+    <ClInclude Include="..\Classes\google\protobuf\descriptor.h" />
+    <ClInclude Include="..\Classes\google\protobuf\descriptor.pb.h" />
+    <ClInclude Include="..\Classes\google\protobuf\descriptor_database.h" />
+    <ClInclude Include="..\Classes\google\protobuf\dynamic_message.h" />
+    <ClInclude Include="..\Classes\google\protobuf\extension_set.h" />
+    <ClInclude Include="..\Classes\google\protobuf\generated_enum_reflection.h" />
+    <ClInclude Include="..\Classes\google\protobuf\generated_message_reflection.h" />
+    <ClInclude Include="..\Classes\google\protobuf\generated_message_util.h" />
+    <ClInclude Include="..\Classes\google\protobuf\io\coded_stream.h" />
+    <ClInclude Include="..\Classes\google\protobuf\io\coded_stream_inl.h" />
+    <ClInclude Include="..\Classes\google\protobuf\io\gzip_stream.h" />
+    <ClInclude Include="..\Classes\google\protobuf\io\package_info.h" />
+    <ClInclude Include="..\Classes\google\protobuf\io\printer.h" />
+    <ClInclude Include="..\Classes\google\protobuf\io\tokenizer.h" />
+    <ClInclude Include="..\Classes\google\protobuf\io\zero_copy_stream.h" />
+    <ClInclude Include="..\Classes\google\protobuf\io\zero_copy_stream_impl.h" />
+    <ClInclude Include="..\Classes\google\protobuf\io\zero_copy_stream_impl_lite.h" />
+    <ClInclude Include="..\Classes\google\protobuf\message.h" />
+    <ClInclude Include="..\Classes\google\protobuf\message_lite.h" />
+    <ClInclude Include="..\Classes\google\protobuf\package_info.h" />
+    <ClInclude Include="..\Classes\google\protobuf\reflection_ops.h" />
+    <ClInclude Include="..\Classes\google\protobuf\repeated_field.h" />
+    <ClInclude Include="..\Classes\google\protobuf\service.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_arm_gcc.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_arm_qnx.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_atomicword_compat.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_macosx.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_mips_gcc.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_pnacl.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_x86_gcc.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\atomicops_internals_x86_msvc.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\common.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\hash.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\map-util.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\once.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\platform_macros.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\stl_util.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\stringprintf.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\strutil.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\substitute.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\template_util.h" />
+    <ClInclude Include="..\Classes\google\protobuf\stubs\type_traits.h" />
+    <ClInclude Include="..\Classes\google\protobuf\test_util.h" />
+    <ClInclude Include="..\Classes\google\protobuf\test_util_lite.h" />
+    <ClInclude Include="..\Classes\google\protobuf\text_format.h" />
+    <ClInclude Include="..\Classes\google\protobuf\unknown_field_set.h" />
+    <ClInclude Include="..\Classes\google\protobuf\wire_format.h" />
+    <ClInclude Include="..\Classes\google\protobuf\wire_format_lite.h" />
+    <ClInclude Include="..\Classes\google\protobuf\wire_format_lite_inl.h" />
+    <ClInclude Include="..\Classes\guide\GuideData.h" />
+    <ClInclude Include="..\Classes\guide\GuideLayer.h" />
+    <ClInclude Include="..\Classes\guide\GuideManager.h" />
+    <ClInclude Include="..\Classes\hero\HeroAdvance.h" />
+    <ClInclude Include="..\Classes\hero\HeroAttribute.h" />
+    <ClInclude Include="..\Classes\hero\HeroBreak.h" />
+    <ClInclude Include="..\Classes\hero\HeroCall.h" />
+    <ClInclude Include="..\Classes\hero\HeroControl.h" />
+    <ClInclude Include="..\Classes\hero\HeroData.h" />
+    <ClInclude Include="..\Classes\hero\HeroDetail.h" />
+    <ClInclude Include="..\Classes\hero\HeroEvolve.h" />
+    <ClInclude Include="..\Classes\hero\HeroExp.h" />
+    <ClInclude Include="..\Classes\hero\HeroExpItem.h" />
+    <ClInclude Include="..\Classes\hero\HeroList.h" />
+    <ClInclude Include="..\Classes\hero\HeroMove.h" />
+    <ClInclude Include="..\Classes\hero\HeroPromote.h" />
+    <ClInclude Include="..\Classes\hero\HeroSkill.h" />
+    <ClInclude Include="..\Classes\hero\HeroUpdate.h" />
+    <ClInclude Include="..\Classes\hero\SkillDesc.h" />
+    <ClInclude Include="..\Classes\jni\CJniHelper.h" />
+    <ClInclude Include="..\Classes\jsonCpp\autolink.h" />
+    <ClInclude Include="..\Classes\jsonCpp\config.h" />
+    <ClInclude Include="..\Classes\jsonCpp\features.h" />
+    <ClInclude Include="..\Classes\jsonCpp\forwards.h" />
+    <ClInclude Include="..\Classes\jsonCpp\json.h" />
+    <ClInclude Include="..\Classes\jsonCpp\json_batchallocator.h" />
+    <ClInclude Include="..\Classes\jsonCpp\reader.h" />
+    <ClInclude Include="..\Classes\jsonCpp\value.h" />
+    <ClInclude Include="..\Classes\jsonCpp\writer.h" />
+    <ClInclude Include="..\Classes\mail\EmailControl.h" />
+    <ClInclude Include="..\Classes\mail\EmailData.h" />
+    <ClInclude Include="..\Classes\mail\EmailLayer.h" />
+    <ClInclude Include="..\Classes\mainCity\BuyResource.h" />
+    <ClInclude Include="..\Classes\mainCity\CAccessLayer.h" />
+    <ClInclude Include="..\Classes\mainCity\CCompaseLayer.h" />
+    <ClInclude Include="..\Classes\mainCity\CityData.h" />
+    <ClInclude Include="..\Classes\mainCity\CNewHero.h" />
+    <ClInclude Include="..\Classes\mainCity\CommandLayer.h" />
+    <ClInclude Include="..\Classes\mainCity\CultivateLayer.h" />
+    <ClInclude Include="..\Classes\mainCity\DefendWuJiang.h" />
+    <ClInclude Include="..\Classes\mainCity\ExchangeData.h" />
+    <ClInclude Include="..\Classes\mainCity\ExchangeTip.h" />
+    <ClInclude Include="..\Classes\mainCity\FilterItem.h" />
+    <ClInclude Include="..\Classes\mainCity\GoldMineLayer.h" />
+    <ClInclude Include="..\Classes\mainCity\LevelUpItem.h" />
+    <ClInclude Include="..\Classes\mainCity\MainCityControl.h" />
+    <ClInclude Include="..\Classes\mainCity\mainCityUI.h" />
+    <ClInclude Include="..\Classes\mainCity\mainScene.h" />
+    <ClInclude Include="..\Classes\mainCity\PanelTips.h" />
+    <ClInclude Include="..\Classes\mainCity\QuickProduct.h" />
+    <ClInclude Include="..\Classes\mainCity\Recruit.h" />
+    <ClInclude Include="..\Classes\mainCity\RecruitData.h" />
+    <ClInclude Include="..\Classes\mainCity\RecruitResult.h" />
+    <ClInclude Include="..\Classes\mainCity\SmeltArmor.h" />
+    <ClInclude Include="..\Classes\mainCity\StarUpItem.h" />
+    <ClInclude Include="..\Classes\mainCity\Strengthen.h" />
+    <ClInclude Include="..\Classes\mainCity\StrengthenItem.h" />
+    <ClInclude Include="..\Classes\GMessage.h" />
+    <ClInclude Include="..\Classes\mainCity\TopLayer.h" />
+    <ClInclude Include="..\Classes\model\BattleData.h" />
+    <ClInclude Include="..\Classes\model\BuffManage.h" />
+    <ClInclude Include="..\Classes\model\CWholeBodyShowData.h" />
+    <ClInclude Include="..\Classes\model\DataCenter.h" />
+    <ClInclude Include="..\Classes\model\DataDefine.h" />
+    <ClInclude Include="..\Classes\model\DataPool.h" />
+    <ClInclude Include="..\Classes\model\EmBattleModel.h" />
+    <ClInclude Include="..\Classes\model\HeroInfoGM.h" />
+    <ClInclude Include="..\Classes\model\ItemGM.h" />
+    <ClInclude Include="..\Classes\model\MapManager.h" />
+    <ClInclude Include="..\Classes\model\RewardGM.h" />
+    <ClInclude Include="..\Classes\model\RoleNameGM.h" />
+    <ClInclude Include="..\Classes\model\SkillGM.h" />
+    <ClInclude Include="..\Classes\model\TaskGM.h" />
+    <ClInclude Include="..\Classes\model\TerrainLayer.h" />
+    <ClInclude Include="..\Classes\model\TerrainManager.h" />
+    <ClInclude Include="..\Classes\model\TollgateGM.h" />
+    <ClInclude Include="..\Classes\model\UserManager.h" />
+    <ClInclude Include="..\Classes\model\WarManager.h" />
+    <ClInclude Include="..\Classes\model\WuJiangGM.h" />
+    <ClInclude Include="..\Classes\netcontrol\CPlayerControl.h" />
+    <ClInclude Include="..\Classes\net\CNetClient.h" />
+    <ClInclude Include="..\Classes\net\CNetSocket.h" />
+    <ClInclude Include="..\Classes\net\CProtoType.h" />
+    <ClInclude Include="..\Classes\net\MessageHandler.h" />
+    <ClInclude Include="..\Classes\protos\act_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\auth_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\boss_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\bounty_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\city_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\armor_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\city_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\hero_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\item_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\monster_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\prize_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\prop_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\role_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\skill_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\soul_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\task_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\common\trap_common.pb.h" />
+    <ClInclude Include="..\Classes\protos\exchange_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\friend_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\gate_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\hero_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\item_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\lottery_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\mail_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\protocol.h" />
+    <ClInclude Include="..\Classes\protos\protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\ProtoDefine.h" />
+    <ClInclude Include="..\Classes\protos\rank_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\role_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\shop_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\sign_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\smith_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\stage_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\system_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\task_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\union_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\vip_protocol.pb.h" />
+    <ClInclude Include="..\Classes\rank\RankData.h" />
+    <ClInclude Include="..\Classes\rank\RankLayer.h" />
+    <ClInclude Include="..\Classes\ReloadResCoverLayer.h" />
+    <ClInclude Include="..\Classes\Resources.h" />
+    <ClInclude Include="..\Classes\reward\SkillInfo.h" />
+    <ClInclude Include="..\Classes\reward\RewardHardLayer.h" />
+    <ClInclude Include="..\Classes\reward\RewardLayer.h" />
+    <ClInclude Include="..\Classes\reward\WBossLayer.h" />
+    <ClInclude Include="..\Classes\reward\WorldBoss.h" />
+    <ClInclude Include="..\Classes\reward\WRuleLayer.h" />
+    <ClInclude Include="..\Classes\reward\WShopLayer.h" />
+    <ClInclude Include="..\Classes\roleImg\ChangeHeadImg.h" />
+    <ClInclude Include="..\Classes\roleImg\ChangeName.h" />
+    <ClInclude Include="..\Classes\roleImg\RoleInfo.h" />
+    <ClInclude Include="..\Classes\roleImg\RoleUpdate.h" />
+    <ClInclude Include="..\Classes\scene\alive\ActionDef.h" />
+    <ClInclude Include="..\Classes\scene\alive\ActObject.h" />
+    <ClInclude Include="..\Classes\scene\alive\AliveDefine.h" />
+    <ClInclude Include="..\Classes\scene\alive\AliveObject.h" />
+    <ClInclude Include="..\Classes\scene\alive\HPObject.h" />
+    <ClInclude Include="..\Classes\scene\alive\RageObject.h" />
+    <ClInclude Include="..\Classes\scene\AnimationManager.h" />
+    <ClInclude Include="..\Classes\scene\CPopTip.h" />
+    <ClInclude Include="..\Classes\scene\effect\EffectObject.h" />
+    <ClInclude Include="..\Classes\scene\layer\BackLayer.h" />
+    <ClInclude Include="..\Classes\scene\layer\GameTip.h" />
+    <ClInclude Include="..\Classes\scene\layer\LayerManager.h" />
+    <ClInclude Include="..\Classes\scene\layer\LayerDefine.h" />
+    <ClInclude Include="..\Classes\scene\layer\PauseLayer.h" />
+    <ClInclude Include="..\Classes\scene\layer\PropGetInfo.h" />
+    <ClInclude Include="..\Classes\scene\layer\SetPanel.h" />
+    <ClInclude Include="..\Classes\scene\layer\StoryLayer.h" />
+    <ClInclude Include="..\Classes\scene\layer\WaitLayer.h" />
+    <ClInclude Include="..\Classes\scene\layer\WarAliveLayer.h" />
+    <ClInclude Include="..\Classes\scene\layer\WarMapLayer.h" />
+    <ClInclude Include="..\Classes\scene\LoadScene.h" />
+    <ClInclude Include="..\Classes\scene\loadWar.h" />
+    <ClInclude Include="..\Classes\scene\LoginScene.h" />
+    <ClInclude Include="..\Classes\scene\LogoScene.h" />
+    <ClInclude Include="..\Classes\scene\SceneDefine.h" />
+    <ClInclude Include="..\Classes\scene\SelectHeroScene.h" />
+    <ClInclude Include="..\Classes\scene\state\GameStateManager.h" />
+    <ClInclude Include="..\Classes\scene\state\GameTransition.h" />
+    <ClInclude Include="..\Classes\scene\state\PostureState.h" />
+    <ClInclude Include="..\Classes\scene\state\StateDefine.h" />
+    <ClInclude Include="..\Classes\scene\state\StateManager.h" />
+    <ClInclude Include="..\Classes\scene\UIFactory.h" />
+    <ClInclude Include="..\Classes\scene\UITools.h" />
+    <ClInclude Include="..\Classes\scene\VirtualScreen.h" />
+    <ClInclude Include="..\Classes\scene\WarScene.h" />
+    <ClInclude Include="..\Classes\SDK\FaceBookSDK.h" />
+    <ClInclude Include="..\Classes\set\ExchangeCode.h" />
+    <ClInclude Include="..\Classes\set\SetLayer.h" />
+    <ClInclude Include="..\Classes\set\SetPush.h" />
+    <ClInclude Include="..\Classes\shop\ShopBuy.h" />
+    <ClInclude Include="..\Classes\shop\ShopLayer.h" />
+    <ClInclude Include="..\Classes\sign\PopItem.h" />
+    <ClInclude Include="..\Classes\sign\SignData.h" />
+    <ClInclude Include="..\Classes\sign\SignLayer.h" />
+    <ClInclude Include="..\Classes\task\CTaskLayer.h" />
+    <ClInclude Include="..\Classes\task\task.h" />
+    <ClInclude Include="..\Classes\task\TaskControl.h" />
+    <ClInclude Include="..\Classes\tollgate\Chapter.h" />
+    <ClInclude Include="..\Classes\tollgate\ItemInfo.h" />
+    <ClInclude Include="..\Classes\tollgate\MonsterInfo.h" />
+    <ClInclude Include="..\Classes\tollgate\SelectArmy.h" />
+    <ClInclude Include="..\Classes\tollgate\SelectFriend.h" />
+    <ClInclude Include="..\Classes\tollgate\StageData.h" />
+    <ClInclude Include="..\Classes\tollgate\Sweep.h" />
+    <ClInclude Include="..\Classes\tollgate\TollgateLayer.h" />
+    <ClInclude Include="..\Classes\tollgate\TollgatePreview.h" />
+    <ClInclude Include="..\Classes\tools\CCShake.h" />
+    <ClInclude Include="..\Classes\tools\commonDef.h" />
+    <ClInclude Include="..\Classes\tools\FileUtils.h" />
+    <ClInclude Include="..\Classes\tools\MathUtil.h" />
+    <ClInclude Include="..\Classes\tools\MZCursorTextField.h" />
+    <ClInclude Include="..\Classes\tools\ShowTexttip.h" />
+    <ClInclude Include="..\Classes\tools\StringUtil.h" />
+    <ClInclude Include="..\Classes\tools\texttip.h" />
+    <ClInclude Include="..\Classes\tools\ToolDefine.h" />
+    <ClInclude Include="..\Classes\tools\UICloneMgr.h" />
+    <ClInclude Include="..\Classes\update\CDownloadPackage.h" />
+    <ClInclude Include="..\Classes\update\CDownloadPackageDelegate.h" />
+    <ClInclude Include="..\Classes\update\CUpdateData.h" />
+    <ClInclude Include="..\Classes\update\CUpdateLayer.h" />
+    <ClInclude Include="..\Classes\update\CVersionJson.h" />
+    <ClInclude Include="..\Classes\UserDefaultData.h" />
+    <ClInclude Include="..\Classes\vip\CVipPay.h" />
+    <ClInclude Include="..\Classes\vip\VipData.h" />
+    <ClInclude Include="..\Classes\vip\VipLayer.h" />
+    <ClInclude Include="..\Classes\vip\VipPower.h" />
+    <ClInclude Include="..\Classes\warscene\ArmatureEventDataMgr.h" />
+    <ClInclude Include="..\Classes\warscene\BatchLayer.h" />
+    <ClInclude Include="..\Classes\warscene\BattleResult.h" />
+    <ClInclude Include="..\Classes\warscene\BattleTools.h" />
+    <ClInclude Include="..\Classes\warscene\BufExp.h" />
+    <ClInclude Include="..\Classes\warscene\CaptainSkill.h" />
+    <ClInclude Include="..\Classes\warscene\CHeroSoundData.h" />
+    <ClInclude Include="..\Classes\warscene\ComBatDataSaveXML.h" />
+    <ClInclude Include="..\Classes\warscene\CombatEffect.h" />
+    <ClInclude Include="..\Classes\warscene\CombatGuideLayer.h" />
+    <ClInclude Include="..\Classes\warscene\CombatGuideData.h" />
+    <ClInclude Include="..\Classes\warscene\CombatGuideManage.h" />
+    <ClInclude Include="..\Classes\warscene\ComBatLogic.h" />
+    <ClInclude Include="..\Classes\warscene\CombatTask.h" />
+    <ClInclude Include="..\Classes\warscene\ConstNum.h" />
+    <ClInclude Include="..\Classes\warscene\CPlayerSkillData.h" />
+    <ClInclude Include="..\Classes\warscene\DropItem.h" />
+    <ClInclude Include="..\Classes\warscene\EffectData.h" />
+    <ClInclude Include="..\Classes\warscene\HurtCount.h" />
+    <ClInclude Include="..\Classes\warscene\MapEffect.h" />
+    <ClInclude Include="..\Classes\warscene\MoveRule.h" />
+    <ClInclude Include="..\Classes\warscene\ParseFileData.h" />
+    <ClInclude Include="..\Classes\warscene\RandomBusineseMan.h" />
+    <ClInclude Include="..\Classes\warscene\SkillRange.h" />
+    <ClInclude Include="..\Classes\warscene\SkillTips.h" />
+    <ClInclude Include="..\Classes\warscene\TerrainExp.h" />
+    <ClInclude Include="..\Classes\warscene\TouchIntercept.h" />
+    <ClInclude Include="..\Classes\warscene\WarAssist.h" />
+    <ClInclude Include="..\Classes\warscene\WarBackLayer.h" />
+    <ClInclude Include="..\Classes\warscene\WarControl.h" />
+    <ClInclude Include="..\Classes\warscene\WarFailLayer.h" />
+    <ClInclude Include="..\Classes\warscene\WarRelive.h" />
+    <ClInclude Include="..\Classes\warscene\WarWinLayer.h" />
+    <ClInclude Include="..\Classes\warscene\WorldBossEndLayer.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\google\protobuf\descriptor.proto" />
+    <None Include="..\Classes\google\protobuf\io\gzip_stream_unittest.sh" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
