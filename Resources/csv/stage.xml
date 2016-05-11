@@ -1,0 +1,226 @@
+<chapters>
+	<!-- type 按钮=btn 图片=image posX=x坐标 posY=y坐标 normalImage，selectImage图片文件，scale缩放比例 stageId关卡id，星星tag对应关卡id stageType ="1" 精英关卡
+	宝箱id==prize1,prize2 -->
+	<chapter lv="1">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map001.png" selectImage="" scaleX="1" scaleY="1" stageId="1" />
+		<stage type="btn" posX="94" posY="387" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1"/>
+		<stage type="btn" id="prize1" posX="94" posY="447" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="417" posY="335" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero1" posX="416" posY="635" normalImage="selectRole/541.png" selectImage="" scaleX="-0.21" scaleY="0.21" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" posX="233" posY="258" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="3"/>
+		<stage type="btn" id="prize2" posX="233" posY="318" normalImage="tollgate/9002_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="2" stageType="1"/>
+		<stage type="btn" posX="164" posY="61" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero2" posX="164" posY="365" normalImage="selectRole/1039.png" selectImage="" scaleX="-0.21" scaleY="0.21" stageId="4" tag="4" stageType="1"/>	
+		<stage type="btn" posX="465" posY="141" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="5"/>
+		<stage type="btn" id="prize3" posX="466" posY="201" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="3" stageType="1"/>
+		<stage type="btn" posX="580" posY="247" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" id="hero3" posX="583" posY="556" normalImage="selectRole/113.png" selectImage="" scaleX="-0.2" scaleY="0.2" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" posX="780" posY="355" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="7"/>
+		<stage type="btn" id="prize4" posX="780" posY="415" normalImage="tollgate/9002_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="4" stageType="1"/>
+		<stage type="btn" posX="733" posY="76" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="8" tag="8" stageType="1"/>
+		<stage type="btn" id="hero4" posX="738" posY="359" normalImage="selectRole/1081.png" selectImage="" scaleX="0.4" scaleY="0.4" stageId="8" tag="8" stageType="1"/>
+	</chapter>
+	<chapter lv="2">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map002.png" selectImage="" scaleX="1" scaleY="1" stageId="1"/>
+		<stage type="btn" posX="76" posY="167" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1"/>
+		<stage type="btn" id="prize1" posX="76" posY="227" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="170" posY="297" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero1" posX="169" posY="600" normalImage="selectRole/721.png" selectImage="" scaleX="-0.2" scaleY="0.2" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" posX="350" posY="234" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="3"/>
+		<stage type="btn" id="prize2" posX="350" posY="294" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="2" stageType="1"/>
+		<stage type="btn" posX="391" posY="72" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero2" posX="385" posY="378" normalImage="selectRole/1076.png" selectImage="" scaleX="-0.2" scaleY="0.2" stageId="4" tag="4" stageType="1"/>	
+		<stage type="btn" posX="595" posY="70" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="5"/>
+		<stage type="btn" id="prize3" posX="595" posY="130" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="3" stageType="1"/>
+		<stage type="btn" posX="790" posY="155" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" id="hero3" posX="795" posY="475" normalImage="selectRole/301.png" selectImage="" scaleX="-0.14" scaleY="0.14" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" posX="606" posY="262" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="7"/>
+		<stage type="btn" id="prize4" posX="608" posY="322" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="4" stageType="1"/>
+		<stage type="btn" posX="756" posY="353" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="8" tag="8" stageType="1"/>
+		<stage type="btn" id="hero4" posX="770" posY="623" normalImage="selectRole/1051.png" selectImage="" scaleX="-0.37" scaleY="0.37" stageId="8" tag="8" stageType="1"/>
+	</chapter>
+	<chapter lv="3">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map003.png" selectImage="" scaleX="1" scaleY="1" stageId="1"/>
+		<stage type="btn" posX="341" posY="398" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1"/>
+		<stage type="btn" id="prize1" posX="341" posY="448" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="654" posY="341" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero1" posX="658" posY="640" normalImage="selectRole/1001.png" selectImage="" scaleX="-0.18" scaleY="0.18" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" posX="508" posY="255" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="3"/>
+		<stage type="btn" id="prize2" posX="508" posY="315" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="2" stageType="1"/>
+		<stage type="btn" posX="296" posY="235" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero2" posX="290" posY="537" normalImage="selectRole/746.png" selectImage="" scaleX="0.17" scaleY="0.17" stageId="4" tag="4" stageType="1"/>	
+		<stage type="btn" posX="222" posY="163" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="5"/>
+		<stage type="btn" id="prize3" posX="222" posY="223" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="3" stageType="1"/>
+		<stage type="btn" posX="301" posY="66" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" id="hero3" posX="304" posY="370" normalImage="selectRole/1038.png" selectImage="" scaleX="-0.2" scaleY="0.2" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" posX="569" posY="70" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="7"/>
+		<stage type="btn" id="prize4" posX="569" posY="130" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="4" stageType="1"/>
+		<stage type="btn" posX="725" posY="155" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="8" tag="8" stageType="1"/>
+		<stage type="btn" id="hero4" posX="716" posY="445" normalImage="selectRole/1096.png" selectImage="" scaleX="-0.3" scaleY="0.3" stageId="8" tag="8" stageType="1"/>
+	</chapter>
+	<chapter lv="4">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map004.png" selectImage="" scaleX="1" scaleY="1" stageId="1"/>
+		<stage type="btn" posX="62" posY="161" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1"/>
+		<stage type="btn" id="prize1" posX="62" posY="221" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="210" posY="205" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero1" posX="208" posY="510" normalImage="selectRole/331.png" selectImage="" scaleX="-0.19" scaleY="0.19" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" posX="297" posY="306" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="3"/>
+		<stage type="btn" id="prize2" posX="297" posY="366" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="2" stageType="1"/>
+		<stage type="btn" posX="446" posY="343" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero2" posX="440" posY="645" normalImage="selectRole/1076.png" selectImage="" scaleX="-0.18" scaleY="0.18" stageId="4" tag="4" stageType="1"/>	
+		<stage type="btn" posX="636" posY="286" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="5"/>
+		<stage type="btn" id="prize3" posX="636" posY="346" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="3" stageType="1"/>
+		<stage type="btn" posX="532" posY="174" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" id="hero3" posX="532" posY="465" normalImage="selectRole/1071.png" selectImage="" scaleX="0.21" scaleY="0.21" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" posX="664" posY="70" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="7"/>
+		<stage type="btn" id="prize4" posX="664" posY="130" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="4" stageType="1"/>
+		<stage type="btn" posX="839" posY="92" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="8" tag="8" stageType="1"/>
+		<stage type="btn" id="hero4" posX="830" posY="371" normalImage="selectRole/1037.png" selectImage="" scaleX="0.35" scaleY="0.35" stageId="8" tag="8" stageType="1"/>
+	</chapter>
+	<chapter lv="5">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map005.png" selectImage="" scaleX="1" scaleY="1" stageId="1"/>
+		<stage type="btn" posX="69" posY="276" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1"/>
+		<stage type="btn" id="prize1" posX="69" posY="336" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="203" posY="191" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero1" posX="191" posY="505" normalImage="selectRole/336.png" selectImage="" scaleX="-0.21" scaleY="0.21" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" posX="270" posY="89" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="3"/>
+		<stage type="btn" id="prize2" posX="270" posY="149" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="2" stageType="1"/>
+		<stage type="btn" posX="479" posY="89" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero2" posX="480" posY="395" normalImage="selectRole/1001.png" selectImage="" scaleX="-0.18" scaleY="0.18" stageId="4" tag="4" stageType="1"/>	
+		<stage type="btn" posX="532" posY="215" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="5"/>
+		<stage type="btn" id="prize3" posX="532" posY="275" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="3" stageType="1"/>
+		<stage type="btn" posX="641" posY="299" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" id="hero3" posX="643" posY="596" normalImage="selectRole/526.png" selectImage="" scaleX="-0.2" scaleY="0.2" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" posX="758" posY="215" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="7"/>
+		<stage type="btn" id="prize4" posX="758" posY="275" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="4" stageType="1"/>
+		<stage type="btn" posX="816" posY="69" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="8" tag="8" stageType="1"/>
+		<stage type="btn" id="hero4" posX="801" posY="339" normalImage="selectRole/1056.png" selectImage="" scaleX="-0.25" scaleY="0.25" stageId="8" tag="8" stageType="1"/>
+	</chapter>
+	<chapter lv="6">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map006.png" selectImage="" scaleX="1" scaleY="1" stageId="1" />
+		<stage type="btn" posX="90" posY="61" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1"/>
+		<stage type="btn" id="prize1" posX="90" posY="111" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="204" posY="151" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero1" posX="204" posY="450" normalImage="selectRole/1061.png" selectImage="" scaleX="0.22" scaleY="0.22" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" posX="173" posY="288" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="3"/>
+		<stage type="btn" id="prize2" posX="173" posY="338" normalImage="tollgate/9002_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="2" stageType="1"/>
+		<stage type="btn" posX="304" posY="314" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero2" posX="304" posY="616" normalImage="selectRole/837.png" selectImage="" scaleX="-0.22" scaleY="0.22" stageId="4" tag="4" stageType="1"/>	
+		<stage type="btn" posX="465" posY="288" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="5"/>
+		<stage type="btn" id="prize3" posX="466" posY="340" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="3" stageType="1"/>
+		<stage type="btn" posX="580" posY="217" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" id="hero3" posX="583" posY="526" normalImage="selectRole/1082.png" selectImage="" scaleX="0.21" scaleY="0.21" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" posX="710" posY="195" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="7"/>
+		<stage type="btn" id="prize4" posX="710" posY="235" normalImage="tollgate/9002_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="4" stageType="1"/>
+		<stage type="btn" posX="793" posY="286" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="8" tag="8" stageType="1"/>
+		<stage type="btn" id="hero4" posX="798" posY="589" normalImage="selectRole/1081.png" selectImage="" scaleX="0.22" scaleY="0.22" stageId="8" tag="8" stageType="1"/>
+	</chapter>
+	<chapter lv="7">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map007.png" selectImage="" scaleX="1" scaleY="1" stageId="1" />
+		<stage type="btn" posX="90" posY="318" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1"/>
+		<stage type="btn" id="prize1" posX="90" posY="377" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="224" posY="248" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero1" posX="224" posY="546" normalImage="selectRole/1016.png" selectImage="" scaleX="-0.2" scaleY="0.2" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" posX="323" posY="188" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="3"/>
+		<stage type="btn" id="prize2" posX="323" posY="238" normalImage="tollgate/9002_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="3" tag="2" stageType="1"/>
+		<stage type="btn" posX="384" posY="284" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero2" posX="384" posY="586" normalImage="selectRole/866.png" selectImage="" scaleX="-0.2" scaleY="0.2" stageId="4" tag="4" stageType="1"/>	
+		<stage type="btn" posX="525" posY="318" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="5"/>
+		<stage type="btn" id="prize3" posX="526" posY="380" normalImage="tollgate/9000_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="5" tag="3" stageType="1"/>
+		<stage type="btn" posX="690" posY="317" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" id="hero3" posX="683" posY="606" normalImage="selectRole/1081.png" selectImage="" scaleX="0.2" scaleY="0.2" stageId="6" tag="6" stageType="1"/>
+		<stage type="btn" posX="710" posY="195" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="7"/>
+		<stage type="btn" id="prize4" posX="710" posY="235" normalImage="tollgate/9002_10000.png" selectImage="" scaleX="0.7" scaleY="0.7" stageId="7" tag="4" stageType="1"/>
+		<stage type="btn" posX="793" posY="66" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="8" tag="8" stageType="1"/>
+		<stage type="btn" id="hero4" posX="798" posY="359" normalImage="selectRole/1062.png" selectImage="" scaleX="-0.4" scaleY="0.4" stageId="8" tag="8" stageType="1"/>
+	</chapter>
+	<chapter lv="201">
+		<stage type="image" id="bgBtn" posX="456" posY="210" normalImage="tollgate/book.png" selectImage="" scaleX="1" scaleY="1" stageId="1" stageType="1"/>
+		<stage type="btn" posX="209" posY="225" normalImage="tollgate/star_1.png" selectImage="" scaleX="1" scaleY="1" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" id="hero1" posX="220" posY="570" normalImage="selectRole/1061.png" selectImage="" scaleX="0.32" scaleY="0.32" stageId="1" tag="1" stageType="1"/>
+		<stage type="image" id="font" posX="210" posY="260" normalImage="tollgate/chapter_b_1.png" selectImage="" scaleX="1" scaleY="1" stageId="1" stageType="1"/>
+
+		<stage type="btn" posX="341" posY="30" normalImage="tollgate/star_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero2" posX="334" posY="359" normalImage="selectRole/1051.png" selectImage="" scaleX="0.32" scaleY="0.32" stageId="2" tag="2" stageType="1"/>
+        <stage type="image" id="font" posX="336" posY="56" normalImage="tollgate/chapter_b_2.png" selectImage="" scaleX="1" scaleY="1" stageId="2" stageType="1"/>
+
+		<stage type="btn" posX="602" posY="220" normalImage="tollgate/star_1.png" selectImage="" scaleX="1" scaleY="1" stageId="3" tag="3" stageType="1"/>
+        <stage type="btn" id="hero3" posX="610" posY="567" normalImage="selectRole/1096.png" selectImage="" scaleX="0.32" scaleY="0.32" stageId="3" tag="3" stageType="1"/>
+        <stage type="image" id="font" posX="601" posY="250" normalImage="tollgate/chapter_b_3.png" selectImage="" scaleX="1" scaleY="1" stageId="3" stageType="1"/>
+
+		<stage type="btn" posX="752" posY="28" normalImage="tollgate/star_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+        <stage type="btn" id="hero4" posX="754" posY="377" normalImage="selectRole/1038.png" selectImage="" scaleX="0.32" scaleY="0.32" stageId="4" tag="4" stageType="1"/>
+        <stage type="image" id="font" posX="750" posY="56" normalImage="tollgate/chapter_b_4.png" selectImage="" scaleX="1" scaleY="1" stageId="4" stageType="1"/>
+	</chapter>
+	<chapter lv="202">
+		<stage type="image" id="bgBtn" posX="456" posY="210" normalImage="tollgate/book.png" selectImage="" scaleX="1" scaleY="1" stageId="1" stageType="1"/>
+		<stage type="btn" posX="209" posY="225" normalImage="tollgate/star_1.png" selectImage="" scaleX="1" scaleY="1" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" id="hero1" posX="220" posY="565" normalImage="selectRole/1056.png" selectImage="" scaleX="0.32" scaleY="0.32" stageId="1" tag="1" stageType="1"/>
+		<stage type="image" id="font" posX="210" posY="260" normalImage="tollgate/chapter_b_5.png" selectImage="" scaleX="1" scaleY="1" stageId="1" stageType="1"/>
+
+		<stage type="btn" posX="341" posY="30" normalImage="tollgate/star_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero2" posX="334" posY="359" normalImage="selectRole/1081.png" selectImage="" scaleX="0.32" scaleY="0.32" stageId="2" tag="2" stageType="1"/>
+        <stage type="image" id="font" posX="336" posY="56" normalImage="tollgate/chapter_b_6.png" selectImage="" scaleX="1" scaleY="1" stageId="2" stageType="1"/>
+
+		<stage type="btn" posX="602" posY="220" normalImage="tollgate/star_1.png" selectImage="" scaleX="1" scaleY="1" stageId="3" tag="3" stageType="1"/>
+        <stage type="btn" id="hero3" posX="600" posY="567" normalImage="selectRole/1062.png" selectImage="" scaleX="0.32" scaleY="0.32" stageId="3" tag="3" stageType="1"/>
+        <stage type="image" id="font" posX="601" posY="250" normalImage="tollgate/chapter_b_7.png" selectImage="" scaleX="1" scaleY="1" stageId="3" stageType="1"/>
+	</chapter>
+
+	<chapter lv="203">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map003b.png" selectImage="" scaleX="1" scaleY="1" stageId="1" stageType="1"/>
+		<stage type="btn" posX="654" posY="341" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" id="hero1" posX="658" posY="640" normalImage="selectRole/1001.png" selectImage="" scaleX="-0.18" scaleY="0.18" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="296" posY="235" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero2" posX="290" posY="537" normalImage="selectRole/746.png" selectImage="" scaleX="0.17" scaleY="0.17" stageId="2" tag="2" stageType="1"/>	
+		<stage type="btn" posX="301" posY="66" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="3" tag="3" stageType="1"/>
+		<stage type="btn" id="hero3" posX="304" posY="370" normalImage="selectRole/1038.png" selectImage="" scaleX="-0.2" scaleY="0.2" stageId="3" tag="3" stageType="1"/>
+		<stage type="btn" posX="725" posY="155" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero4" posX="716" posY="445" normalImage="selectRole/1061.png" selectImage="" scaleX="-0.4" scaleY="0.4" stageId="4" tag="4" stageType="1"/>
+	</chapter>
+	<chapter lv="204">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map004b.png" selectImage="" scaleX="1" scaleY="1" stageId="1" stageType="1"/>
+		<stage type="btn" posX="210" posY="205" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" id="hero1" posX="208" posY="510" normalImage="selectRole/331.png" selectImage="" scaleX="-0.19" scaleY="0.19" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="446" posY="343" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero2" posX="440" posY="645" normalImage="selectRole/1076.png" selectImage="" scaleX="-0.18" scaleY="0.18" stageId="2" tag="2" stageType="1"/>	
+		<stage type="btn" posX="532" posY="174" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="3" tag="3" stageType="1"/>
+		<stage type="btn" id="hero3" posX="532" posY="465" normalImage="selectRole/1071.png" selectImage="" scaleX="0.21" scaleY="0.21" stageId="3" tag="3" stageType="1"/>
+		<stage type="btn" posX="849" posY="92" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero4" posX="830" posY="371" normalImage="selectRole/1037.png" selectImage="" scaleX="0.35" scaleY="0.35" stageId="4" tag="4" stageType="1"/>
+	</chapter>
+	<chapter lv="205">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map005b.png" selectImage="" scaleX="1" scaleY="1" stageId="1" stageType="1"/>
+		<stage type="btn" posX="203" posY="191" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" id="hero1" posX="191" posY="505" normalImage="selectRole/336.png" selectImage="" scaleX="-0.21" scaleY="0.21" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="479" posY="89" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero2" posX="480" posY="395" normalImage="selectRole/1001.png" selectImage="" scaleX="-0.18" scaleY="0.18" stageId="2" tag="2" stageType="1"/>	
+		<stage type="btn" posX="641" posY="299" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="3" tag="3" stageType="1"/>
+		<stage type="btn" id="hero3" posX="643" posY="596" normalImage="selectRole/526.png" selectImage="" scaleX="-0.2" scaleY="0.2" stageId="3" tag="3" stageType="1"/>
+		<stage type="btn" posX="836" posY="69" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero4" posX="801" posY="339" normalImage="selectRole/1056.png" selectImage="" scaleX="-0.37" scaleY="0.37" stageId="4" tag="4" stageType="1"/>
+	</chapter>
+	<chapter lv="206">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map006b.png" selectImage="" scaleX="1" scaleY="1" stageId="1" stageType="1"/>
+		<stage type="btn" posX="204" posY="151" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" id="hero1" posX="204" posY="450" normalImage="selectRole/751.png" selectImage="" scaleX="0.22" scaleY="0.22" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="304" posY="314" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero2" posX="304" posY="616" normalImage="selectRole/1039.png" selectImage="" scaleX="-0.22" scaleY="0.22" stageId="2" tag="2" stageType="1"/>	
+		<stage type="btn" posX="580" posY="217" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="3" tag="3" stageType="1"/>
+		<stage type="btn" id="hero3" posX="583" posY="526" normalImage="selectRole/536.png" selectImage="" scaleX="0.21" scaleY="0.21" stageId="3" tag="3" stageType="1"/>
+		<stage type="btn" posX="793" posY="286" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero4" posX="798" posY="589" normalImage="selectRole/516.png" selectImage="" scaleX="0.22" scaleY="0.22" stageId="4" tag="4" stageType="1"/>
+	</chapter>
+	<chapter lv="207">
+		<stage type="image" id="bgBtn" posX="456" posY="233" normalImage="tollgate/map007b.png" selectImage="" scaleX="1" scaleY="1" stageId="1" stageType="1"/>
+		<stage type="btn" posX="224" posY="248" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" id="hero1" posX="224" posY="546" normalImage="selectRole/721.png" selectImage="" scaleX="-0.2" scaleY="0.2" stageId="1" tag="1" stageType="1"/>
+		<stage type="btn" posX="384" posY="284" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="2" tag="2" stageType="1"/>
+		<stage type="btn" id="hero2" posX="384" posY="586" normalImage="selectRole/721.png" selectImage="" scaleX="-0.2" scaleY="0.2" stageId="2" tag="2" stageType="1"/>	
+		<stage type="btn" posX="690" posY="317" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="3" tag="3" stageType="1"/>
+		<stage type="btn" id="hero3" posX="683" posY="606" normalImage="selectRole/506.png" selectImage="" scaleX="0.2" scaleY="0.2" stageId="3" tag="3" stageType="1"/>
+		<stage type="btn" posX="793" posY="66" normalImage="tollgate/xingxing_1.png" selectImage="" scaleX="1" scaleY="1" stageId="4" tag="4" stageType="1"/>
+		<stage type="btn" id="hero4" posX="798" posY="359" normalImage="selectRole/1061.png" selectImage="" scaleX="-0.4" scaleY="0.4" stageId="4" tag="4" stageType="1"/>
+	</chapter>
+
+</chapters>

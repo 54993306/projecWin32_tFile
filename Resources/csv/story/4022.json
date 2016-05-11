@@ -1,0 +1,26 @@
+{
+  "story": [
+    {
+      "ID": 1,
+      "Texture": 0,
+      "BGM": 105,
+      "SFX": 0,
+      "Head_Image": 888331,
+      "Action":"stand",
+      "Head_Shark": false,
+      "Head_x": 120,
+      "Head_y": -40,
+      "D_right": false,
+      "TurnImage": false,
+      "Name": "？？？",
+      "Black": false,
+      "Aside": false,
+      "AsideTime": 0.3,
+      "Content": "…………",
+      "Content_x": 300,
+      "Content_y": 50,
+      "ShowTalkBackImage": true,
+      "AllShark": false
+    }
+  ]
+}

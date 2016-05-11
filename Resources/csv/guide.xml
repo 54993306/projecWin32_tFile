@@ -1,0 +1,204 @@
+﻿<guide>
+	<!-- lv=1 酒馆，2：关卡， 3：武将装备 4：调和 5：强化 6：商店 7：培植区 8：悬赏付 9 进阶 10 精英关卡 11 二次调和 12领奖励 16召唤 13 经验 15再关卡 15 再装备-->
+	<tasks lv="1">
+		<task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="你醒了咕。" isAtuoJump="0"/>
+		<task className="" step="2" type="story" widgetId="" tag="1" desc="" name="0" text1="極品元" text2="剛才的是……夢嗎？" isAtuoJump="0"/>
+		<task className="" step="3" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="還是沒記起嗎咕，看來只有更多的戰鬥才能喚醒你的記憶咕。" isAtuoJump="0"/>
+		<task className="" step="4" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="這是你托我保存的東西，拿去英雄塚，先喚醒一些故友咕。" isAtuoJump="0"/>
+		<task className="" step="5" type="btn" widgetId="frontLayer" tag="10" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="-30,0"/>
+		<task className="CRecruit" step="6" type="btn" widgetId="" tag="55/205" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"/>
+		<task className="RecruitResult" step="7" type="btn" widgetId="hide_btn" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="600,270"/>
+		<task className="RecruitResult" step="8" type="btn" widgetId="NewHeroLayer" tag="357" desc="public/guide/kongbai.png" name="public/guide/a_0002.png" isAtuoJump="1" offset="0,0"/>
+		<task className="CRecruit" step="9" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="0,0"/>
+	</tasks>
+	<tasks lv="2">
+		<task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="很好，看來你身體記憶還沒有完全丟失咕。" isAtuoJump="0"/>
+		<task className="" step="2" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="準備完畢，便趕緊啟程吧，相信通過戰鬥，你能慢慢記起的咕！" isAtuoJump="0"/>
+		<task className="CMainCityUI" step="3" type="btn" widgetId="" tag="6/6" desc="" name="public/guide/a_on.png" isAtuoJump="0"/>
+		<task className="CTollgateLayer" step="4" type="table" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0" NodeClipType="1"/>
+		<task className="CTollgatePreview" step="5" type="btn" widgetId="combat" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="80,500"/>
+        <task className="" step="6" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="首個上陣武將，將以主帥身份登場，主帥擁有隊長技效果，可提升隊伍整體實力咕。" isAtuoJump="0"/>
+		<task className="" step="7" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="不同主帥，擁有不同隊長技，善用方可攻克各種難關咕！" isAtuoJump="0"/>
+		<task className="CSelectArmy" step="8" type="grid" widgetId="scroll" tag="2/1" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="50,50"/>
+        <task className="CSelectArmy" step="9" type="grid" widgetId="scroll" tag="1/1" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="50,50"/>
+		<task className="CSelectArmy" step="10" type="grid" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="50,50"/>
+		<task className="CSelectArmy" step="11" type="btn" widgetId="combat" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"/>
+	</tasks>
+	<tasks lv="3">
+		<task className="CMainCityUI" step="1" type="open" widgetId="" tag="2/2" desc="" name="public/guide/a_on.png" isAtuoJump="0"/>
+		<task className="CHeroList" step="2" type="grid" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="30,405"/>
+		<!--<task className="" step="3" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="武將擁有兩個裝備槽，第一個初始便開放，第二個需將武將進階到橙色品階開啟咕。" isAtuoJump="0"/>-->
+		<task className="" step="3" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="武將擁有4個裝備槽，第一個初始便開放，其它的则需將武將升级到一定的等级才開啟咕。" isAtuoJump="0"/>
+		<task className="CHeroAttribute" step="4" type="btn" widgetId="mask1" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="40,40"  NodeClipType="2"/>
+		<task className="CStrengthenItem" step="5" type="table" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png" offset="50,50" isAtuoJump="1"/>
+		<task className="CStrengthenItem" step="6" type="btn" widgetId="select" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="90,35"/>
+		<task className="" step="7" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="左側綠色文字，表示裝備附帶的數值咕。" isAtuoJump="0"/>
+		<task className="CHeroAttribute" step="8" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	    <task className="CHeroList" step="9" type="btn" widgetId="onClose" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	</tasks>
+	<tasks lv="44">		
+		<task className="CTollgateLayer" step="1" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" offset="0,0" isAtuoJump="1" NodeClipType="1"/>
+		<task className="" step="2" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="大收穫啊，讓我來教你如何調和裝備吧咕！
+" isAtuoJump="0"/> 
+		<task className="" step="3" type="open" widgetId="frontLayer" tag="12" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"/>
+		<task className="" step="4" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="調和新裝備需消耗指定的調和素材，以及一定數量的銅錢咕。" isAtuoJump="0"/> 
+		<task className="CCompaseLayer" step="5" type="table" widgetId="scroll" tag="0/100"  desc="" name="public/guide/a_on.png" offset="50,50" isAtuoJump="1"/>
+		<task className="CCompaseLayer" step="6" type="btn" widgetId="strengthen" tag="0" desc="" name="public/guide/a_on.png" offset="150,38" isAtuoJump="0"/>
+		<task className="" step="7" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="調和新裝備後，是不是迫不及待的想穿戴上呢？讓我來教你如何穿戴裝備吧咕！" isAtuoJump="0"/>
+		 <task className="CCompaseLayer" step="8" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	</tasks>
+	<tasks lv="5">		
+		<task className="CTollgateLayer" step="1" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" offset="0,0" isAtuoJump="1"/>
+		<task className="" step="2" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="接下來的敵人會越來越強，我們需要一件更強力的裝備咕！" isAtuoJump="0"/> 
+		<task className="" step="3" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="神兵百煉成，裝備的“強化”必不可少咕！" isAtuoJump="0"/> 
+		<!--<task className="" step="4" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="裝備“強化”需要消耗指定的強化材料，以及一定數量銅錢咕！" isAtuoJump="0"/> -->
+		<task className="" step="4" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="裝備“強化”需要消耗一定數量的銅錢咕！" isAtuoJump="0"/>
+		<task className="" step="5" type="open" widgetId="frontLayer" tag="4" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+		<task className="CStrengthen/CLevelUpItem" step="6" type="btn" widgetId="bgBtn" tag="0"  desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="7,0" NodeClipType="2"/>
+		<task className="CStrengthenItem" step="7" type="table" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png" offset="50,50" isAtuoJump="1"/>
+		<task className="CStrengthenItem" step="8" type="btn" widgetId="select" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="90,35"/>
+		<!--<task className="" step="9" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="每件裝備擁有等級上限，達到等級上限後，可前往調和屋調和新裝備咕。" isAtuoJump="0"/> -->
+		<task className="" step="9" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="每件裝備的强化等级不能超过角色当前等级咕。" isAtuoJump="0"/>
+		<task className="CStrengthen/CLevelUpItem" step="10" type="btn" widgetId="strengthen" tag="0"  desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="93,35"/>
+		<!--<task className="" step="11" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="達到等級上限了！快前往調和屋調和一件全新的裝備吧咕！" isAtuoJump="0"/> -->
+		<task className="" step="11" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="想要得到更强力的装备那就多去挑战悬赏府的关卡吧咕！" isAtuoJump="0"/>
+		<task className="CStrengthen" step="12" type="btn" widgetId="close" tag="0"  desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	</tasks>
+	<tasks lv="6">
+		<task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="是不是覺得武將升級緩慢？對抗愈加兇猛的僵屍時力不從心咕？" isAtuoJump="0"/> 
+		<task className="" step="2" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="沒關係，快前往商店購買經驗丹，快速升級咕！" isAtuoJump="0"/> 
+		<task className="CMainCityUI" step="3" type="open" widgetId="" tag="1/1" desc="" name="public/guide/a_on.png" isAtuoJump="0"/>
+		<task className="CShopLayer" step="4" type="page" widgetId="scroll" tag="0/1"  desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+		<task className="CShopBuy" step="5" type="btn" widgetId="buy" tag="0"  desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="50,50"/>
+		<task className="CShopLayer" step="6" type="btn" widgetId="close" tag="0"  desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	</tasks>
+	<tasks lv="7"> 
+		<task className="CTollgateLayer" step="1" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" offset="0,0" isAtuoJump="1"/>
+		<task className="" step="2" type="open" widgetId="frontLayer" tag="6" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="-550,0"/>
+		<task className="CCultivateLayer" step="3" type="btn" widgetId="" tag="1"  desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="-90,90"/>
+		<task className="CDefendWuJiang" step="4" type="grid" widgetId="gridView" tag="1/1" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="53,55"/>
+	</tasks>
+	<tasks lv="8"> 
+		<task className="CTollgateLayer" step="1" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" offset="0,0" isAtuoJump="1"/>
+		<task className="" step="2" type="open" widgetId="frontLayer" tag="15" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"/>
+		<task className="CRewardLayer" step="3" type="table" widgetId="scroll" tag="0/1"  desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="-40,40"/>
+		<task className="CRewardLayer" step="4" type="btn" widgetId="combat" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="100,65"/>
+		<task className="CRewardHardLayer" step="5" type="btn" widgetId="btn" tag="1/1" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="53,55"/>
+	</tasks>
+	<tasks lv="9"> <!--1.5, 2.7 -->
+		<task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="恭喜通關！快來領取你的章節獎勵吧咕！" isAtuoJump="1"/> 
+		<task className="CTollgateLayer" step="2" type="table" widgetId="scroll" tag="0/107" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"   NodeClipType="1"/>
+		<task className="CPopItem" step="3" type="btn" widgetId="ok" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="95,30"/>
+		<task className="" step="4" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="恭喜你獲得了武將魂石！武將魂石收集到一定數量可以用來進階和召喚咕！" isAtuoJump="0"/> 
+		<task className="CTollgateLayer" step="5" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" offset="0,0" isAtuoJump="1"/>
+	</tasks>
+	<tasks lv="10">
+		<task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="每一個章節通關後，可以進行精英關卡挑戰，大量獎勵等你拿咕！" isAtuoJump="0"/>
+		<task className="CTollgateLayer" step="2" type="radio" widgetId="" tag="10/2" desc="" name="public/guide/a_on.png" offset="0,0" isAtuoJump="1"/>
+	</tasks>
+	<tasks lv="21">
+		<task className="" step="1" type="btn" widgetId="frontLayer" tag="12" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"/>
+		<task className="CCompaseLayer" step="2" type="table" widgetId="scroll" tag="0/100"  desc="" name="public/guide/a_on.png" offset="50,50" isAtuoJump="1"/>
+		<task className="CCompaseLayer" step="3" type="btn" widgetId="strengthen" tag="0" desc="" name="public/guide/a_on.png" offset="150,38" isAtuoJump="0"/>
+		<task className="CCompaseLayer" step="4" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	</tasks>
+	<tasks lv="11">		
+		<task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="获得了调和素材！调和素材可在调和塔中调和装备！
+" isAtuoJump="0"/> 
+		<task className="" step="2" type="btn" widgetId="frontLayer" tag="12" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"/>
+		<task className="" step="3" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="装备的调和需要指定的调和素材，并花费一定的铜钱便可进行调和获得新装备" isAtuoJump="0"/> 
+		<task className="CCompaseLayer" step="4" type="table" widgetId="scroll" tag="1/101"  desc="" name="public/guide/a_on.png" offset="50,50" isAtuoJump="1"/>
+		<task className="CCompaseLayer" step="5" type="btn" widgetId="strengthen" tag="0" desc="" name="public/guide/a_on.png" offset="150,38" isAtuoJump="0"/>
+		<task className="" step="6" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="全新的武器！快快将它装备吧！" isAtuoJump="0"/>
+		 <task className="CCompaseLayer" step="7" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	</tasks>
+	<tasks lv="12">
+		<task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="恭喜通关！快来领取您的奖励吧！" isAtuoJump="1"/> 
+		<!--<task className="CTollgateLayer" step="2" type="btn" widgetId="mask1" tag="0" desc="" name="public/guide/a_on.png" offset="20,40" isAtuoJump="0"/> -->
+		<task className="CTollgateLayer" step="2" type="table" widgetId="scroll" tag="0/105" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"  NodeClipType="1"/>
+		<task className="CPopItem" step="3" type="btn" widgetId="ok" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="95,30"/>
+		<task className="" step="4" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="恭喜您获得了武将碎片！武将碎片收集到一定数量可以用来进阶和召唤！" isAtuoJump="0"/> 
+	    <task className="CTollgateLayer" step="5" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" offset="0,0" isAtuoJump="1"   NodeClipType="1"/>
+	</tasks>
+	<tasks lv="13">
+		<task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="試著使用全部經驗丹咕！
+" isAtuoJump="0"/>
+		<task className="CMainCityUI" step="2" type="btn" widgetId="" tag="2/2" desc="" name="public/guide/a_on.png" isAtuoJump="0"/>
+		<task className="CHeroList" step="3" type="grid" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="30,405"/>
+		<task className="CHeroAttribute" step="4" type="radio" widgetId="" tag="99/2" desc="" name="public/guide/a_on.png" isAtuoJump="0"/>
+		<task className="CHeroAttribute/CHeroExp" step="5" type="table" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png"  isAtuoJump="1"/>
+		<task className="CHeroAttribute" step="6" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1" />
+	    <task className="CHeroList" step="7" type="btn" widgetId="onClose" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	</tasks>
+	<tasks lv="14">
+		<task className="CMainCityUI" step="1" type="btn" widgetId="" tag="2/2" desc="" name="public/guide/a_on.png" isAtuoJump="0"/>
+		<task className="CHeroList" step="2" type="grid" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="50,50"/>
+		<task className="" step="3" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="武将拥有两个装备槽，第一个装备槽初始便开放，第二个装备槽需武将进阶到橙色品阶开启。" isAtuoJump="0"/>
+		<task className="CHeroAttribute" step="4" type="btn" widgetId="mask1" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="40,40"  NodeClipType="2"/>
+		<task className="CStrengthenItem" step="5" type="table" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png" offset="50,50" isAtuoJump="1"/>
+		<task className="CStrengthenItem" step="6" type="btn" widgetId="select" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="90,35"/>
+		<task className="" step="7" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="在左侧绿色表示的文字，即为装备所附带的数值。" isAtuoJump="0"/>
+		<task className="CHeroAttribute" step="8" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	    <task className="CHeroList" step="9" type="btn" widgetId="onClose" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	</tasks>
+	<tasks lv="15">
+		<task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="与故友相逢，你竟丝毫未变，看来还是只有战斗才能唤醒你的记忆。" isAtuoJump="0"/>
+		<task className="CMainCityUI" step="2" type="btn" widgetId="" tag="6/6" desc="" name="public/guide/a_on.png" isAtuoJump="0"/>
+		<task className="CTollgateLayer" step="3" type="table" widgetId="scroll" tag="0/2" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"  NodeClipType="1"/>
+		<task className="CTollgatePreview" step="4" type="btn" widgetId="combat" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,400"/>
+        <task className="" step="5" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="第一个上阵的武将，将会成为本场战斗的主将，主将拥有队长技效果，可为队伍增加实力。" isAtuoJump="0"/>
+		<task className="" step="6" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="上阵不同的主将，带来的队长技效果不同，善用队长技，方可攻克各种难关！" isAtuoJump="0"/>
+		<task className="CSelectArmy" step="7" type="btn" widgetId="combat" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"/>
+	</tasks> 
+    <tasks lv="16"> 
+		<task className="CMainCityUI" step="1" type="btn" widgetId="" tag="2/2" desc="" name="public/guide/a_on.png" isAtuoJump="0"/>
+		<task className="CHeroList" step="2" type="grid" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="30,405"/>
+		<task className="CPopTip" step="3" type="btn" widgetId="" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="105,-30"/>
+		<task className="CHeroList" step="4" type="btn" widgetId="onClose" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	</tasks>
+	<tasks lv="17"> 
+		<task className="CMainCityUI" step="1" type="btn" widgetId="" tag="2/2" desc="" name="public/guide/a_on.png" isAtuoJump="0"/>
+		<task className="CHeroList" step="2" type="grid" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="30,405"/>
+		<task className="CHeroAttribute" step="3" type="radio" widgetId="" tag="99/4" desc="" name="public/guide/a_on.png" isAtuoJump="0"/>
+		<task className="CHeroAttribute/CHeroEvolve" step="4" type="btn" widgetId="evolve" tag="0" desc="" name="public/guide/a_on.png"  isAtuoJump="1" offset="70,26"/>
+	</tasks>
+	<tasks lv="18"> 
+        <task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="在刚才的战斗中，您的出色表现得到了认可，快来领取奖励吧！" isAtuoJump="1"/> 
+		<task className="CMainCityUI" step="2" type="open" widgetId="" tag="4/4" desc="" name="public/guide/a_on.png" isAtuoJump="0"/>
+		<task className="CTaskLayer" step="3" type="table" widgetId="scroll" tag="0/11" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,420"/>
+		<task className="CPopItem" step="4" type="btn" widgetId="ok" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="95,30"/>
+		<task className="CTaskLayer" step="5" type="table" widgetId="scroll" tag="0/9" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="50,20"/>
+	</tasks>
+	<tasks lv="19"> 
+		<task className="CTollgateLayer" step="1" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1"  NodeClipType="1"/>
+		<task className="" step="2" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="在每周五18:00都讲开启世界BOSS的活动，参加可以获得丰厚奖励！千万不要错过" isAtuoJump="0"/>
+		<task className="" step="3" type="open" widgetId="frontLayer" tag="16" desc="" name="public/guide/a_on.png" isAtuoJump="1"  offset="-640,0"/>
+	</tasks>
+	<tasks lv="4">
+		<task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="恭喜通关！快来领取您的奖励吧！" isAtuoJump="1"/> 
+		<!--<task className="CTollgateLayer" step="2" type="btn" widgetId="mask1" tag="0" desc="" name="public/guide/a_on.png" offset="20,40" isAtuoJump="0"/> -->
+		<task className="CTollgateLayer" step="2" type="table" widgetId="scroll" tag="0/101" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"  NodeClipType="1"/>
+		<task className="CPopItem" step="3" type="btn" widgetId="ok" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="95,30"/>
+		<task className="" step="4" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="恭喜您获得了一把武器！快把它佩戴到英雄身上吧！" isAtuoJump="0"/> 
+	    <task className="CTollgateLayer" step="5" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" offset="0,0" isAtuoJump="1"   NodeClipType="1"/>
+	</tasks>
+	<tasks lv="21">
+		<task className="" step="1" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="恭喜通关！快来领取您的奖励吧！" isAtuoJump="1"/> 
+		<!--<task className="CTollgateLayer" step="2" type="btn" widgetId="mask1" tag="0" desc="" name="public/guide/a_on.png" offset="20,40" isAtuoJump="0"/> -->
+		<task className="CTollgateLayer" step="2" type="table" widgetId="scroll" tag="0/107" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="0,0"  NodeClipType="1"/>
+		<task className="CPopItem" step="3" type="btn" widgetId="ok" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="1" offset="95,30"/>
+	</tasks>
+	<tasks lv="20">		
+		<task className="CTollgateLayer" step="1" type="btn" widgetId="close" tag="0" desc="" name="public/guide/a_on.png" offset="0,0" isAtuoJump="1"/>
+		<task className="" step="2" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="恭喜您获得了装备进阶的材料！让我来教你装备进阶吧！" isAtuoJump="0"/> 
+		<task className="" step="3" type="btn" widgetId="frontLayer" tag="4" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+		<task className="CStrengthen" step="4" type="radio" widgetId="" tag="10/3" desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+		<task className="CStrengthen/CStarUpItem" step="5" type="btn" widgetId="bgBtn" tag="0"  desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="7,0" NodeClipType="2"/>
+		<task className="CStrengthenItem" step="6" type="table" widgetId="scroll" tag="0/1" desc="" name="public/guide/a_on.png" offset="50,50" isAtuoJump="1"/>
+		<task className="CStrengthenItem" step="7" type="btn" widgetId="select" tag="0" desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="90,35"/>
+		<task className="" step="8" type="story" widgetId="" tag="0" desc="" name="0" text1="小白" text2="装备进阶将大幅度提高装备的属性！但有几率进阶失败，加入特殊材料可以增加成功率！" isAtuoJump="0"/>
+		<task className="CStrengthen/CStarUpItem" step="9" type="btn" widgetId="strengthen" tag="0"  desc="" name="public/guide/a_on.png" isAtuoJump="0" offset="93,35"/>
+		<task className="CStrengthen" step="10" type="btn" widgetId="close" tag="0"  desc="" name="public/guide/a_on.png" isAtuoJump="1"/>
+	</tasks>
+
+</guide>

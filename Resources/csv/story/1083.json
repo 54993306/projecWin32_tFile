@@ -1,0 +1,26 @@
+{
+  "story": [
+    {
+      "ID": 1,
+      "Texture": 0,
+      "BGM": 0,
+      "SFX": 0,
+      "Head_Image": 888541,
+      "Action":"nu",
+      "Head_Shark": false,
+      "Head_x": 50,
+      "Head_y": -50,
+      "D_right": true,
+      "TurnImage": true,
+      "Name": "慧元",
+      "Black": false,
+      "Aside": false,
+      "AsideTime": 0.3,
+      "Content": "跟上，這次絕不能讓他逃掉!",
+      "Content_x": 300,
+      "Content_y": 50,
+      "ShowTalkBackImage": true,
+      "AllShark": false
+    }
+  ]
+}

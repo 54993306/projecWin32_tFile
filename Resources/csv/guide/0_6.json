@@ -1,0 +1,69 @@
+{
+  "guid": [
+    {
+      "id": 1,
+      "backid": 0,
+      "nextid": 2,
+      "type": 2,
+      "Uitype": 2,
+      "Captain": true,
+      "BlackLayer": false,
+      "Reset": false,
+      "LockLayer": true,
+      "VecCompel": [
+        {
+          "ModeID": 146,
+          "grid": 100
+        }
+      ]
+    },{
+      "id": 2,
+      "backid": 1,
+      "nextid": 3,
+      "type": 2,
+      "Uitype": 2,
+      "Captain": true,
+      "BlackLayer": false,
+      "Reset": false,
+      "LockLayer": true,
+      "VecCompel": [
+        {
+          "ModeID": 146,
+          "grid": 100
+        }
+      ]
+    },{
+      "id": 3,
+      "backid": 2,
+      "nextid": 4,
+      "type": 2,
+      "Uitype": 2,
+      "Captain": true,
+      "BlackLayer": false,
+      "Reset": false,
+      "LockLayer": true,
+      "VecCompel": [
+        {
+          "ModeID": 146,
+          "grid": 100
+        }
+      ]
+    },{
+      "id": 4,
+      "backid": 3,
+      "nextid": 0,
+      "type": 2,
+      "Uitype": 2,
+      "Captain": true,
+      "BlackLayer": false,
+      "Reset": false,
+      "LockLayer": true,
+      "VecCompel": [
+        {
+          "ModeID": 146,
+          "grid": 100
+        }
+      ]
+    }
+  ]
+}

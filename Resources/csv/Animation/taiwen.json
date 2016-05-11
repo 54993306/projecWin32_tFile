@@ -1,0 +1,63 @@
+{
+  "OPEN": [
+    {
+      "path": "warScene/open/img-bg_test.png",
+      "name": "img-bg_test.png"
+    },
+    {
+      "path": "warScene/open/img-board_a_01.png",
+      "name": "img-board_a_01.png"
+    },
+    {
+      "path": "warScene/open/img-bosshead.png",
+      "name": "img-bosshead.png"
+    },
+    {
+      "path": "warScene/open/img-comics_01.png",
+      "name": "img-comics_01.png"
+    },
+    {
+      "path": "warScene/open/img-comics_01_1.png",
+      "name": "img-comics_01_1.png"
+    },
+    {
+      "path": "warScene/open/img-comics_02.png",
+      "name": "img-comics_02.png"
+    },
+    {
+      "path": "warScene/open/img-comics_02_2.png",
+      "name": "img-comics_02_2.png"
+    },
+    {
+      "path": "warScene/open/img-comics_03.png",
+      "name": "img-comics_03.png"
+    },
+    {
+      "path": "warScene/open/img-comics_03_3.png",
+      "name": "img-comics_03_3.png"
+    },
+    {
+      "path": "warScene/open/img-fog2_mobile2.png",
+      "name": "img-fog2_mobile2.png"
+    },
+    {
+      "path": "warScene/open/img-head.png",
+      "name": "img-head.png"
+    },
+    {
+      "path": "warScene/open/img-skillef.png",
+      "name": "img-skillef.png"
+    },
+    {
+      "path": "warScene/open/img-worda_11.png",
+      "name": "img-worda_11.png"
+    },
+    {
+      "path": "warScene/open/img-yinyang.png",
+      "name": "img-yinyang.png"
+    },
+    {
+      "plist": "warScene/open/taiwen.plist"
+    }
+  ]
+}

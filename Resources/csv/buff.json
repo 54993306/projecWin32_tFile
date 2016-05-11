@@ -1,0 +1,121 @@
+{
+  "BUFF_EFFECT": [
+    {
+      "bufftype": 1,
+      "Dbuf": false,
+      "effect_up": 500,
+      "up_Loop": true,
+      "effect_down": 501,
+      "down_Loop": true
+    },
+    {
+      "bufftype": 1,
+      "Dbuf": true,
+      "up_Loop": true,
+      "effect_up": 120
+    },
+    {
+      "bufftype": 2,
+      "Dbuf": false,
+      "up_Loop": true,
+      "effect_up": 105
+    },
+    {
+      "bufftype": 2,
+      "Dbuf": true,
+      "up_Loop": true,
+      "effect_up": 106
+    },
+    {
+      "bufftype": 3,
+      "Dbuf": false,
+      "up_Loop": true,
+      "effect_up": 107
+    },
+    {
+      "bufftype": 3,
+      "Dbuf": true,
+      "up_Loop": true,
+      "effect_up": 108
+    },
+    {
+      "bufftype": 4,
+      "Dbuf": false,
+      "up_Loop": true,
+      "effect_up": 109
+    },
+    {
+      "bufftype": 4,
+      "Dbuf": true,
+      "up_Loop": true,
+      "effect_up": 110
+    },
+    {
+      "bufftype": 5,
+      "Dbuf": false,
+      "up_Loop": true,
+      "effect_up": 111
+    },
+    {
+      "bufftype": 5,
+      "Dbuf": true,
+      "up_Loop": true,
+      "effect_up": 112
+    },
+    {
+      "bufftype": 6,
+      "Dbuf": false,
+      "up_Loop": true,
+      "effect_up": 113
+    },
+    {
+      "bufftype": 6,
+      "Dbuf": true,
+      "up_Loop": true,
+      "effect_up": 114
+    },
+    {
+      "bufftype": 7,
+      "Dbuf": false,
+      "up_Loop": true,
+      "effect_up": 115
+    },
+    {
+      "bufftype": 7,
+      "Dbuf": true,
+      "up_Loop": true,
+      "effect_up": 116
+    },
+    {
+      "bufftype": 8,
+      "Dbuf": false,
+      "up_Loop": true,
+      "effect_up": 117
+    },
+    {
+      "bufftype": 8,
+      "Dbuf": true,
+      "up_Loop": true,
+      "effect_up": 118
+    },
+    {
+      "bufftype": 9,
+      "Dbuf": true,
+      "up_Loop": true,
+      "effect_up": 510
+    },
+    {
+      "bufftype": 10,
+      "Dbuf": true,
+      "up_Loop": true,
+      "effect_up": 509
+    },
+    {
+      "bufftype": 100,
+      "Dbuf": true,
+      "up_Loop": true,
+      "effect_up": 119,
+      "up_Loop": true
+    }
+  ]
+}

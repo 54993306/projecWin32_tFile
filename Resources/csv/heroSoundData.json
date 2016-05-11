@@ -1,0 +1,11 @@
+{
+  "heroSoundData": [
+    {
+      "model_id": 121,
+      "sound_move": 542
+    },{
+      "model_id": 146,
+      "DirectionLeft": true
+    }
+  ]
+}

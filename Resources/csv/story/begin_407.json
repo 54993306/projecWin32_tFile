@@ -1,0 +1,52 @@
+{
+  "story": [
+    {
+      "ID": 1,
+      "Texture": 0,
+      "BGM": "",
+      "SFX": "0",
+      "Head_Image": 0,
+      "Head_Shark": 0,
+      "Head_x": 900,
+      "Head_y": 320,
+      "Face_Image": 0,
+      "Face_x": 0,
+      "Face_y": 0,
+      "D_right": true,
+      "TurnImage": false,
+      "Name": "小女孩",
+      "Black": true,
+      "Aside": true,
+      "AsideTime": 1,
+      "Content": "",
+      "Content_x": 212,
+      "Content_y": 330,
+      "ShowTalkBackImage": false,
+      "AllShark": false
+    },
+    {
+      "ID": 2,
+      "Texture": 0,
+      "BGM": "",
+      "SFX": "0",
+      "Head_Image": 0,
+      "Head_Shark": 0,
+      "Head_x": 900,
+      "Head_y": 320,
+      "Face_Image": 0,
+      "Face_x": 0,
+      "Face_y": 0,
+      "D_right": true,
+      "TurnImage": false,
+      "Name": "小女孩",
+      "Black": true,
+      "Aside": true,
+      "AsideTime": 3,
+      "Content": "我第一次懷疑，他真是以奸險著稱的道士嗎？",
+      "Content_x": 212,
+      "Content_y": 330,
+      "ShowTalkBackImage": false,
+      "AllShark": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "story": [
+    {
+      "ID": 1,
+      "Texture": 0,
+      "BGM": -1,
+      "SFX": 0,
+      "Head_Image": 0,
+      "Action":"stand",
+      "Head_Shark": false,
+      "Head_x": 900,
+      "Head_y": 320,
+      "D_right": true,
+      "TurnImage": false,
+      "Name": "小女孩",
+      "Black": true,
+      "Aside": true,
+      "AsideTime": 1,
+      "Content": "",
+      "Content_x": 92,
+      "Content_y": 330,
+      "ShowTalkBackImage": false,
+      "AllShark": false
+    },
+    {
+      "ID": 2,
+      "Texture": 0,
+      "BGM": -1,
+      "SFX": 0,
+      "Head_Image": 0,
+      "Action":"stand",
+      "Head_Shark": false,
+      "Head_x": 900,
+      "Head_y": 320,
+      "D_right": true,
+      "TurnImage": false,
+      "Name": "小女孩",
+      "Black": true,
+      "Aside": true,
+      "AsideTime": 3,
+      "Content": "我十二歲入神將府，以為出師後便無所畏懼，道士或是僵屍。",
+      "Content_x": 92,
+      "Content_y": 330,
+      "ShowTalkBackImage": false,
+      "AllShark": false
+    }
+  ]
+}

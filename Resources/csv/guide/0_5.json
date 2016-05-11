@@ -1,0 +1,71 @@
+{
+  "guid": 
+  [
+   {
+      "id": 1,
+      "backid": 0,
+      "nextid": 2,
+      "type": 1,
+      "Name":"骸獸",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"吼！！",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "AddCost":100,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+      "VecCompel": 
+      [
+        {
+          "ModeID":346,
+          "grid":114
+        },{
+		  "ModeID":146,
+          "grid":113
+        }
+      ]  
+    }
+	,
+	{
+      "id": 2,
+      "backid": 1,
+      "nextid": 0,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":860,
+      "Name_y":200,
+      "describe":"最難纏的傢夥來了，用你剛學會的戰鬥技巧，\n將它打敗吧咕！",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":false,
+      "LockLayer":true,
+	  "ImageData": [
+        {
+          "File": "2046",
+          "isSpine":true,
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 850,
+          "PosY": 180,
+          "FlipX": true,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          "ModeID":146,
+          "grid":100
+        }
+      ]  
+	}
+	
+  ]
+}

@@ -1,0 +1,16 @@
+resType(1=模型2=背景音乐3=音效4=图片,5骨骼动画),fileUrl,modelID,type(1=角色2=技能)
+1,warpublic/10019.plist,10019,2
+1,warpublic/10028.plist,10028,2
+1,warpublic/10030.plist,10030,2
+1,warpublic/10031.plist,10031,2
+1,warpublic/10034.plist,10034,2
+1,skill/121.plist,121,2
+1,skill/201.plist,201,2
+1,skill/300.plist,300,2
+1,skill/302.plist,302,2
+1,skill/304.plist,304,2
+1,skill/313.plist,313,2
+1,skill/314.plist,314,2
+1,skill/9055.plist,9055,2
+1,skill/9051.plist,9051,2
+1,warpublic/warning.plist,warning,2

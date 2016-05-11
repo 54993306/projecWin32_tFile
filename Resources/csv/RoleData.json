@@ -1,0 +1,62 @@
+{
+  "heroSoundData": [
+    {
+      "model_id": 121,
+      "sound_move": 542
+    },{
+      "model_id": 146,
+      "Turn": true
+    },{
+      "model_id": 576,
+      "Turn": true
+    },{
+      "model_id": 316,
+      "HitEffect": 1,
+      "HitEffectX": -5,
+      "HitEffectY": 20,
+      "HitEffectScale": 0.8
+    },{
+      "model_id": 336,
+      "HitEffect": 2,
+      "HitEffectX": 0,
+      "HitEffectY": 60,
+      "HitEffectScale": 1.4
+    },{
+      "model_id": 351,
+      "HitEffect": 2,
+      "HitEffectX": 0,
+      "HitEffectY": 70,
+      "HitEffectScale": 1
+    },{
+      "model_id": 751,
+      "HitEffect": 1,
+      "HitEffectX": 0,
+      "HitEffectY": 60,
+      "HitEffectScale": 1
+    },{
+      "model_id": 506,
+      "HitEffect": 3,
+      "HitEffectX": 0,
+      "HitEffectY": 80,
+      "HitEffectScale": 1
+    },{
+      "model_id": 566,
+      "HitEffect": 3,
+      "HitEffectX": 0,
+      "HitEffectY": 90,
+      "HitEffectScale": 1.1
+    },{
+      "model_id": 306,
+      "HitEffect": 3,
+      "HitEffectX": -4,
+      "HitEffectY": 70,
+      "HitEffectScale": 1
+    },{
+      "model_id": 1037,
+      "HitEffect": 2,
+      "HitEffectX": -4,
+      "HitEffectY": 110,
+      "HitEffectScale": 1.4
+    }
+  ]
+}

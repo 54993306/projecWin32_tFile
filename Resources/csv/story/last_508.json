@@ -1,0 +1,28 @@
+{
+  "story": [
+    {
+      "ID": 1,
+      "Texture": 0,
+      "BGM": "0",
+      "SFX": "0",
+      "Head_Image": 146,
+      "Head_Shark": 0,
+      "Head_x": 840,
+      "Head_y": 320,
+      "Face_Image": 8,
+      "Face_x": 861,
+      "Face_y": 515,
+      "D_right": true,
+      "TurnImage": true,
+      "Name": "極品元",
+      "Black": false,
+      "Aside": false,
+      "AsideTime": 0.3,
+      "Content": "我們快追上去！",
+      "Content_x": 300,
+      "Content_y": 50,
+      "ShowTalkBackImage": true,
+      "AllShark": false
+    }
+  ]
+}

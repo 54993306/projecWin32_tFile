@@ -1,0 +1,101 @@
+{
+  "guid": 
+  [
+    {
+      "id": 1,
+      "backid": 0,
+      "nextid": 2,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"请注意：绿色区域内放置武将将增加 COST 值。",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "ImageData": 
+	  [
+        {
+          "File": "2046",
+          "isSpine":true,
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 180,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0,
+          "SendMsg":1
+        }
+      ] 
+    },
+	{
+	  "id": 2,
+      "backid": 1,
+      "nextid": 3,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":860,
+      "Name_y":200,
+      "describe":"请注意：黄色区域内放置武将将扣减 COST 值。",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "ImageData": 
+	  [
+        {
+          "File": "2046",
+          "isSpine":true,
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 850,
+          "PosY": 180,
+          "FlipX": true,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0,
+          "SendMsg":2
+        }
+      ] 
+    },
+    {
+      "id": 3,
+      "backid": 2,
+      "nextid": 4,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"巧妙利用武将站位可以帮助你更容易获得胜利",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "ImageData": 
+	  [
+        {
+          "File": "2046",
+          "isSpine":true,
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 180,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0,
+          "SendMsg":3
+        }
+      ] 
+    }
+  ]
+}

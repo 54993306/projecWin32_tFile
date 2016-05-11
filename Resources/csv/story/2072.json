@@ -1,0 +1,26 @@
+{
+  "story": [
+    {
+      "ID": 1,
+      "Texture": 0,
+      "BGM": 105,
+      "SFX": 0,
+      "Head_Image": 888724,
+      "Action":"nu",
+      "Head_Shark": false,
+      "Head_x": -50,
+      "Head_y": -60,
+      "D_right": false,
+      "TurnImage": false,
+      "Name": "魯二",
+      "Black": false,
+      "Aside": false,
+      "AsideTime": 0.3,
+      "Content": "既入聖觀，便永留此地吧！",
+      "Content_x": 300,
+      "Content_y": 50,
+      "ShowTalkBackImage": true,
+      "AllShark": false
+    }
+  ]
+}

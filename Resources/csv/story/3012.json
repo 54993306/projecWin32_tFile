@@ -1,0 +1,26 @@
+{
+  "story": [
+    {
+      "ID": 1,
+      "Texture": 0,
+      "BGM": 105,
+      "SFX": 606,
+      "Head_Image": 888146,
+      "Action":"nu",
+      "Head_Shark": false,
+      "Head_x": 180,
+      "Head_y": -30,
+      "D_right": true,
+      "TurnImage": true,
+      "Name": "極品元",
+      "Black": false,
+      "Aside": false,
+      "AsideTime": 0.3,
+      "Content": "逃！那邊有個秘道！！",
+      "Content_x": 300,
+      "Content_y": 50,
+      "ShowTalkBackImage": true,
+      "AllShark": false
+    }
+  ]
+}

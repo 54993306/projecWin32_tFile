@@ -1,0 +1,83 @@
+﻿<Vip>
+	<viplv lv="1">
+		<desc desc1="每天可购买铜钱" number="5" desc2="次"/>
+		<desc desc1="每天可购买体力" number="2" desc2="次"/>
+	</viplv>
+	<viplv lv="2">
+		<desc desc1="每天可购买铜钱" number="20" desc2="次"/>
+		<desc desc1="每天可购买体力" number="3" desc2="次"/>	
+	</viplv>
+	<viplv lv="3">
+		<desc desc1="每天可购买铜钱" number="30" desc2="次"/>
+		<desc desc1="每天可购买体力" number="4" desc2="次"/>	
+		<desc desc1="增加" number="20" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="4">
+		<desc desc1="每天可购买铜钱" number="40" desc2="次"/>
+		<desc desc1="每天可购买体力" number="5" desc2="次"/>
+		<desc desc1="增加" number="20" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="5">
+		<desc desc1="每天可购买铜钱" number="50" desc2="次"/>
+		<desc desc1="每天可购买体力" number="6" desc2="次"/>
+		<desc desc1="增加" number="20" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="6">
+		<desc desc1="每天可购买铜钱" number="60" desc2="次"/>
+		<desc desc1="每天可购买体力" number="7" desc2="次"/>
+		<desc desc1="增加" number="20" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="7">
+		<desc desc1="每天可购买铜钱" number="70" desc2="次"/>
+		<desc desc1="每天可购买体力" number="8" desc2="次"/>
+		<desc desc1="增加" number="30" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="8">
+		<desc desc1="每天可购买铜钱" number="80" desc2="次"/>
+		<desc desc1="每天可购买体力" number="9" desc2="次"/>
+		<desc desc1="" number="NEW!解锁铁匠铺元宝强化功能" desc2=""/>
+		<desc desc1="增加" number="30" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="9">
+		<desc desc1="每天可购买铜钱" number="90" desc2="次"/>
+		<desc desc1="每天可购买体力" number="10" desc2="次"/>
+		<desc desc1="" number="解锁铁匠铺元宝强化功能" desc2=""/>
+		<desc desc1="增加" number="30" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="10">
+		<desc desc1="每天可购买铜钱" number="100" desc2="次"/>
+		<desc desc1="每天可购买体力" number="11" desc2="次"/>
+		<desc desc1="" number="解锁铁匠铺元宝强化功能" desc2=""/>
+		<desc desc1="增加" number="30" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="11">
+		<desc desc1="每天可购买铜钱" number="120" desc2="次"/>
+		<desc desc1="每天可购买体力" number="12" desc2="次"/>
+		<desc desc1="" number="解锁铁匠铺元宝强化功能" desc2=""/>
+		<desc desc1="增加" number="30" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="12">
+		<desc desc1="每天可购买铜钱" number="150" desc2="次"/>
+		<desc desc1="每天可购买体力" number="13" desc2="次"/>
+		<desc desc1="" number="解锁铁匠铺元宝强化功能" desc2=""/>
+		<desc desc1="增加" number="30" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="13">
+		<desc desc1="每天可购买铜钱" number="200" desc2="次"/>
+		<desc desc1="每天可购买体力" number="14" desc2="次"/>
+		<desc desc1="" number="解锁铁匠铺元宝强化功能" desc2=""/>
+		<desc desc1="增加" number="30" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="14">
+		<desc desc1="每天可购买铜钱" number="250" desc2="次"/>
+		<desc desc1="每天可购买体力" number="15" desc2="次"/>
+		<desc desc1="" number="解锁铁匠铺元宝强化功能" desc2=""/>
+		<desc desc1="增加" number="50" desc2="点体力上限"/>
+	</viplv>
+	<viplv lv="15">
+		<desc desc1="每天可购买铜钱" number="300" desc2="次"/>
+		<desc desc1="每天可购买体力" number="16" desc2="次"/>
+		<desc desc1="" number="解锁铁匠铺元宝强化功能" desc2=""/>
+		<desc desc1="增加" number="50" desc2="点体力上限"/>
+	</viplv>
+</Vip>

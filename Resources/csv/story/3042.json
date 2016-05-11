@@ -1,0 +1,48 @@
+{
+  "story": [
+    {
+      "ID": 1,
+      "Texture": 0,
+      "BGM": 105,
+      "SFX": 411,
+      "Head_Image": 888746,
+      "Action":"stand",
+      "Head_Shark": false,
+      "Head_x": -150,
+      "Head_y": -50,
+      "D_right": false,
+      "TurnImage": false,
+      "Name": "？？？",
+      "Black": false,
+      "Aside": false,
+      "AsideTime": 0.3,
+      "Content": "嗬！！",
+      "Content_x": 300,
+      "Content_y": 50,
+      "ShowTalkBackImage": true,
+      "AllShark": true
+    },
+    {
+      "ID": 2,
+      "Texture": 0,
+      "BGM": 0,
+      "SFX": 0,
+      "Head_Image": 888706,
+      "Action":"jingya",
+      "Head_Shark": true,
+      "Head_x": 300,
+      "Head_y": 0,
+      "D_right": true,
+      "TurnImage": true,
+      "Name": "士兵",
+      "Black": false,
+      "Aside": false,
+      "AsideTime": 0.3,
+      "Content": "這是什麼東西？！叫支援……啊……！！",
+      "Content_x": 300,
+      "Content_y": 50,
+      "ShowTalkBackImage": true,
+      "AllShark": false
+    }
+  ]
+}

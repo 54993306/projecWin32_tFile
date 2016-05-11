@@ -1,0 +1,144 @@
+{
+  "guid": 
+  [
+    {
+      "id": 1,
+      "backid": 0,
+      "nextid": 2,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"新一波敵人出現了，現在將角色腳下游標\n拖動至指定位置，將敵人打倒吧咕！",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "AddCost":100,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 350,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          "ModeID":346,
+          "grid":114
+        },{
+		  "ModeID":146,
+          "grid":113
+        }
+      ]  
+    }
+	,
+	{
+      "id": 2,
+      "backid": 1,
+      "nextid": 3,
+      "type": 1,
+	  "RoleImage":2046,
+      "RolePoint_x":150,
+      "RolePoint_y":340,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"把角色底下的光環拖拉到指定的位置, \n現在就嘗試一下吧。",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":false,
+      "LockLayer":true,
+      "VecCompel": 
+      [
+        {
+          "ModeID":146,
+          "grid":100
+        }
+      ]  
+    }
+	,
+	{
+      "id": 5,
+      "backid": 4,
+      "nextid": 0,
+      "type": 1,
+	  "RoleImage":2046,
+      "RolePoint_x":150,
+      "RolePoint_y":340,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"當主帥死亡時就會視作遊戲敗北, \n要好好保護自己的主帥啊。",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":true,
+      "BlackLayer":false,
+      "Reset":false,
+      "LockLayer":true,
+      "VecCompel": 
+      [
+        {
+          "ModeID":146,
+          "grid":100
+        }
+      ]  
+    }
+	,
+	  {
+      "id": 3,
+      "backid": 2,
+      "nextid": 4,
+      "type": 3,
+      "beginGrid":113,
+      "FnishGrid":108,
+      "Captain":true,
+      "BlackLayer":false,
+      "Reset":false,
+      "LockLayer":true,
+      "VecCompel": 
+      [
+        {
+          "ModeID":146,
+          "grid":100
+        }
+      ]  
+    }
+	 ,
+	  {
+      "id": 4,
+      "backid": 3,
+      "nextid": 5,
+      "type": 3,
+      "beginGrid":114,
+      "FnishGrid":115,
+      "Captain":true,
+      "BlackLayer":false,
+      "Reset":false,
+      "LockLayer":true,
+      "VecCompel": 
+      [
+        {
+          "ModeID":146,
+          "grid":100
+        }
+      ]  
+    }
+	
+	
+	
+	
+	
+  ]
+}

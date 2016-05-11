@@ -1,0 +1,137 @@
+{
+  "guid": 
+  [
+   {
+      "id": 1,
+      "backid": 0,
+      "nextid": 2,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"角色頭像開始燃燒，代表所持靈魂值足夠\n讓該角色使出必殺技咕。",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "AddCost":100,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 350,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          "ModeID":346,
+          "grid":114
+        },{
+		  "ModeID":146,
+          "grid":113
+        }
+      ]  
+    }
+	,
+	{
+      "id": 2,
+      "backid": 1,
+      "nextid": 3,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"點擊該角色頭像，支付對應靈魂值，\n即可使出必殺技咕。",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":false,
+      "LockLayer":true,
+	  "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 350,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          "ModeID":146,
+          "grid":100
+        }
+      ]  
+	},
+	{
+      "id": 3,
+      "backid": 2,
+      "nextid": 4,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"善用必殺技，是逆轉戰局的關鍵，\n快嘗試一下吧咕！",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":false,
+      "LockLayer":true,
+	  "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 350,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          "ModeID":146,
+          "grid":100
+        }
+      ]  
+	}
+	,
+	{
+      "id": 4,
+      "backid": 3,
+      "nextid": 0,
+      "type": 2,
+      "Uitype":2,
+      "Captain":true,
+      "BlackLayer":false,
+      "Reset":false,
+      "LockLayer":true,
+      "VecCompel": 
+      [
+        {
+          "ModeID":146,
+          "grid":100
+        }
+      ]  }
+	
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "guid": 
+  [
+    {
+      "id": 1,
+      "backid": 0,
+      "nextid": 2,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"連這裡也淪陷了咕。",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "AddCost":100,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 350,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          
+        }
+      ]  
+    }
+	,
+	{
+      "id": 2,
+      "backid": 1,
+      "nextid": 3,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"快將僵屍擋住，否則這裡的百姓就要遭殃咕。",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "AddCost":100,
+	  "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 350,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          
+        }
+      ]  
+    }
+	,
+	{
+      "id": 3,
+      "backid": 2,
+      "nextid": 4,
+      "type": 1,
+      "Name":"極品元",
+      "Name_x":860,
+      "Name_y":200,
+      "describe":"怎……怎麼擋？",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "AddCost":100,
+	  "ImageData": [
+        {
+          "File": "storyImage/146.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 850,
+          "PosY": 335,
+          "FlipX": true,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          
+        }
+      ]  
+    }
+	,
+	{
+      "id": 4,
+      "backid": 3,
+      "nextid": 5,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"這次連記憶也丟失了嗎咕？",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "AddCost":100,
+	  "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 350,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          
+        }
+      ]  
+    }
+	,
+	{
+      "id": 5,
+      "backid": 4,
+      "nextid": 6,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"沒關係，按我說的做咕！",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "AddCost":100,
+	   "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 350,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          
+        }
+      ]  
+    }
+	
+	,
+	{
+      "id": 6,
+      "backid": 5,
+      "nextid": 7,
+      "type": 1,
+      "describe":"左下藍條為靈魂值。",
+	  "describe_HorizontalAlignment": 0,
+	  "describe_color": 0,
+      "desc_x":260,
+      "desc_y":240,
+      "Captain":false,
+      "BlackLayer":false,
+	  "BlackBottom":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "AddCost":100,
+	  "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":1,
+          "Scale": 1,
+          "PosX": 100,
+          "PosY": 360,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        },
+		 {
+          "File": "selectRole/messagebox.png",
+		  "Zorder":1,
+          "Scale": 1,
+          "PosX": 380,
+          "PosY": 220,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+		,
+		 {
+          "File": "selectRole/learnmask_02.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 569,
+          "PosY": 320,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          
+        }
+      ]  
+    },
+	{
+      "id": 7,
+      "backid": 6,
+      "nextid": 8,
+      "type": 1,
+      "describe":"右下圖示為本場戰鬥\n可上場的角色咕。",
+	  "describe_HorizontalAlignment": 0,
+	  "describe_color": 0,
+      "desc_x":260,
+      "desc_y":250,
+      "Captain":false,
+      "BlackLayer":false,
+	  "BlackBottom":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "AddCost":100,
+	  "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":1,
+          "Scale": 1,
+          "PosX": 100,
+          "PosY": 360,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        },
+		 {
+          "File": "selectRole/messagebox.png",
+		  "Zorder":1,
+          "Scale": 1,
+          "PosX": 380,
+          "PosY": 220,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+		,
+		 {
+          "File": "selectRole/learnmask_01.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 569,
+          "PosY": 320,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          
+        }
+      ]  
+    }
+	,
+	{
+      "id": 8,
+      "backid": 7,
+      "nextid": 9,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"支付對應的靈魂值，便能召喚該角色上場戰鬥咕！",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "AddCost":100,
+	  "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 350,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          
+        }
+      ]  
+    }
+	,
+	{
+      "id": 9,
+      "backid": 8,
+      "nextid": 10,
+      "type": 1,
+      "Name":"小白",
+      "Name_x":200,
+      "Name_y":200,
+      "describe":"趕緊試試看，抵擋住僵屍第一波攻勢咕！！",
+      "desc_x":400,
+      "desc_y":70,
+      "Captain":false,
+      "BlackLayer":false,
+      "Reset":true,
+      "LockLayer":true,
+	  "AddCost":100,
+	  "ImageData": [
+        {
+          "File": "selectRole/2046.png",
+		  "Zorder":0,
+          "Scale": 1,
+          "PosX": 220,
+          "PosY": 350,
+          "FlipX": false,
+          "FlipY": false,
+          "Rotation": 0,
+          "MoveDir": 0
+        }
+      ],
+      "VecCompel": 
+      [
+        {
+          
+        }
+      ]  
+    }
+	,
+	{
+      "id": 10,
+      "backid": 9,
+      "nextid": 11,
+      "type": 4,
+      "Uitype":2,
+      "beginGrid":0,
+      "FnishGrid":113,
+      "Captain":true,
+      "BlackLayer":false,
+      "Reset":false,
+      "LockLayer":true,
+      "VecCompel": 
+      [
+        {
+          "ModeID":146,
+          "grid":100
+        }
+      ]  
+    }
+	,
+	{
+      "id": 11,
+      "backid": 10,
+      "nextid": 0,
+      "type": 4,
+      "Uitype":3,
+      "beginGrid":0,
+      "FnishGrid":114,
+      "Captain":true,
+      "BlackLayer":false,
+      "Reset":false,
+      "LockLayer":true,
+      "VecCompel": 
+      [
+        {
+          "ModeID":146,
+          "grid":100
+        }
+      ]  
+    }
+  ]
+}
