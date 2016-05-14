@@ -389,7 +389,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\scene\layer\BackLayer.cpp" />
     <ClCompile Include="..\Classes\scene\layer\GameTip.cpp" />
     <ClCompile Include="..\Classes\scene\layer\LayerManager.cpp" />
-    <ClCompile Include="..\Classes\scene\layer\PauseLayer.cpp" />
     <ClCompile Include="..\Classes\scene\layer\PropGetInfo.cpp" />
     <ClCompile Include="..\Classes\scene\layer\SetPanel.cpp" />
     <ClCompile Include="..\Classes\scene\layer\StoryLayer.cpp" />
@@ -446,13 +445,11 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\vip\VipLayer.cpp" />
     <ClCompile Include="..\Classes\vip\VipPower.cpp" />
     <ClCompile Include="..\Classes\warscene\ArmatureEventDataMgr.cpp" />
-    <ClCompile Include="..\Classes\warscene\BatchLayer.cpp" />
     <ClCompile Include="..\Classes\warscene\BattleResult.cpp" />
     <ClCompile Include="..\Classes\warscene\BattleTools.cpp" />
     <ClCompile Include="..\Classes\warscene\BufExp.cpp" />
     <ClCompile Include="..\Classes\warscene\CaptainSkill.cpp" />
     <ClCompile Include="..\Classes\warscene\CHeroSoundData.cpp" />
-    <ClCompile Include="..\Classes\warscene\ComBatDataSaveXML.cpp" />
     <ClCompile Include="..\Classes\warscene\CombatEffect.cpp" />
     <ClCompile Include="..\Classes\warscene\CombatGuideLayer.cpp" />
     <ClCompile Include="..\Classes\warscene\CombatGuideData.cpp" />
@@ -475,7 +472,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\warscene\WarBackLayer.cpp" />
     <ClCompile Include="..\Classes\warscene\WarControl.cpp" />
     <ClCompile Include="..\Classes\warscene\WarFailLayer.cpp" />
-    <ClCompile Include="..\Classes\warscene\WarRelive.cpp" />
     <ClCompile Include="..\Classes\warscene\WarWinLayer.cpp" />
     <ClCompile Include="..\Classes\warscene\WorldBossEndLayer.cpp" />
     <ClCompile Include="main.cpp" />
@@ -783,8 +779,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\scene\layer\BackLayer.h" />
     <ClInclude Include="..\Classes\scene\layer\GameTip.h" />
     <ClInclude Include="..\Classes\scene\layer\LayerManager.h" />
-    <ClInclude Include="..\Classes\scene\layer\LayerDefine.h" />
-    <ClInclude Include="..\Classes\scene\layer\PauseLayer.h" />
     <ClInclude Include="..\Classes\scene\layer\PropGetInfo.h" />
     <ClInclude Include="..\Classes\scene\layer\SetPanel.h" />
     <ClInclude Include="..\Classes\scene\layer\StoryLayer.h" />
@@ -795,7 +789,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\scene\loadWar.h" />
     <ClInclude Include="..\Classes\scene\LoginScene.h" />
     <ClInclude Include="..\Classes\scene\LogoScene.h" />
-    <ClInclude Include="..\Classes\scene\SceneDefine.h" />
     <ClInclude Include="..\Classes\scene\SelectHeroScene.h" />
     <ClInclude Include="..\Classes\scene\state\GameStateManager.h" />
     <ClInclude Include="..\Classes\scene\state\GameTransition.h" />
@@ -848,13 +841,11 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\vip\VipLayer.h" />
     <ClInclude Include="..\Classes\vip\VipPower.h" />
     <ClInclude Include="..\Classes\warscene\ArmatureEventDataMgr.h" />
-    <ClInclude Include="..\Classes\warscene\BatchLayer.h" />
     <ClInclude Include="..\Classes\warscene\BattleResult.h" />
     <ClInclude Include="..\Classes\warscene\BattleTools.h" />
     <ClInclude Include="..\Classes\warscene\BufExp.h" />
     <ClInclude Include="..\Classes\warscene\CaptainSkill.h" />
     <ClInclude Include="..\Classes\warscene\CHeroSoundData.h" />
-    <ClInclude Include="..\Classes\warscene\ComBatDataSaveXML.h" />
     <ClInclude Include="..\Classes\warscene\CombatEffect.h" />
     <ClInclude Include="..\Classes\warscene\CombatGuideLayer.h" />
     <ClInclude Include="..\Classes\warscene\CombatGuideData.h" />
@@ -878,7 +869,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\warscene\WarBackLayer.h" />
     <ClInclude Include="..\Classes\warscene\WarControl.h" />
     <ClInclude Include="..\Classes\warscene\WarFailLayer.h" />
-    <ClInclude Include="..\Classes\warscene\WarRelive.h" />
     <ClInclude Include="..\Classes\warscene\WarWinLayer.h" />
     <ClInclude Include="..\Classes\warscene\WorldBossEndLayer.h" />
     <ClInclude Include="main.h" />

@@ -336,9 +336,6 @@
     <ClCompile Include="..\Classes\scene\layer\SetPanel.cpp">
       <Filter>Classes\scene\layer</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\scene\layer\PauseLayer.cpp">
-      <Filter>Classes\scene\layer</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\scene\layer\WarAliveLayer.cpp">
       <Filter>Classes\scene\layer</Filter>
     </ClCompile>
@@ -514,9 +511,6 @@
       <Filter>Classes\protos</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\scene\layer\GameTip.cpp" />
-    <ClCompile Include="..\Classes\scene\layer\WaitLayer.cpp">
-      <Filter>Classes\scene\layer</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\tools\CCShake.cpp">
       <Filter>Classes\common</Filter>
     </ClCompile>
@@ -952,14 +946,8 @@
     <ClCompile Include="..\Classes\warscene\MapEffect.cpp">
       <Filter>Classes\warScene</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\warscene\ComBatDataSaveXML.cpp">
-      <Filter>Classes\warScene</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\model\TerrainLayer.cpp">
       <Filter>Classes\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\warscene\BatchLayer.cpp">
-      <Filter>Classes\warScene\Layer</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\warscene\BattleResult.cpp">
       <Filter>Classes\warScene</Filter>
@@ -1087,9 +1075,6 @@
     <ClCompile Include="..\Classes\warscene\CHeroSoundData.cpp">
       <Filter>Classes\warScene</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\warscene\WarRelive.cpp">
-      <Filter>Classes\warScene</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\reward\WorldBoss.cpp">
       <Filter>Classes\reward</Filter>
     </ClCompile>
@@ -1201,9 +1186,14 @@
     <ClCompile Include="..\Classes\common\CSpecialProgress.cpp">
       <Filter>Classes\common</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\LoadPngData.cpp" />
     <ClCompile Include="..\Classes\warscene\ComBatLogic.cpp">
       <Filter>Classes\warScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\WaitLayer.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\LoadPngData.cpp">
+      <Filter>Classes\Battle</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1387,9 +1377,6 @@
     <ClInclude Include="..\Classes\scene\state\GameTransition.h">
       <Filter>Classes\scene\state</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\scene\SceneDefine.h">
-      <Filter>Classes\scene</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\scene\alive\AliveDefine.h">
       <Filter>Classes\scene\alive</Filter>
     </ClInclude>
@@ -1408,13 +1395,7 @@
     <ClInclude Include="..\Classes\model\UserManager.h">
       <Filter>Classes\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\scene\layer\LayerDefine.h">
-      <Filter>Classes\scene\layer</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\scene\layer\SetPanel.h">
-      <Filter>Classes\scene\layer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\scene\layer\PauseLayer.h">
       <Filter>Classes\scene\layer</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\scene\layer\WarAliveLayer.h">
@@ -1655,9 +1636,6 @@
       <Filter>Classes\protos</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\scene\layer\GameTip.h" />
-    <ClInclude Include="..\Classes\scene\layer\WaitLayer.h">
-      <Filter>Classes\scene\layer</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\tools\CCShake.h">
       <Filter>Classes\common</Filter>
     </ClInclude>
@@ -2132,14 +2110,8 @@
     <ClInclude Include="..\Classes\warscene\MapEffect.h">
       <Filter>Classes\warScene</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\warscene\ComBatDataSaveXML.h">
-      <Filter>Classes\warScene</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\model\TerrainLayer.h">
       <Filter>Classes\model</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\warscene\BatchLayer.h">
-      <Filter>Classes\warScene\Layer</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\warscene\BattleResult.h">
       <Filter>Classes\warScene</Filter>
@@ -2273,9 +2245,6 @@
     <ClInclude Include="..\Classes\warscene\CHeroSoundData.h">
       <Filter>Classes\warScene</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\warscene\WarRelive.h">
-      <Filter>Classes\warScene</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\reward\WorldBoss.h">
       <Filter>Classes\reward</Filter>
     </ClInclude>
@@ -2405,9 +2374,14 @@
     <ClInclude Include="..\Classes\common\CSpecialProgress.h">
       <Filter>Classes\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\LoadPngData.h" />
     <ClInclude Include="..\Classes\warscene\ComBatLogic.h">
       <Filter>Classes\warScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\WaitLayer.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\LoadPngData.h">
+      <Filter>Classes\Battle</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
