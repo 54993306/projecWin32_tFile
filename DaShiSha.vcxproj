@@ -312,7 +312,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\model\DataCenter.cpp" />
     <ClCompile Include="..\Classes\model\DataDefine.cpp" />
     <ClCompile Include="..\Classes\model\DataPool.cpp" />
-    <ClCompile Include="..\Classes\model\EmBattleModel.cpp" />
     <ClCompile Include="..\Classes\model\HeroInfoGM.cpp" />
     <ClCompile Include="..\Classes\model\ItemGM.cpp" />
     <ClCompile Include="..\Classes\model\MapManager.cpp" />
@@ -325,7 +324,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\model\TollgateGM.cpp" />
     <ClCompile Include="..\Classes\model\UserManager.cpp" />
     <ClCompile Include="..\Classes\model\WarManager.cpp" />
-    <ClCompile Include="..\Classes\model\WuJiangGM.cpp" />
     <ClCompile Include="..\Classes\netcontrol\CPlayerControl.cpp" />
     <ClCompile Include="..\Classes\net\CNetClient.cpp" />
     <ClCompile Include="..\Classes\net\CNetSocket.cpp" />
@@ -696,7 +694,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\model\DataCenter.h" />
     <ClInclude Include="..\Classes\model\DataDefine.h" />
     <ClInclude Include="..\Classes\model\DataPool.h" />
-    <ClInclude Include="..\Classes\model\EmBattleModel.h" />
     <ClInclude Include="..\Classes\model\HeroInfoGM.h" />
     <ClInclude Include="..\Classes\model\ItemGM.h" />
     <ClInclude Include="..\Classes\model\MapManager.h" />
@@ -709,7 +706,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\model\TollgateGM.h" />
     <ClInclude Include="..\Classes\model\UserManager.h" />
     <ClInclude Include="..\Classes\model\WarManager.h" />
-    <ClInclude Include="..\Classes\model\WuJiangGM.h" />
     <ClInclude Include="..\Classes\netcontrol\CPlayerControl.h" />
     <ClInclude Include="..\Classes\net\CNetClient.h" />
     <ClInclude Include="..\Classes\net\CNetSocket.h" />

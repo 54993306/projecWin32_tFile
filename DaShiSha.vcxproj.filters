@@ -348,14 +348,8 @@
     <ClCompile Include="..\Classes\scene\layer\StoryLayer.cpp">
       <Filter>Classes\scene\layer</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\model\WuJiangGM.cpp">
-      <Filter>Classes\model</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\scene\layer\LayerManager.cpp">
       <Filter>Classes\scene\layer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\model\EmBattleModel.cpp">
-      <Filter>Classes\model</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\model\SkillGM.cpp">
       <Filter>Classes\model</Filter>
@@ -1410,14 +1404,8 @@
     <ClInclude Include="..\Classes\scene\layer\StoryLayer.h">
       <Filter>Classes\scene\layer</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\model\WuJiangGM.h">
-      <Filter>Classes\model</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\scene\layer\LayerManager.h">
       <Filter>Classes\scene\layer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\model\EmBattleModel.h">
-      <Filter>Classes\model</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\model\SkillGM.h">
       <Filter>Classes\model</Filter>
