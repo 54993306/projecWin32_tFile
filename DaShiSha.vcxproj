@@ -150,6 +150,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\Battle\LoadPngData.cpp" />
     <ClCompile Include="..\Classes\Battle\LoadSpineData.cpp" />
     <ClCompile Include="..\Classes\Battle\MonsterRole.cpp" />
+    <ClCompile Include="..\Classes\Battle\MoveObject.cpp" />
     <ClCompile Include="..\Classes\Battle\ParseRoleConfigFile.cpp" />
     <ClCompile Include="..\Classes\Battle\RoleBaseData.cpp" />
     <ClCompile Include="..\Classes\Battle\RoleConfigData.cpp" />
@@ -496,6 +497,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\Battle\HeroRole.h" />
     <ClInclude Include="..\Classes\Battle\LoadPngData.h" />
     <ClInclude Include="..\Classes\Battle\LoadSpineData.h" />
+    <ClInclude Include="..\Classes\Battle\MoveObject.h" />
     <ClInclude Include="..\Classes\Battle\MonsterRole.h" />
     <ClInclude Include="..\Classes\Battle\ParseRoleConfigFile.h" />
     <ClInclude Include="..\Classes\Battle\RoleBaseData.h" />

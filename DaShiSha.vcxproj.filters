@@ -1189,6 +1189,9 @@
     <ClCompile Include="..\Classes\Battle\LoadPngData.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MoveObject.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -2369,6 +2372,9 @@
       <Filter>Classes\scene\layer</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\LoadPngData.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MoveObject.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
   </ItemGroup>
