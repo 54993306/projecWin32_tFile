@@ -1192,6 +1192,24 @@
     <ClCompile Include="..\Classes\Battle\MoveObject.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleRole.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleTrap.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleField.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\SkillEffect.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\RoleBuffData.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\TempData.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -2375,6 +2393,24 @@
       <Filter>Classes\Battle</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\MoveObject.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleRole.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleField.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleTrap.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\SkillEffect.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleBuffData.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\TempData.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
   </ItemGroup>

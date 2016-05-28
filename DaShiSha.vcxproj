@@ -145,6 +145,9 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\bag\ItemTip.cpp" />
     <ClCompile Include="..\Classes\bag\StuffTip.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleDataCenter.cpp" />
+    <ClCompile Include="..\Classes\Battle\BattleField.cpp" />
+    <ClCompile Include="..\Classes\Battle\BattleRole.cpp" />
+    <ClCompile Include="..\Classes\Battle\BattleTrap.cpp" />
     <ClCompile Include="..\Classes\Battle\GameRoleData.cpp" />
     <ClCompile Include="..\Classes\Battle\HeroRole.cpp" />
     <ClCompile Include="..\Classes\Battle\LoadPngData.cpp" />
@@ -153,7 +156,10 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\Battle\MoveObject.cpp" />
     <ClCompile Include="..\Classes\Battle\ParseRoleConfigFile.cpp" />
     <ClCompile Include="..\Classes\Battle\RoleBaseData.cpp" />
+    <ClCompile Include="..\Classes\Battle\RoleBuffData.cpp" />
     <ClCompile Include="..\Classes\Battle\RoleConfigData.cpp" />
+    <ClCompile Include="..\Classes\Battle\SkillEffect.cpp" />
+    <ClCompile Include="..\Classes\Battle\TempData.cpp" />
     <ClCompile Include="..\Classes\C2DXShareSDK\C2DXShareSDK.cpp" />
     <ClCompile Include="..\Classes\CCSpriteWithFilter.cpp" />
     <ClCompile Include="..\Classes\CCTK\ArmatureBtn.cpp" />
@@ -491,8 +497,11 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\bag\ItemTip.h" />
     <ClInclude Include="..\Classes\bag\StuffTip.h" />
     <ClInclude Include="..\Classes\Battle\BattleDataCenter.h" />
+    <ClInclude Include="..\Classes\Battle\BattleField.h" />
     <ClInclude Include="..\Classes\Battle\BattleMacro.h" />
     <ClInclude Include="..\Classes\Battle\BattleMessage.h" />
+    <ClInclude Include="..\Classes\Battle\BattleRole.h" />
+    <ClInclude Include="..\Classes\Battle\BattleTrap.h" />
     <ClInclude Include="..\Classes\Battle\GameRoleData.h" />
     <ClInclude Include="..\Classes\Battle\HeroRole.h" />
     <ClInclude Include="..\Classes\Battle\LoadPngData.h" />
@@ -501,7 +510,10 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\Battle\MonsterRole.h" />
     <ClInclude Include="..\Classes\Battle\ParseRoleConfigFile.h" />
     <ClInclude Include="..\Classes\Battle\RoleBaseData.h" />
+    <ClInclude Include="..\Classes\Battle\RoleBuffData.h" />
     <ClInclude Include="..\Classes\Battle\RoleConfigData.h" />
+    <ClInclude Include="..\Classes\Battle\SkillEffect.h" />
+    <ClInclude Include="..\Classes\Battle\TempData.h" />
     <ClInclude Include="..\Classes\C2DXShareSDK\C2DXShareSDK.h" />
     <ClInclude Include="..\Classes\C2DXShareSDK\C2DXShareSDKTypeDef.h" />
     <ClInclude Include="..\Classes\CCSpriteWidthFilter.h" />
