@@ -157,9 +157,6 @@
     <Filter Include="Classes\Battle\Data\RoleConfig">
       <UniqueIdentifier>{ecec8cd3-3b04-435b-a696-602cb7d3c8cc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Battle\Data\RoleServerData">
-      <UniqueIdentifier>{65339de6-c14d-45db-add2-bbd30c5beb73}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\Battle\Data\Story">
       <UniqueIdentifier>{4786afef-e72b-4e5a-a013-a75cf2304f80}</UniqueIdentifier>
     </Filter>
@@ -1123,12 +1120,6 @@
     <ClCompile Include="..\Classes\Battle\LoadSpineData.cpp">
       <Filter>Classes\Battle\Data\SpineData</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\GameRoleData.cpp">
-      <Filter>Classes\Battle\Data\RoleServerData</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\RoleBaseData.cpp">
-      <Filter>Classes\Battle\Data\RoleServerData</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\ReloadResCoverLayer.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
@@ -1158,12 +1149,6 @@
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\ParseRoleConfigFile.cpp">
       <Filter>Classes\Battle\Data\RoleConfig</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\HeroRole.cpp">
-      <Filter>Classes\Battle\Data\RoleServerData</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\MonsterRole.cpp">
-      <Filter>Classes\Battle\Data\RoleServerData</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\model\DataPool.cpp">
       <Filter>Classes\model</Filter>
@@ -1201,13 +1186,20 @@
     <ClCompile Include="..\Classes\Battle\BattleField.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\SkillEffect.cpp">
-      <Filter>Classes\Battle</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\RoleBuffData.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\TempData.cpp">
+    <ClCompile Include="..\Classes\Battle\AreaCount.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\GuardArea.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\RoleSkill.cpp" />
+    <ClCompile Include="..\Classes\Battle\skEffectData.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\RoleBaseData.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
   </ItemGroup>
@@ -2326,12 +2318,6 @@
     <ClInclude Include="..\Classes\Battle\LoadSpineData.h">
       <Filter>Classes\Battle\Data\SpineData</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\GameRoleData.h">
-      <Filter>Classes\Battle\Data\RoleServerData</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleBaseData.h">
-      <Filter>Classes\Battle\Data\RoleServerData</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\ReloadResCoverLayer.h">
       <Filter>Classes</Filter>
     </ClInclude>
@@ -2361,12 +2347,6 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\ParseRoleConfigFile.h">
       <Filter>Classes\Battle\Data\RoleConfig</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\HeroRole.h">
-      <Filter>Classes\Battle\Data\RoleServerData</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\MonsterRole.h">
-      <Filter>Classes\Battle\Data\RoleServerData</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\model\DataPool.h">
       <Filter>Classes\model</Filter>
@@ -2404,13 +2384,28 @@
     <ClInclude Include="..\Classes\Battle\BattleTrap.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\SkillEffect.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\RoleBuffData.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\TempData.h">
+    <ClInclude Include="..\Classes\Battle\SkillMacro.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AreaCount.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\GuardArea.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleRoleMacro.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleSkill.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\skEffectData.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleBaseData.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
   </ItemGroup>
