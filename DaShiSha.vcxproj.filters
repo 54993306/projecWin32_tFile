@@ -1177,16 +1177,10 @@
     <ClCompile Include="..\Classes\Battle\MoveObject.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleRole.cpp">
-      <Filter>Classes\Battle</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\BattleTrap.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\BattleField.cpp">
-      <Filter>Classes\Battle</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\RoleBuffData.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\AreaCount.cpp">
@@ -1198,9 +1192,6 @@
     <ClCompile Include="..\Classes\Battle\skEffectData.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\RoleBaseData.cpp">
-      <Filter>Classes\Battle</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\MonsterData.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
@@ -1208,6 +1199,21 @@
       <Filter>Classes\Battle</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\HeroData.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BaseRole.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BaseRoleData.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\HeroRole.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MonsterRole.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BuffData.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
   </ItemGroup>
@@ -2383,16 +2389,10 @@
     <ClInclude Include="..\Classes\Battle\MoveObject.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleRole.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\BattleField.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\BattleTrap.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleBuffData.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\SkillMacro.h">
@@ -2413,16 +2413,23 @@
     <ClInclude Include="..\Classes\Battle\skEffectData.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleBaseData.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleDefine.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\MonsterData.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\HeroData.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BaseRole.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BaseRoleData.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\HeroRole.h" />
+    <ClInclude Include="..\Classes\Battle\MonsterRole.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BuffData.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
   </ItemGroup>
