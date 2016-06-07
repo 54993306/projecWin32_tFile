@@ -1195,11 +1195,19 @@
     <ClCompile Include="..\Classes\Battle\GuardArea.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\RoleSkill.cpp" />
     <ClCompile Include="..\Classes\Battle\skEffectData.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\RoleBaseData.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MonsterData.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\RoleSkill.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\HeroData.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
   </ItemGroup>
@@ -2406,6 +2414,15 @@
       <Filter>Classes\Battle</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\RoleBaseData.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleDefine.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MonsterData.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\HeroData.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
   </ItemGroup>

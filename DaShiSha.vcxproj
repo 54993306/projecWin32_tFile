@@ -80,6 +80,7 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <DisableSpecificWarnings>4267;4251;4244;4018;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ObjectFileName>$(IntDir)/%(Directory)</ObjectFileName>
     </ClCompile>
     <Link>
       <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -150,8 +151,10 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\Battle\BattleRole.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleTrap.cpp" />
     <ClCompile Include="..\Classes\Battle\GuardArea.cpp" />
+    <ClCompile Include="..\Classes\Battle\HeroData.cpp" />
     <ClCompile Include="..\Classes\Battle\LoadPngData.cpp" />
     <ClCompile Include="..\Classes\Battle\LoadSpineData.cpp" />
+    <ClCompile Include="..\Classes\Battle\MonsterData.cpp" />
     <ClCompile Include="..\Classes\Battle\MoveObject.cpp" />
     <ClCompile Include="..\Classes\Battle\ParseRoleConfigFile.cpp" />
     <ClCompile Include="..\Classes\Battle\RoleBuffData.cpp" />
@@ -504,12 +507,15 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\Battle\BattleRoleMacro.h" />
     <ClInclude Include="..\Classes\Battle\BattleTrap.h" />
     <ClInclude Include="..\Classes\Battle\GuardArea.h" />
+    <ClInclude Include="..\Classes\Battle\HeroData.h" />
     <ClInclude Include="..\Classes\Battle\LoadPngData.h" />
     <ClInclude Include="..\Classes\Battle\LoadSpineData.h" />
+    <ClInclude Include="..\Classes\Battle\MonsterData.h" />
     <ClInclude Include="..\Classes\Battle\MoveObject.h" />
     <ClInclude Include="..\Classes\Battle\ParseRoleConfigFile.h" />
     <ClInclude Include="..\Classes\Battle\RoleBuffData.h" />
     <ClInclude Include="..\Classes\Battle\RoleConfigData.h" />
+    <ClInclude Include="..\Classes\Battle\RoleDefine.h" />
     <ClInclude Include="..\Classes\Battle\RoleSkill.h" />
     <ClInclude Include="..\Classes\Battle\skEffectData.h" />
     <ClInclude Include="..\Classes\Battle\SkillMacro.h" />
