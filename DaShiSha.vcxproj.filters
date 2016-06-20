@@ -136,9 +136,6 @@
     <Filter Include="Classes\Battle\Data\RoleConfig">
       <UniqueIdentifier>{ecec8cd3-3b04-435b-a696-602cb7d3c8cc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Battle\Data\Story">
-      <UniqueIdentifier>{4786afef-e72b-4e5a-a013-a75cf2304f80}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\Battle\AffectArea">
       <UniqueIdentifier>{3f1c9da3-d700-4441-a231-c3ba3ef30551}</UniqueIdentifier>
     </Filter>
