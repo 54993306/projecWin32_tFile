@@ -136,31 +136,37 @@
     <Filter Include="Classes\Battle\Data\RoleConfig">
       <UniqueIdentifier>{ecec8cd3-3b04-435b-a696-602cb7d3c8cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\pvp_UI">
+      <UniqueIdentifier>{f15d528c-69b1-4261-aa4e-a17410ab9405}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Classes\Battle\AffectArea">
-      <UniqueIdentifier>{3f1c9da3-d700-4441-a231-c3ba3ef30551}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Battle\UnClassify">
-      <UniqueIdentifier>{15419b59-7148-4840-b8e3-87d019662b86}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\UnClassify">
-      <UniqueIdentifier>{9a576f0e-2511-4b64-ac26-862e6dfae4b3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Battle\StateManage">
-      <UniqueIdentifier>{3b7a1754-866a-46cf-a5f2-0fadac543770}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Battle\RoleObject">
-      <UniqueIdentifier>{efb30a06-0ef7-4995-9dec-a1c51f62b79e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Battle\BattleScene">
-      <UniqueIdentifier>{4147264b-9df4-4766-a4c2-09648948737c}</UniqueIdentifier>
+      <UniqueIdentifier>{8260a237-ae23-4d86-8e0f-c5f0c1c0f60b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Classes\Battle\BattleLayer">
-      <UniqueIdentifier>{36ba5c2a-b731-4236-a730-9ebb02170e3b}</UniqueIdentifier>
+      <UniqueIdentifier>{a269d2fb-a767-453a-be65-c2f76e34e3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\BattleScene">
+      <UniqueIdentifier>{a10d8597-d4a1-400b-a3b9-2c67013de427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\RoleObject">
+      <UniqueIdentifier>{25aaad78-b7b9-4f7a-8863-341acb21e726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\StateManage">
+      <UniqueIdentifier>{98cb8fde-2d5b-47f6-9ff2-cf59f3fa31fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\UnClassify">
+      <UniqueIdentifier>{2cfeb1f2-23f3-4157-88f6-ae4764f67a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Strategy">
+      <UniqueIdentifier>{d4a2d3fd-35db-410c-b064-f99b86c912d0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\CCTK\array.cpp">
       <Filter>Classes\CCTK</Filter>
@@ -296,6 +302,9 @@
     </ClCompile>
     <ClCompile Include="..\Classes\tools\MathUtil.cpp">
       <Filter>Classes\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\WuJiangGM.cpp">
+      <Filter>Classes\model</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\scene\layer\LayerManager.cpp">
       <Filter>Classes\scene\layer</Filter>
@@ -454,6 +463,9 @@
       <Filter>Classes\protos</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\scene\layer\GameTip.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\WaitLayer.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
     <ClCompile Include="..\Classes\tools\CCShake.cpp">
       <Filter>Classes\common</Filter>
     </ClCompile>
@@ -549,6 +561,9 @@
     </ClCompile>
     <ClCompile Include="..\Classes\filter\CCWaveFilter.cpp">
       <Filter>Classes\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCSpriteWithFilter.cpp">
+      <Filter>Classes</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\mainCity\mainCityUI.cpp">
       <Filter>Classes\mainCity</Filter>
@@ -976,6 +991,9 @@
     <ClCompile Include="..\Classes\Battle\LoadSpineData.cpp">
       <Filter>Classes\Battle\Data\SpineData</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\ReloadResCoverLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
     <ClCompile Include="..\Classes\mainCity\StarUpItem.cpp">
       <Filter>Classes\mainCity</Filter>
     </ClCompile>
@@ -1018,122 +1036,116 @@
     <ClCompile Include="..\Classes\common\CSpecialProgress.cpp">
       <Filter>Classes\common</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\scene\layer\WaitLayer.cpp">
-      <Filter>Classes\scene\layer</Filter>
+    <ClCompile Include="..\Classes\update\CPackageVersionJson.cpp">
+      <Filter>Classes\update</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AreaCount.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClCompile Include="..\Classes\vip\CVipCard.cpp">
+      <Filter>Classes\vip</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BaseRole.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClCompile Include="..\Classes\vip\CPaySelect.cpp">
+      <Filter>Classes\vip</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BaseRoleData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClCompile Include="..\Classes\activity\ActivityCollect.cpp">
+      <Filter>Classes\activity</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleField.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClCompile Include="..\Classes\model\ShareGM.cpp">
+      <Filter>Classes\model</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleTrap.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClCompile Include="..\Classes\pvp_ui\SelectChallengeLayer.cpp">
+      <Filter>Classes\pvp_UI</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BuffData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClCompile Include="..\Classes\pvp_ui\TranstionEffectLayer.cpp">
+      <Filter>Classes\pvp_UI</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\GuardArea.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClCompile Include="..\Classes\pvp_ui\SelectDefense.cpp">
+      <Filter>Classes\pvp_UI</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\HeroData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClCompile Include="..\Classes\protos\pvp_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\HeroRole.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClCompile Include="..\Classes\pvp_ui\PvpGateLayer.cpp">
+      <Filter>Classes\pvp_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pvp_ui\PvpMenuLayer.cpp">
+      <Filter>Classes\pvp_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pvp_ui\PvpRuleLayer.cpp">
+      <Filter>Classes\pvp_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pvp_ui\PvpRecord.cpp">
+      <Filter>Classes\pvp_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pvp_ui\SelecPvptArmy.cpp">
+      <Filter>Classes\pvp_UI</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\LoadPngData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\MonsterData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\MonsterRole.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\MoveObject.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\RoleSkill.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\skEffectData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
+      <Filter>Classes\Battle</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectArea.cpp">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFront.cpp">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectNearby.cpp">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectVertical.cpp">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontTwo.cpp">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectCross.cpp">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\AppDelegate.cpp">
-      <Filter>Classes\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\CCSpriteWithFilter.cpp">
-      <Filter>Classes\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ReloadResCoverLayer.cpp">
-      <Filter>Classes\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontFourGrid.cpp">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectLowesHp.cpp">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectTArea.cpp">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectCamp.cpp">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontArea.cpp">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectCenterArea.cpp">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectBackArea.cpp">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFixGrid.cpp">
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectCamp.cpp">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectCenterArea.cpp">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectCross.cpp">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectFixAlive.cpp">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFixGrid.cpp">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFront.cpp">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontArea.cpp">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontFourGrid.cpp">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontTwo.cpp">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectLowesHp.cpp">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClCompile>
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectMapArea.cpp">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\StateManage\GameStateManager.cpp">
-      <Filter>Classes\Battle\StateManage</Filter>
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectNearby.cpp">
+      <Filter>Classes\Battle\AffectArea</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\StateManage\GameTransition.cpp">
-      <Filter>Classes\Battle\StateManage</Filter>
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectTArea.cpp">
+      <Filter>Classes\Battle\AffectArea</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\StateManage\PostureState.cpp">
-      <Filter>Classes\Battle\StateManage</Filter>
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectVertical.cpp">
+      <Filter>Classes\Battle\AffectArea</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\StateManage\StateManager.cpp">
-      <Filter>Classes\Battle\StateManage</Filter>
+    <ClCompile Include="..\Classes\Battle\BattleLayer\BattleMapLayer.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleLayer\BattleRoleLayer.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleLayer\StoryLayer.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleScene\BattleScene.cpp">
+      <Filter>Classes\Battle\BattleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleScene\LoadBattleResource.cpp">
+      <Filter>Classes\Battle\BattleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleScene\LogoScene.cpp">
+      <Filter>Classes\Battle\BattleScene</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\RoleObject\AliveObject.cpp">
       <Filter>Classes\Battle\RoleObject</Filter>
@@ -1147,31 +1159,34 @@
     <ClCompile Include="..\Classes\Battle\RoleObject\RoleObject.cpp">
       <Filter>Classes\Battle\RoleObject</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\EffectObject.cpp">
-      <Filter>Classes\Battle</Filter>
+    <ClCompile Include="..\Classes\Battle\StateManage\GameStateManager.cpp">
+      <Filter>Classes\Battle\StateManage</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleScene\BattleScene.cpp">
-      <Filter>Classes\Battle\BattleScene</Filter>
+    <ClCompile Include="..\Classes\Battle\StateManage\GameTransition.cpp">
+      <Filter>Classes\Battle\StateManage</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleScene\LoadBattleResource.cpp">
-      <Filter>Classes\Battle\BattleScene</Filter>
+    <ClCompile Include="..\Classes\Battle\StateManage\PostureState.cpp">
+      <Filter>Classes\Battle\StateManage</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleLayer\BattleMapLayer.cpp">
-      <Filter>Classes\Battle\BattleLayer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleLayer\BattleRoleLayer.cpp">
-      <Filter>Classes\Battle\BattleLayer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleLayer\StoryLayer.cpp">
-      <Filter>Classes\Battle\BattleLayer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleScene\LogoScene.cpp">
-      <Filter>Classes\Battle\BattleScene</Filter>
+    <ClCompile Include="..\Classes\Battle\StateManage\StateManager.cpp">
+      <Filter>Classes\Battle\StateManage</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\AnimationManager.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AreaCount.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
     <ClCompile Include="..\Classes\Battle\ArmatureEventDataMgr.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BaseRole.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BaseRoleData.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleField.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\BattleResult.cpp">
@@ -1180,7 +1195,13 @@
     <ClCompile Include="..\Classes\Battle\BattleTools.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleTrap.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
     <ClCompile Include="..\Classes\Battle\BufExp.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BuffData.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\CaptainSkill.cpp">
@@ -1216,10 +1237,25 @@
     <ClCompile Include="..\Classes\Battle\EffectData.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Battle\EffectObject.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\GuardArea.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\HeroData.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
     <ClCompile Include="..\Classes\Battle\HurtCount.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\MapEffect.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MonsterData.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MoveObject.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\MoveRule.cpp">
@@ -1229,6 +1265,12 @@
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\RandomBusineseMan.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\RoleSkill.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\skEffectData.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\SkillRange.cpp">
@@ -1261,10 +1303,61 @@
     <ClCompile Include="..\Classes\Battle\WorldBossEndLayer.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Battle\HeroRole.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MonsterRole.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroEvolveDataPanel.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroEvolveEffectLayer.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Strategy\Strategy.cpp">
+      <Filter>Classes\Battle\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Strategy\TotalStrategy.cpp">
+      <Filter>Classes\Battle\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tollgate\SharpTollgate.cpp">
+      <Filter>Classes\tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\vip\CPayList.cpp">
+      <Filter>Classes\vip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\LoginLayerDefault.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\LoginLayerFaceBook.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SDK\GooglePayJni.cpp">
+      <Filter>Classes\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SDK\GooglePaySDK.cpp">
+      <Filter>Classes\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\mainCityBuild.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleClose.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\SkillUpdate.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
       <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global.h">
+      <Filter>Classes</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\CCTK\array.h">
       <Filter>Classes\CCTK</Filter>
@@ -1368,6 +1461,9 @@
     <ClInclude Include="..\Classes\CCTK\WidgetProtocol.h">
       <Filter>Classes\CCTK</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\AppUI.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\scene\UIFactory.h">
       <Filter>Classes\scene</Filter>
     </ClInclude>
@@ -1418,6 +1514,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\tools\MathUtil.h">
       <Filter>Classes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\WuJiangGM.h">
+      <Filter>Classes\model</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\scene\layer\LayerManager.h">
       <Filter>Classes\scene\layer</Filter>
@@ -1639,6 +1738,9 @@
       <Filter>Classes\protos</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\scene\layer\GameTip.h" />
+    <ClInclude Include="..\Classes\scene\layer\WaitLayer.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\tools\CCShake.h">
       <Filter>Classes\common</Filter>
     </ClInclude>
@@ -1665,6 +1767,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\scene\layer\BackLayer.h">
       <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources.h">
+      <Filter>Classes</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\jsonCpp\autolink.h">
       <Filter>Classes\jsonCpp</Filter>
@@ -1758,6 +1863,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\filter\CCWaveFilter.h">
       <Filter>Classes\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCSpriteWidthFilter.h">
+      <Filter>Classes</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\mainCity\mainCityUI.h">
       <Filter>Classes\mainCity</Filter>
@@ -2005,6 +2113,9 @@
     <ClInclude Include="..\Classes\CCTK\MovieView.h">
       <Filter>Classes\CCTK</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\GMessage.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\tollgate\SelectFriend.h">
       <Filter>Classes\tollgate</Filter>
     </ClInclude>
@@ -2188,6 +2299,9 @@
     <ClInclude Include="..\Classes\update\CUpdateData.h">
       <Filter>Classes\update</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\UserDefaultData.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\update\CDownloadPackageDelegate.h">
       <Filter>Classes\update</Filter>
     </ClInclude>
@@ -2197,11 +2311,17 @@
     <ClInclude Include="..\Classes\common\CCRollLabelAction.h">
       <Filter>Classes\common</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\ApplicationDefine.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\Battle\BattleMacro.h">
       <Filter>Classes\Battle\Macro</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\LoadSpineData.h">
       <Filter>Classes\Battle\Data\SpineData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ReloadResCoverLayer.h">
+      <Filter>Classes</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\mainCity\StarUpItem.h">
       <Filter>Classes\mainCity</Filter>
@@ -2245,134 +2365,128 @@
     <ClInclude Include="..\Classes\common\CSpecialProgress.h">
       <Filter>Classes\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\scene\layer\WaitLayer.h">
-      <Filter>Classes\scene\layer</Filter>
+    <ClInclude Include="..\Classes\update\CPackageVersionJson.h">
+      <Filter>Classes\update</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AreaCount.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClInclude Include="..\Classes\vip\CVipCard.h">
+      <Filter>Classes\vip</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BaseRole.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClInclude Include="..\Classes\vip\CPaySelect.h">
+      <Filter>Classes\vip</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BaseRoleData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClInclude Include="..\Classes\activity\ActivityCollect.h">
+      <Filter>Classes\activity</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleField.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClInclude Include="..\Classes\model\ShareGM.h">
+      <Filter>Classes\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleMessage.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClInclude Include="..\Classes\pvp_ui\SelectChallengeLayer.h">
+      <Filter>Classes\pvp_UI</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleMacro.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClInclude Include="..\Classes\pvp_ui\TranstionEffectLayer.h">
+      <Filter>Classes\pvp_UI</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleTrap.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClInclude Include="..\Classes\pvp_ui\SelectDefense.h">
+      <Filter>Classes\pvp_UI</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BuffData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClInclude Include="..\Classes\protos\pvp_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\GuardArea.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClInclude Include="..\Classes\pvp_ui\PvpGateLayer.h">
+      <Filter>Classes\pvp_UI</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\HeroData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
+    <ClInclude Include="..\Classes\pvp_ui\PvpMenuLayer.h">
+      <Filter>Classes\pvp_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pvp_ui\PvpRuleLayer.h">
+      <Filter>Classes\pvp_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pvp_ui\PvpRecord.h">
+      <Filter>Classes\pvp_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pvp_ui\SelectPvpArmy.h">
+      <Filter>Classes\pvp_UI</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\LoadPngData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\MonsterData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\MonsterRole.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\MoveObject.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleSkill.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\skEffectData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\HeroRole.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
+      <Filter>Classes\Battle</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectArea.h">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFront.h">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectNearby.h">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectVertical.h">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectCross.h">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontTwo.h">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\AppDelegate.h">
-      <Filter>Classes\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ApplicationDefine.h">
-      <Filter>Classes\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\AppUI.h">
-      <Filter>Classes\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\CCSpriteWidthFilter.h">
-      <Filter>Classes\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Global.h">
-      <Filter>Classes\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\GMessage.h">
-      <Filter>Classes\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ReloadResCoverLayer.h">
-      <Filter>Classes\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Resources.h">
-      <Filter>Classes\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\UserDefaultData.h">
-      <Filter>Classes\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectTArea.h">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontFourGrid.h">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectLowesHp.h">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectCamp.h">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontArea.h">
-      <Filter>Classes\Battle\AffectArea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectCenterArea.h">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectBackArea.h">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFixGrid.h">
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectCamp.h">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectCenterArea.h">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectCross.h">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectFixAlive.h">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFixGrid.h">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFront.h">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontArea.h">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontFourGrid.h">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontTwo.h">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectLowesHp.h">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectMapArea.h">
       <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectNearby.h">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectTArea.h">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectVertical.h">
+      <Filter>Classes\Battle\AffectArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleLayer\BattleMapLayer.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleLayer\BattleRoleLayer.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleLayer\StoryLayer.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleScene\BattleScene.h">
+      <Filter>Classes\Battle\BattleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleScene\LoadBattleResource.h">
+      <Filter>Classes\Battle\BattleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleScene\LogoScene.h">
+      <Filter>Classes\Battle\BattleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleObject\AliveObject.h">
+      <Filter>Classes\Battle\RoleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleObject\HPObject.h">
+      <Filter>Classes\Battle\RoleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleObject\RageObject.h">
+      <Filter>Classes\Battle\RoleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleObject\RoleObject.h">
+      <Filter>Classes\Battle\RoleObject</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\StateManage\GameStateManager.h">
       <Filter>Classes\Battle\StateManage</Filter>
@@ -2387,45 +2501,24 @@
       <Filter>Classes\Battle\StateManage</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\ActionNameDefine.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleObject\AliveObject.h">
-      <Filter>Classes\Battle\RoleObject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleObject\HPObject.h">
-      <Filter>Classes\Battle\RoleObject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleObject\RageObject.h">
-      <Filter>Classes\Battle\RoleObject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleObject\RoleObject.h">
-      <Filter>Classes\Battle\RoleObject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\EffectObject.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleScene\BattleScene.h">
-      <Filter>Classes\Battle\BattleScene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleScene\LoadBattleResource.h">
-      <Filter>Classes\Battle\BattleScene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleLayer\BattleMapLayer.h">
-      <Filter>Classes\Battle\BattleLayer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleLayer\BattleRoleLayer.h">
-      <Filter>Classes\Battle\BattleLayer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleLayer\StoryLayer.h">
-      <Filter>Classes\Battle\BattleLayer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleScene\LogoScene.h">
-      <Filter>Classes\Battle\BattleScene</Filter>
+      <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\AnimationManager.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AreaCount.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\Battle\ArmatureEventDataMgr.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BaseRole.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BaseRoleData.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleField.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\BattleResult.h">
@@ -2434,7 +2527,13 @@
     <ClInclude Include="..\Classes\Battle\BattleTools.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleTrap.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\Battle\BufExp.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BuffData.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\CaptainSkill.h">
@@ -2473,10 +2572,25 @@
     <ClInclude Include="..\Classes\Battle\EffectData.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\Battle\EffectObject.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\GuardArea.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\HeroData.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\Battle\HurtCount.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\MapEffect.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MonsterData.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MoveObject.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\MoveRule.h">
@@ -2486,6 +2600,15 @@
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\RandomBusineseMan.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleMacro.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleSkill.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\skEffectData.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\SkillRange.h">
@@ -2517,6 +2640,72 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\WorldBossEndLayer.h">
       <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleMessage.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\HeroRole.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MonsterRole.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroEvolveDataPanel.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroEvolveEffectLayer.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Strategy\TotalStrategy.h">
+      <Filter>Classes\Battle\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Strategy\Strategy.h">
+      <Filter>Classes\Battle\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tollgate\SharpTollgate.h">
+      <Filter>Classes\tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\vip\CPayList.h">
+      <Filter>Classes\vip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\LoginLayerDefault.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
+    <ClInclude Include="..\Classes\scene\layer\LoginLayerFaceBook.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
+    <ClInclude Include="..\Classes\SDK\GooglePayJni.h">
+      <Filter>Classes\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SDK\GooglePaySDK.h">
+      <Filter>Classes\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SDK\PayDefine.h">
+      <Filter>Classes\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
+    <ClInclude Include="..\Classes\mainCity\mainCityBuild.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
+    <ClInclude Include="..\Classes\Battle\BattleClose.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattlePoint.h">
+      <Filter>Classes\Battle\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
+    <ClInclude Include="..\Classes\hero\SkillUpdate.h">
+      <Filter>Classes\hero</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

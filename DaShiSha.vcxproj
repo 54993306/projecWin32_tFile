@@ -14,6 +14,7 @@
     <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
     <RootNamespace>test_win32</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <ProjectName>DaShiSha_Tai</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -133,6 +134,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Classes\activity\ActivityCollect.cpp" />
     <ClCompile Include="..\Classes\activity\ActivityControl.cpp" />
     <ClCompile Include="..\Classes\activity\ActivityData.cpp" />
     <ClCompile Include="..\Classes\activity\ActivityLayer.cpp" />
@@ -145,17 +147,17 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\bag\BagScene.cpp" />
     <ClCompile Include="..\Classes\bag\ItemTip.cpp" />
     <ClCompile Include="..\Classes\bag\StuffTip.cpp" />
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFixAlive.cpp" />
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFixGrid.cpp" />
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectArea.cpp" />
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectBackArea.cpp" />
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectCamp.cpp" />
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectCenterArea.cpp" />
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectCross.cpp" />
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectCamp.cpp" />
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontFourGrid.cpp" />
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontArea.cpp" />
-    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontTwo.cpp" />
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFixAlive.cpp" />
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFixGrid.cpp" />
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectFront.cpp" />
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontArea.cpp" />
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontFourGrid.cpp" />
+    <ClCompile Include="..\Classes\Battle\AffectArea\AffectFrontTwo.cpp" />
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectLowesHp.cpp" />
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectMapArea.cpp" />
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectNearby.cpp" />
@@ -164,9 +166,11 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\Battle\AnimationManager.cpp" />
     <ClCompile Include="..\Classes\Battle\AreaCount.cpp" />
     <ClCompile Include="..\Classes\Battle\ArmatureEventDataMgr.cpp" />
+    <ClCompile Include="..\Classes\Battle\BaseRole.cpp" />
+    <ClCompile Include="..\Classes\Battle\BaseRoleData.cpp" />
+    <ClCompile Include="..\Classes\Battle\BattleClose.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleDataCenter.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleField.cpp" />
-    <ClCompile Include="..\Classes\Battle\BaseRole.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleLayer\BattleMapLayer.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleLayer\BattleRoleLayer.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleLayer\StoryLayer.cpp" />
@@ -177,6 +181,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\Battle\BattleTools.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleTrap.cpp" />
     <ClCompile Include="..\Classes\Battle\BufExp.cpp" />
+    <ClCompile Include="..\Classes\Battle\BuffData.cpp" />
     <ClCompile Include="..\Classes\Battle\CaptainSkill.cpp" />
     <ClCompile Include="..\Classes\Battle\CHeroSoundData.cpp" />
     <ClCompile Include="..\Classes\Battle\CombatEffect.cpp" />
@@ -202,7 +207,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\Battle\MoveRule.cpp" />
     <ClCompile Include="..\Classes\Battle\ParseFileData.cpp" />
     <ClCompile Include="..\Classes\Battle\ParseRoleConfigFile.cpp" />
-    <ClCompile Include="..\Classes\Battle\BuffData.cpp" />
     <ClCompile Include="..\Classes\Battle\RandomBusineseMan.cpp" />
     <ClCompile Include="..\Classes\Battle\RoleConfigData.cpp" />
     <ClCompile Include="..\Classes\Battle\RoleObject\AliveObject.cpp" />
@@ -211,13 +215,14 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\Battle\RoleObject\RoleObject.cpp" />
     <ClCompile Include="..\Classes\Battle\RoleSkill.cpp" />
     <ClCompile Include="..\Classes\Battle\skEffectData.cpp" />
-    <ClCompile Include="..\Classes\Battle\BaseRoleData.cpp" />
     <ClCompile Include="..\Classes\Battle\SkillRange.cpp" />
     <ClCompile Include="..\Classes\Battle\SkillTips.cpp" />
     <ClCompile Include="..\Classes\Battle\StateManage\GameStateManager.cpp" />
     <ClCompile Include="..\Classes\Battle\StateManage\GameTransition.cpp" />
     <ClCompile Include="..\Classes\Battle\StateManage\PostureState.cpp" />
     <ClCompile Include="..\Classes\Battle\StateManage\StateManager.cpp" />
+    <ClCompile Include="..\Classes\Battle\Strategy\Strategy.cpp" />
+    <ClCompile Include="..\Classes\Battle\Strategy\TotalStrategy.cpp" />
     <ClCompile Include="..\Classes\Battle\TerrainExp.cpp" />
     <ClCompile Include="..\Classes\Battle\TouchIntercept.cpp" />
     <ClCompile Include="..\Classes\Battle\WarAssist.cpp" />
@@ -338,6 +343,8 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\hero\HeroData.cpp" />
     <ClCompile Include="..\Classes\hero\HeroDetail.cpp" />
     <ClCompile Include="..\Classes\hero\HeroEvolve.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroEvolveDataPanel.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroEvolveEffectLayer.cpp" />
     <ClCompile Include="..\Classes\hero\HeroExp.cpp" />
     <ClCompile Include="..\Classes\hero\HeroExpItem.cpp" />
     <ClCompile Include="..\Classes\hero\HeroList.cpp" />
@@ -346,6 +353,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\hero\HeroSkill.cpp" />
     <ClCompile Include="..\Classes\hero\HeroUpdate.cpp" />
     <ClCompile Include="..\Classes\hero\SkillDesc.cpp" />
+    <ClCompile Include="..\Classes\hero\SkillUpdate.cpp" />
     <ClCompile Include="..\Classes\jni\CJniHelper.cpp" />
     <ClCompile Include="..\Classes\jsonCpp\json_reader.cpp" />
     <ClCompile Include="..\Classes\jsonCpp\json_value.cpp" />
@@ -366,6 +374,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\mainCity\FilterItem.cpp" />
     <ClCompile Include="..\Classes\mainCity\GoldMineLayer.cpp" />
     <ClCompile Include="..\Classes\mainCity\LevelUpItem.cpp" />
+    <ClCompile Include="..\Classes\mainCity\mainCityBuild.cpp" />
     <ClCompile Include="..\Classes\mainCity\MainCityControl.cpp" />
     <ClCompile Include="..\Classes\mainCity\mainCityUI.cpp" />
     <ClCompile Include="..\Classes\mainCity\mainScene.cpp" />
@@ -390,6 +399,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\model\MapManager.cpp" />
     <ClCompile Include="..\Classes\model\RewardGM.cpp" />
     <ClCompile Include="..\Classes\model\RoleNameGM.cpp" />
+    <ClCompile Include="..\Classes\model\ShareGM.cpp" />
     <ClCompile Include="..\Classes\model\SkillGM.cpp" />
     <ClCompile Include="..\Classes\model\TaskGM.cpp" />
     <ClCompile Include="..\Classes\model\TerrainLayer.cpp" />
@@ -397,6 +407,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\model\TollgateGM.cpp" />
     <ClCompile Include="..\Classes\model\UserManager.cpp" />
     <ClCompile Include="..\Classes\model\WarManager.cpp" />
+    <ClCompile Include="..\Classes\model\WuJiangGM.cpp" />
     <ClCompile Include="..\Classes\netcontrol\CPlayerControl.cpp" />
     <ClCompile Include="..\Classes\net\CNetClient.cpp" />
     <ClCompile Include="..\Classes\net\CNetSocket.cpp" />
@@ -426,6 +437,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\protos\lottery_protocol.pb.cc" />
     <ClCompile Include="..\Classes\protos\mail_protocol.pb.cc" />
     <ClCompile Include="..\Classes\protos\protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\pvp_protocol.pb.cc" />
     <ClCompile Include="..\Classes\protos\rank_protocol.pb.cc" />
     <ClCompile Include="..\Classes\protos\role_protocol.pb.cc" />
     <ClCompile Include="..\Classes\protos\shop_protocol.pb.cc" />
@@ -436,6 +448,14 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\protos\task_protocol.pb.cc" />
     <ClCompile Include="..\Classes\protos\union_protocol.pb.cc" />
     <ClCompile Include="..\Classes\protos\vip_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\pvp_ui\PvpGateLayer.cpp" />
+    <ClCompile Include="..\Classes\pvp_ui\PvpMenuLayer.cpp" />
+    <ClCompile Include="..\Classes\pvp_ui\PvpRecord.cpp" />
+    <ClCompile Include="..\Classes\pvp_ui\PvpRuleLayer.cpp" />
+    <ClCompile Include="..\Classes\pvp_ui\SelecPvptArmy.cpp" />
+    <ClCompile Include="..\Classes\pvp_ui\SelectChallengeLayer.cpp" />
+    <ClCompile Include="..\Classes\pvp_ui\SelectDefense.cpp" />
+    <ClCompile Include="..\Classes\pvp_ui\TranstionEffectLayer.cpp" />
     <ClCompile Include="..\Classes\rank\RankData.cpp" />
     <ClCompile Include="..\Classes\rank\RankLayer.cpp" />
     <ClCompile Include="..\Classes\ReloadResCoverLayer.cpp" />
@@ -454,6 +474,8 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\scene\layer\BackLayer.cpp" />
     <ClCompile Include="..\Classes\scene\layer\GameTip.cpp" />
     <ClCompile Include="..\Classes\scene\layer\LayerManager.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\LoginLayerDefault.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\LoginLayerFaceBook.cpp" />
     <ClCompile Include="..\Classes\scene\layer\PropGetInfo.cpp" />
     <ClCompile Include="..\Classes\scene\layer\SetPanel.cpp" />
     <ClCompile Include="..\Classes\scene\layer\WaitLayer.cpp" />
@@ -464,6 +486,8 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\scene\UITools.cpp" />
     <ClCompile Include="..\Classes\scene\VirtualScreen.cpp" />
     <ClCompile Include="..\Classes\SDK\FaceBookSDK.cpp" />
+    <ClCompile Include="..\Classes\SDK\GooglePayJni.cpp" />
+    <ClCompile Include="..\Classes\SDK\GooglePaySDK.cpp" />
     <ClCompile Include="..\Classes\set\ExchangeCode.cpp" />
     <ClCompile Include="..\Classes\set\SetLayer.cpp" />
     <ClCompile Include="..\Classes\set\SetPush.cpp" />
@@ -480,6 +504,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\tollgate\MonsterInfo.cpp" />
     <ClCompile Include="..\Classes\tollgate\SelectArmy.cpp" />
     <ClCompile Include="..\Classes\tollgate\SelectFriend.cpp" />
+    <ClCompile Include="..\Classes\tollgate\SharpTollgate.cpp" />
     <ClCompile Include="..\Classes\tollgate\StageData.cpp" />
     <ClCompile Include="..\Classes\tollgate\Sweep.cpp" />
     <ClCompile Include="..\Classes\tollgate\TollgateLayer.cpp" />
@@ -493,8 +518,12 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\tools\texttip.cpp" />
     <ClCompile Include="..\Classes\tools\UICloneMgr.cpp" />
     <ClCompile Include="..\Classes\update\CDownloadPackage.cpp" />
+    <ClCompile Include="..\Classes\update\CPackageVersionJson.cpp" />
     <ClCompile Include="..\Classes\update\CUpdateLayer.cpp" />
     <ClCompile Include="..\Classes\update\CVersionJson.cpp" />
+    <ClCompile Include="..\Classes\vip\CPayList.cpp" />
+    <ClCompile Include="..\Classes\vip\CPaySelect.cpp" />
+    <ClCompile Include="..\Classes\vip\CVipCard.cpp" />
     <ClCompile Include="..\Classes\vip\CVipPay.cpp" />
     <ClCompile Include="..\Classes\vip\VipData.cpp" />
     <ClCompile Include="..\Classes\vip\VipLayer.cpp" />
@@ -502,12 +531,16 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Classes\activity\ActivityCollect.h" />
     <ClInclude Include="..\Classes\activity\ActivityControl.h" />
     <ClInclude Include="..\Classes\activity\ActivityData.h" />
     <ClInclude Include="..\Classes\activity\ActivityLayer.h" />
     <ClInclude Include="..\Classes\activity\HttpLoadImage.h" />
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\ApplicationDefine.h" />
+    <ClInclude Include="..\Classes\Battle\BattleClose.h" />
+    <ClInclude Include="..\Classes\Battle\BattlePoint.h" />
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\AppUI.h" />
     <ClInclude Include="..\Classes\army\SelectEquipment.h" />
     <ClInclude Include="..\Classes\army\union.h" />
@@ -517,17 +550,17 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\bag\ItemTip.h" />
     <ClInclude Include="..\Classes\bag\StuffTip.h" />
     <ClInclude Include="..\Classes\Battle\ActionNameDefine.h" />
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFixAlive.h" />
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFixGrid.h" />
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectArea.h" />
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectBackArea.h" />
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectCamp.h" />
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectCenterArea.h" />
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectCross.h" />
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectCamp.h" />
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontFourGrid.h" />
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontArea.h" />
-    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontTwo.h" />
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFixAlive.h" />
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFixGrid.h" />
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectFront.h" />
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontArea.h" />
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontFourGrid.h" />
+    <ClInclude Include="..\Classes\Battle\AffectArea\AffectFrontTwo.h" />
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectLowesHp.h" />
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectMapArea.h" />
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectNearby.h" />
@@ -536,6 +569,8 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\Battle\AnimationManager.h" />
     <ClInclude Include="..\Classes\Battle\AreaCount.h" />
     <ClInclude Include="..\Classes\Battle\ArmatureEventDataMgr.h" />
+    <ClInclude Include="..\Classes\Battle\BaseRole.h" />
+    <ClInclude Include="..\Classes\Battle\BaseRoleData.h" />
     <ClInclude Include="..\Classes\Battle\BattleDataCenter.h" />
     <ClInclude Include="..\Classes\Battle\BattleField.h" />
     <ClInclude Include="..\Classes\Battle\BattleLayer\BattleMapLayer.h" />
@@ -543,13 +578,14 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\Battle\BattleLayer\StoryLayer.h" />
     <ClInclude Include="..\Classes\Battle\BattleMacro.h" />
     <ClInclude Include="..\Classes\Battle\BattleMessage.h" />
-    <ClInclude Include="..\Classes\Battle\BaseRole.h" />
     <ClInclude Include="..\Classes\Battle\BattleResult.h" />
     <ClInclude Include="..\Classes\Battle\BattleScene\BattleScene.h" />
     <ClInclude Include="..\Classes\Battle\BattleScene\LoadBattleResource.h" />
     <ClInclude Include="..\Classes\Battle\BattleScene\LogoScene.h" />
     <ClInclude Include="..\Classes\Battle\BattleTools.h" />
+    <ClInclude Include="..\Classes\Battle\BattleTrap.h" />
     <ClInclude Include="..\Classes\Battle\BufExp.h" />
+    <ClInclude Include="..\Classes\Battle\BuffData.h" />
     <ClInclude Include="..\Classes\Battle\CaptainSkill.h" />
     <ClInclude Include="..\Classes\Battle\CHeroSoundData.h" />
     <ClInclude Include="..\Classes\Battle\CombatEffect.h" />
@@ -563,37 +599,36 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\Battle\DropItem.h" />
     <ClInclude Include="..\Classes\Battle\EffectData.h" />
     <ClInclude Include="..\Classes\Battle\EffectObject.h" />
-    <ClInclude Include="..\Classes\Battle\HurtCount.h" />
-    <ClInclude Include="..\Classes\Battle\MapEffect.h" />
-    <ClInclude Include="..\Classes\Battle\MoveRule.h" />
-    <ClInclude Include="..\Classes\Battle\ParseFileData.h" />
-    <ClInclude Include="..\Classes\Battle\RandomBusineseMan.h" />
-    <ClInclude Include="..\Classes\Battle\RoleMacro.h" />
-    <ClInclude Include="..\Classes\Battle\BattleTrap.h" />
     <ClInclude Include="..\Classes\Battle\GuardArea.h" />
     <ClInclude Include="..\Classes\Battle\HeroData.h" />
     <ClInclude Include="..\Classes\Battle\HeroRole.h" />
+    <ClInclude Include="..\Classes\Battle\HurtCount.h" />
     <ClInclude Include="..\Classes\Battle\LoadPngData.h" />
     <ClInclude Include="..\Classes\Battle\LoadSpineData.h" />
+    <ClInclude Include="..\Classes\Battle\MapEffect.h" />
     <ClInclude Include="..\Classes\Battle\MonsterData.h" />
     <ClInclude Include="..\Classes\Battle\MonsterRole.h" />
     <ClInclude Include="..\Classes\Battle\MoveObject.h" />
+    <ClInclude Include="..\Classes\Battle\MoveRule.h" />
+    <ClInclude Include="..\Classes\Battle\ParseFileData.h" />
     <ClInclude Include="..\Classes\Battle\ParseRoleConfigFile.h" />
-    <ClInclude Include="..\Classes\Battle\BuffData.h" />
+    <ClInclude Include="..\Classes\Battle\RandomBusineseMan.h" />
     <ClInclude Include="..\Classes\Battle\RoleConfigData.h" />
+    <ClInclude Include="..\Classes\Battle\RoleMacro.h" />
     <ClInclude Include="..\Classes\Battle\RoleObject\AliveObject.h" />
     <ClInclude Include="..\Classes\Battle\RoleObject\HPObject.h" />
     <ClInclude Include="..\Classes\Battle\RoleObject\RageObject.h" />
     <ClInclude Include="..\Classes\Battle\RoleObject\RoleObject.h" />
     <ClInclude Include="..\Classes\Battle\RoleSkill.h" />
     <ClInclude Include="..\Classes\Battle\skEffectData.h" />
-    <ClInclude Include="..\Classes\Battle\BaseRoleData.h" />
     <ClInclude Include="..\Classes\Battle\SkillRange.h" />
     <ClInclude Include="..\Classes\Battle\SkillTips.h" />
     <ClInclude Include="..\Classes\Battle\StateManage\GameStateManager.h" />
     <ClInclude Include="..\Classes\Battle\StateManage\GameTransition.h" />
     <ClInclude Include="..\Classes\Battle\StateManage\PostureState.h" />
     <ClInclude Include="..\Classes\Battle\StateManage\StateManager.h" />
+    <ClInclude Include="..\Classes\Battle\Strategy\Strategy.h" />
+    <ClInclude Include="..\Classes\Battle\Strategy\TotalStrategy.h" />
     <ClInclude Include="..\Classes\Battle\TerrainExp.h" />
     <ClInclude Include="..\Classes\Battle\TouchIntercept.h" />
     <ClInclude Include="..\Classes\Battle\WarAssist.h" />
@@ -680,6 +715,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\filter\CCWaveFilter.h" />
     <ClInclude Include="..\Classes\friend\Friend.h" />
     <ClInclude Include="..\Classes\friend\FriendLayer.h" />
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\Global.h" />
     <ClInclude Include="..\Classes\google\protobuf\descriptor.h" />
     <ClInclude Include="..\Classes\google\protobuf\descriptor.pb.h" />
@@ -742,6 +778,8 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\hero\HeroData.h" />
     <ClInclude Include="..\Classes\hero\HeroDetail.h" />
     <ClInclude Include="..\Classes\hero\HeroEvolve.h" />
+    <ClInclude Include="..\Classes\hero\HeroEvolveDataPanel.h" />
+    <ClInclude Include="..\Classes\hero\HeroEvolveEffectLayer.h" />
     <ClInclude Include="..\Classes\hero\HeroExp.h" />
     <ClInclude Include="..\Classes\hero\HeroExpItem.h" />
     <ClInclude Include="..\Classes\hero\HeroList.h" />
@@ -750,6 +788,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\hero\HeroSkill.h" />
     <ClInclude Include="..\Classes\hero\HeroUpdate.h" />
     <ClInclude Include="..\Classes\hero\SkillDesc.h" />
+    <ClInclude Include="..\Classes\hero\SkillUpdate.h" />
     <ClInclude Include="..\Classes\jni\CJniHelper.h" />
     <ClInclude Include="..\Classes\jsonCpp\autolink.h" />
     <ClInclude Include="..\Classes\jsonCpp\config.h" />
@@ -776,6 +815,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\mainCity\FilterItem.h" />
     <ClInclude Include="..\Classes\mainCity\GoldMineLayer.h" />
     <ClInclude Include="..\Classes\mainCity\LevelUpItem.h" />
+    <ClInclude Include="..\Classes\mainCity\mainCityBuild.h" />
     <ClInclude Include="..\Classes\mainCity\MainCityControl.h" />
     <ClInclude Include="..\Classes\mainCity\mainCityUI.h" />
     <ClInclude Include="..\Classes\mainCity\mainScene.h" />
@@ -801,6 +841,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\model\MapManager.h" />
     <ClInclude Include="..\Classes\model\RewardGM.h" />
     <ClInclude Include="..\Classes\model\RoleNameGM.h" />
+    <ClInclude Include="..\Classes\model\ShareGM.h" />
     <ClInclude Include="..\Classes\model\SkillGM.h" />
     <ClInclude Include="..\Classes\model\TaskGM.h" />
     <ClInclude Include="..\Classes\model\TerrainLayer.h" />
@@ -808,6 +849,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\model\TollgateGM.h" />
     <ClInclude Include="..\Classes\model\UserManager.h" />
     <ClInclude Include="..\Classes\model\WarManager.h" />
+    <ClInclude Include="..\Classes\model\WuJiangGM.h" />
     <ClInclude Include="..\Classes\netcontrol\CPlayerControl.h" />
     <ClInclude Include="..\Classes\net\CNetClient.h" />
     <ClInclude Include="..\Classes\net\CNetSocket.h" />
@@ -840,6 +882,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\protos\protocol.h" />
     <ClInclude Include="..\Classes\protos\protocol.pb.h" />
     <ClInclude Include="..\Classes\protos\ProtoDefine.h" />
+    <ClInclude Include="..\Classes\protos\pvp_protocol.pb.h" />
     <ClInclude Include="..\Classes\protos\rank_protocol.pb.h" />
     <ClInclude Include="..\Classes\protos\role_protocol.pb.h" />
     <ClInclude Include="..\Classes\protos\shop_protocol.pb.h" />
@@ -850,6 +893,14 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\protos\task_protocol.pb.h" />
     <ClInclude Include="..\Classes\protos\union_protocol.pb.h" />
     <ClInclude Include="..\Classes\protos\vip_protocol.pb.h" />
+    <ClInclude Include="..\Classes\pvp_ui\PvpGateLayer.h" />
+    <ClInclude Include="..\Classes\pvp_ui\PvpMenuLayer.h" />
+    <ClInclude Include="..\Classes\pvp_ui\PvpRecord.h" />
+    <ClInclude Include="..\Classes\pvp_ui\PvpRuleLayer.h" />
+    <ClInclude Include="..\Classes\pvp_ui\SelectChallengeLayer.h" />
+    <ClInclude Include="..\Classes\pvp_ui\SelectDefense.h" />
+    <ClInclude Include="..\Classes\pvp_ui\SelectPvpArmy.h" />
+    <ClInclude Include="..\Classes\pvp_ui\TranstionEffectLayer.h" />
     <ClInclude Include="..\Classes\rank\RankData.h" />
     <ClInclude Include="..\Classes\rank\RankLayer.h" />
     <ClInclude Include="..\Classes\ReloadResCoverLayer.h" />
@@ -869,6 +920,8 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\scene\layer\BackLayer.h" />
     <ClInclude Include="..\Classes\scene\layer\GameTip.h" />
     <ClInclude Include="..\Classes\scene\layer\LayerManager.h" />
+    <ClInclude Include="..\Classes\scene\layer\LoginLayerDefault.h" />
+    <ClInclude Include="..\Classes\scene\layer\LoginLayerFaceBook.h" />
     <ClInclude Include="..\Classes\scene\layer\PropGetInfo.h" />
     <ClInclude Include="..\Classes\scene\layer\SetPanel.h" />
     <ClInclude Include="..\Classes\scene\layer\WaitLayer.h" />
@@ -879,6 +932,9 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\scene\UITools.h" />
     <ClInclude Include="..\Classes\scene\VirtualScreen.h" />
     <ClInclude Include="..\Classes\SDK\FaceBookSDK.h" />
+    <ClInclude Include="..\Classes\SDK\GooglePayJni.h" />
+    <ClInclude Include="..\Classes\SDK\GooglePaySDK.h" />
+    <ClInclude Include="..\Classes\SDK\PayDefine.h" />
     <ClInclude Include="..\Classes\set\ExchangeCode.h" />
     <ClInclude Include="..\Classes\set\SetLayer.h" />
     <ClInclude Include="..\Classes\set\SetPush.h" />
@@ -895,6 +951,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\tollgate\MonsterInfo.h" />
     <ClInclude Include="..\Classes\tollgate\SelectArmy.h" />
     <ClInclude Include="..\Classes\tollgate\SelectFriend.h" />
+    <ClInclude Include="..\Classes\tollgate\SharpTollgate.h" />
     <ClInclude Include="..\Classes\tollgate\StageData.h" />
     <ClInclude Include="..\Classes\tollgate\Sweep.h" />
     <ClInclude Include="..\Classes\tollgate\TollgateLayer.h" />
@@ -911,10 +968,14 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\tools\UICloneMgr.h" />
     <ClInclude Include="..\Classes\update\CDownloadPackage.h" />
     <ClInclude Include="..\Classes\update\CDownloadPackageDelegate.h" />
+    <ClInclude Include="..\Classes\update\CPackageVersionJson.h" />
     <ClInclude Include="..\Classes\update\CUpdateData.h" />
     <ClInclude Include="..\Classes\update\CUpdateLayer.h" />
     <ClInclude Include="..\Classes\update\CVersionJson.h" />
     <ClInclude Include="..\Classes\UserDefaultData.h" />
+    <ClInclude Include="..\Classes\vip\CPayList.h" />
+    <ClInclude Include="..\Classes\vip\CPaySelect.h" />
+    <ClInclude Include="..\Classes\vip\CVipCard.h" />
     <ClInclude Include="..\Classes\vip\CVipPay.h" />
     <ClInclude Include="..\Classes\vip\VipData.h" />
     <ClInclude Include="..\Classes\vip\VipLayer.h" />
