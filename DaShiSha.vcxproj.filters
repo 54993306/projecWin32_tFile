@@ -1315,9 +1315,6 @@
     <ClCompile Include="..\Classes\hero\HeroEvolveEffectLayer.cpp">
       <Filter>Classes\hero</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\Strategy\Strategy.cpp">
-      <Filter>Classes\Battle\Strategy</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\Strategy\TotalStrategy.cpp">
       <Filter>Classes\Battle\Strategy</Filter>
     </ClCompile>
@@ -1347,6 +1344,24 @@
     </ClCompile>
     <ClCompile Include="..\Classes\hero\SkillUpdate.cpp">
       <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleModel.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Strategy\PvEStrategy.cpp">
+      <Filter>Classes\Battle\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SDK\GamePlatformManager.cpp">
+      <Filter>Classes\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleLayer\BattleTips.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\PvpEndLayer.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tollgate\FaceBookImg.cpp">
+      <Filter>Classes\tollgate</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2659,30 +2674,18 @@
     <ClInclude Include="..\Classes\Battle\Strategy\TotalStrategy.h">
       <Filter>Classes\Battle\Strategy</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\Strategy\Strategy.h">
-      <Filter>Classes\Battle\Strategy</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\tollgate\SharpTollgate.h">
       <Filter>Classes\tollgate</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\vip\CPayList.h">
       <Filter>Classes\vip</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\GamePlatfomDefine.h">
-      <Filter>Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\GamePlatfomDefine.h">
-      <Filter>Classes</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\scene\layer\LoginLayerDefault.h">
       <Filter>Classes\scene\layer</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\scene\layer\LoginLayerFaceBook.h">
       <Filter>Classes\scene\layer</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
-    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\SDK\GooglePayJni.h">
       <Filter>Classes\SDK</Filter>
     </ClInclude>
@@ -2692,7 +2695,6 @@
     <ClInclude Include="..\Classes\SDK\PayDefine.h">
       <Filter>Classes\SDK</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\mainCity\mainCityBuild.h">
       <Filter>Classes\mainCity</Filter>
     </ClInclude>
@@ -2706,6 +2708,36 @@
     <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\hero\SkillUpdate.h">
       <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
+    <ClInclude Include="..\Classes\Battle\BattleModel.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
+    <ClInclude Include="..\Classes\Battle\Strategy\PvEStrategy.h">
+      <Filter>Classes\Battle\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleConfigMacro.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
+    <ClInclude Include="..\Classes\SDK\GamePlatfomCompile.h">
+      <Filter>Classes\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SDK\GamePlatfomDefine.h">
+      <Filter>Classes\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SDK\GamePlatformManager.h">
+      <Filter>Classes\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleLayer\BattleTips.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\PvpEndLayer.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tollgate\FaceBookImg.h">
+      <Filter>Classes\tollgate</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
