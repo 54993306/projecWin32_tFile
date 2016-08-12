@@ -160,6 +160,9 @@
     <Filter Include="Classes\Battle\Strategy">
       <UniqueIdentifier>{d4a2d3fd-35db-410c-b064-f99b86c912d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Battle\Landform">
+      <UniqueIdentifier>{24d533ea-b3e3-409e-9c8f-8fd4efa0ee4c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -274,12 +277,6 @@
       <Filter>Classes\tools</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\model\DataCenter.cpp">
-      <Filter>Classes\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\model\MapManager.cpp">
-      <Filter>Classes\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\model\WarManager.cpp">
       <Filter>Classes\model</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\model\DataDefine.cpp">
@@ -447,9 +444,6 @@
     <ClCompile Include="..\Classes\protos\common\skill_common.pb.cc">
       <Filter>Classes\protos\common</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\model\BattleData.cpp">
-      <Filter>Classes\model</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\protos\hero_protocol.pb.cc">
       <Filter>Classes\protos</Filter>
     </ClCompile>
@@ -477,9 +471,6 @@
     </ClCompile>
     <ClCompile Include="..\Classes\tools\texttip.cpp">
       <Filter>Classes\common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\model\TerrainManager.cpp">
-      <Filter>Classes\model</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\common\CursorTextField.cpp">
       <Filter>Classes\common</Filter>
@@ -534,9 +525,6 @@
     </ClCompile>
     <ClCompile Include="..\Classes\CCTK\RadioBtnGroup.cpp">
       <Filter>Classes\CCTK</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\model\BuffManage.cpp">
-      <Filter>Classes\model</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\scene\CPopTip.cpp">
       <Filter>Classes\scene</Filter>
@@ -837,9 +825,6 @@
     </ClCompile>
     <ClCompile Include="..\Classes\guide\GuideLayer.cpp">
       <Filter>Classes\guide</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\model\TerrainLayer.cpp">
-      <Filter>Classes\model</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\hero\HeroUpdate.cpp">
       <Filter>Classes\hero</Filter>
@@ -1279,9 +1264,6 @@
     <ClCompile Include="..\Classes\Battle\SkillTips.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\TerrainExp.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\TouchIntercept.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
@@ -1362,6 +1344,39 @@
     </ClCompile>
     <ClCompile Include="..\Classes\tollgate\FaceBookImg.cpp">
       <Filter>Classes\tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\AreaManage.cpp">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\AStar.cpp">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\MapNode.cpp">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\TerrainExp.cpp">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\terrainLayer.cpp">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\TerrainManager.cpp">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BuffManage.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MapManager.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\WarManager.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\CRoleData.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleCenter.cpp">
+      <Filter>Classes\Battle</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1500,13 +1515,7 @@
     <ClInclude Include="..\Classes\model\DataCenter.h">
       <Filter>Classes\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\model\MapManager.h">
-      <Filter>Classes\model</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\model\DataDefine.h">
-      <Filter>Classes\model</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\model\WarManager.h">
       <Filter>Classes\model</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\tools\ToolDefine.h">
@@ -1737,9 +1746,6 @@
     <ClInclude Include="..\Classes\protos\common\skill_common.pb.h">
       <Filter>Classes\protos\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\model\BattleData.h">
-      <Filter>Classes\model</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\protos\hero_protocol.pb.h">
       <Filter>Classes\protos</Filter>
     </ClInclude>
@@ -1773,9 +1779,6 @@
     </ClInclude>
     <ClInclude Include="..\Classes\tools\texttip.h">
       <Filter>Classes\common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\model\TerrainManager.h">
-      <Filter>Classes\model</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\common\CursorTextField.h">
       <Filter>Classes\common</Filter>
@@ -1851,9 +1854,6 @@
     </ClInclude>
     <ClInclude Include="..\Classes\CCTK\RadioBtnGroup.h">
       <Filter>Classes\CCTK</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\model\BuffManage.h">
-      <Filter>Classes\model</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\scene\CPopTip.h">
       <Filter>Classes\scene</Filter>
@@ -2160,9 +2160,6 @@
     </ClInclude>
     <ClInclude Include="..\Classes\guide\GuideLayer.h">
       <Filter>Classes\guide</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\model\TerrainLayer.h">
-      <Filter>Classes\model</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\hero\HeroUpdate.h">
       <Filter>Classes\hero</Filter>
@@ -2632,9 +2629,6 @@
     <ClInclude Include="..\Classes\Battle\SkillTips.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\TerrainExp.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\TouchIntercept.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
@@ -2698,18 +2692,15 @@
     <ClInclude Include="..\Classes\mainCity\mainCityBuild.h">
       <Filter>Classes\mainCity</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\Battle\BattleClose.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\BattlePoint.h">
       <Filter>Classes\Battle\Macro</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\hero\SkillUpdate.h">
       <Filter>Classes\hero</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\Battle\BattleModel.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
@@ -2738,6 +2729,39 @@
     </ClInclude>
     <ClInclude Include="..\Classes\tollgate\FaceBookImg.h">
       <Filter>Classes\tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\AreaManage.h">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\AStar.h">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\MapNode.h">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\TerrainExp.h">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\terrainLayer.h">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\TerrainManager.h">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BuffManage.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MapManager.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\WarManager.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\CRoleData.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleCenter.h">
+      <Filter>Classes\Battle</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
