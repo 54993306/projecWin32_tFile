@@ -181,7 +181,13 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\Battle\BattleScene\LoadBattleResource.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleScene\LogoScene.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleTools.cpp" />
-    <ClCompile Include="..\Classes\Battle\BattleTrap.cpp" />
+    <ClCompile Include="..\Classes\Battle\Config\ConfigManage.cpp" />
+    <ClCompile Include="..\Classes\Battle\Coords\Coords.cpp" />
+    <ClCompile Include="..\Classes\Battle\Landform\BattleTrap.cpp" />
+    <ClCompile Include="..\Classes\Battle\Landform\NatureTrap.cpp" />
+    <ClCompile Include="..\Classes\Battle\Landform\ObstacleTrap.cpp" />
+    <ClCompile Include="..\Classes\Battle\Landform\TrapObject.cpp" />
+    <ClCompile Include="..\Classes\Battle\TrapData.cpp" />
     <ClCompile Include="..\Classes\Battle\BufExp.cpp" />
     <ClCompile Include="..\Classes\Battle\BuffData.cpp" />
     <ClCompile Include="..\Classes\Battle\BuffManage.cpp" />
@@ -204,14 +210,13 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\Battle\Landform\AreaManage.cpp" />
     <ClCompile Include="..\Classes\Battle\Landform\AStar.cpp" />
     <ClCompile Include="..\Classes\Battle\Landform\MapNode.cpp" />
-    <ClCompile Include="..\Classes\Battle\Landform\TerrainExp.cpp" />
-    <ClCompile Include="..\Classes\Battle\Landform\terrainLayer.cpp" />
-    <ClCompile Include="..\Classes\Battle\Landform\TerrainManager.cpp" />
+    <ClCompile Include="..\Classes\Battle\Landform\TrapLayer.cpp" />
+    <ClCompile Include="..\Classes\Battle\Landform\TrapManage.cpp" />
     <ClCompile Include="..\Classes\Battle\LoadPngData.cpp" />
-    <ClCompile Include="..\Classes\Battle\LoadSpineData.cpp" />
+    <ClCompile Include="..\Classes\Battle\SpineDataManage.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleCenter.cpp" />
     <ClCompile Include="..\Classes\Battle\MapEffect.cpp" />
-    <ClCompile Include="..\Classes\Battle\MapManager.cpp" />
+    <ClCompile Include="..\Classes\Battle\CoordsManage.cpp" />
     <ClCompile Include="..\Classes\Battle\MonsterData.cpp" />
     <ClCompile Include="..\Classes\Battle\MonsterRole.cpp" />
     <ClCompile Include="..\Classes\Battle\MoveObject.cpp" />
@@ -370,6 +375,8 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\jsonCpp\json_reader.cpp" />
     <ClCompile Include="..\Classes\jsonCpp\json_value.cpp" />
     <ClCompile Include="..\Classes\jsonCpp\json_writer.cpp" />
+    <ClCompile Include="..\Classes\LuckyWheel\LuckyWheelData.cpp" />
+    <ClCompile Include="..\Classes\LuckyWheel\LuckyWheelLayer.cpp" />
     <ClCompile Include="..\Classes\mail\EmailControl.cpp" />
     <ClCompile Include="..\Classes\mail\EmailData.cpp" />
     <ClCompile Include="..\Classes\mail\EmailLayer.cpp" />
@@ -482,7 +489,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\scene\layer\GameTip.cpp" />
     <ClCompile Include="..\Classes\scene\layer\LayerManager.cpp" />
     <ClCompile Include="..\Classes\scene\layer\LoginLayerDefault.cpp" />
-    <ClCompile Include="..\Classes\scene\layer\LoginLayerFaceBook.cpp" />
+    <ClCompile Include="..\Classes\scene\layer\LoginLayerMix.cpp" />
     <ClCompile Include="..\Classes\scene\layer\PropGetInfo.cpp" />
     <ClCompile Include="..\Classes\scene\layer\SetPanel.cpp" />
     <ClCompile Include="..\Classes\scene\layer\WaitLayer.cpp" />
@@ -494,6 +501,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\scene\VirtualScreen.cpp" />
     <ClCompile Include="..\Classes\SDK\FaceBookSDK.cpp" />
     <ClCompile Include="..\Classes\SDK\GamePlatformManager.cpp" />
+    <ClCompile Include="..\Classes\SDK\GoogleLoginSDK.cpp" />
     <ClCompile Include="..\Classes\SDK\GooglePayJni.cpp" />
     <ClCompile Include="..\Classes\SDK\GooglePaySDK.cpp" />
     <ClCompile Include="..\Classes\set\ExchangeCode.cpp" />
@@ -594,7 +602,14 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\Battle\BattleScene\LoadBattleResource.h" />
     <ClInclude Include="..\Classes\Battle\BattleScene\LogoScene.h" />
     <ClInclude Include="..\Classes\Battle\BattleTools.h" />
-    <ClInclude Include="..\Classes\Battle\BattleTrap.h" />
+    <ClInclude Include="..\Classes\Battle\Config\ConfigManage.h" />
+    <ClInclude Include="..\Classes\Battle\Coords\Coords.h" />
+    <ClInclude Include="..\Classes\Battle\Landform\BattleTrap.h" />
+    <ClInclude Include="..\Classes\Battle\Landform\NatureTrap.h" />
+    <ClInclude Include="..\Classes\Battle\Landform\ObstacleTrap.h" />
+    <ClInclude Include="..\Classes\Battle\Landform\TrapObject.h" />
+    <ClInclude Include="..\Classes\Battle\RoleObjectMacro.h" />
+    <ClInclude Include="..\Classes\Battle\TrapData.h" />
     <ClInclude Include="..\Classes\Battle\BufExp.h" />
     <ClInclude Include="..\Classes\Battle\BuffData.h" />
     <ClInclude Include="..\Classes\Battle\BuffManage.h" />
@@ -618,14 +633,13 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\Battle\Landform\AreaManage.h" />
     <ClInclude Include="..\Classes\Battle\Landform\AStar.h" />
     <ClInclude Include="..\Classes\Battle\Landform\MapNode.h" />
-    <ClInclude Include="..\Classes\Battle\Landform\TerrainExp.h" />
-    <ClInclude Include="..\Classes\Battle\Landform\terrainLayer.h" />
-    <ClInclude Include="..\Classes\Battle\Landform\TerrainManager.h" />
+    <ClInclude Include="..\Classes\Battle\Landform\TrapLayer.h" />
+    <ClInclude Include="..\Classes\Battle\Landform\TrapManage.h" />
     <ClInclude Include="..\Classes\Battle\LoadPngData.h" />
-    <ClInclude Include="..\Classes\Battle\LoadSpineData.h" />
+    <ClInclude Include="..\Classes\Battle\SpineDataManage.h" />
     <ClInclude Include="..\Classes\Battle\BattleCenter.h" />
     <ClInclude Include="..\Classes\Battle\MapEffect.h" />
-    <ClInclude Include="..\Classes\Battle\MapManager.h" />
+    <ClInclude Include="..\Classes\Battle\CoordsManage.h" />
     <ClInclude Include="..\Classes\Battle\MonsterData.h" />
     <ClInclude Include="..\Classes\Battle\MonsterRole.h" />
     <ClInclude Include="..\Classes\Battle\MoveObject.h" />
@@ -819,6 +833,8 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\jsonCpp\reader.h" />
     <ClInclude Include="..\Classes\jsonCpp\value.h" />
     <ClInclude Include="..\Classes\jsonCpp\writer.h" />
+    <ClInclude Include="..\Classes\LuckyWheel\LuckyWheelData.h" />
+    <ClInclude Include="..\Classes\LuckyWheel\LuckyWheelLayer.h" />
     <ClInclude Include="..\Classes\mail\EmailControl.h" />
     <ClInclude Include="..\Classes\mail\EmailData.h" />
     <ClInclude Include="..\Classes\mail\EmailLayer.h" />
@@ -936,7 +952,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\scene\layer\GameTip.h" />
     <ClInclude Include="..\Classes\scene\layer\LayerManager.h" />
     <ClInclude Include="..\Classes\scene\layer\LoginLayerDefault.h" />
-    <ClInclude Include="..\Classes\scene\layer\LoginLayerFaceBook.h" />
+    <ClInclude Include="..\Classes\scene\layer\LoginLayerMix.h" />
     <ClInclude Include="..\Classes\scene\layer\PropGetInfo.h" />
     <ClInclude Include="..\Classes\scene\layer\SetPanel.h" />
     <ClInclude Include="..\Classes\scene\layer\WaitLayer.h" />
@@ -950,6 +966,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\SDK\GamePlatfomCompile.h" />
     <ClInclude Include="..\Classes\SDK\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\SDK\GamePlatformManager.h" />
+    <ClInclude Include="..\Classes\SDK\GoogleLoginSDK.h" />
     <ClInclude Include="..\Classes\SDK\GooglePayJni.h" />
     <ClInclude Include="..\Classes\SDK\GooglePaySDK.h" />
     <ClInclude Include="..\Classes\SDK\PayDefine.h" />
@@ -1000,6 +1017,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\vip\VipLayer.h" />
     <ClInclude Include="..\Classes\vip\VipPower.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj">

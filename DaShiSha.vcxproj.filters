@@ -163,6 +163,24 @@
     <Filter Include="Classes\Battle\Landform">
       <UniqueIdentifier>{24d533ea-b3e3-409e-9c8f-8fd4efa0ee4c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Battle\Config">
+      <UniqueIdentifier>{5f5c0d69-a33b-4b62-a1ae-6adfe8f1c107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\BattlePattern">
+      <UniqueIdentifier>{3862e7d9-dcf1-4ab8-a828-8436dd480b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\BattlePattern\ClosePattern">
+      <UniqueIdentifier>{d6d5cf19-7866-49d9-a440-f7624195b6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Landform\Trap">
+      <UniqueIdentifier>{c7985f22-0ee6-4ab8-82bd-dff1d7844ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Coords">
+      <UniqueIdentifier>{5988e823-2d27-4088-a2c8-4f75a02d0e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\LuckyWheel">
+      <UniqueIdentifier>{5f521616-1dc8-420d-9bd6-8f2fa996bd51}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -973,9 +991,6 @@
     <ClCompile Include="..\Classes\common\CCRollLabelAction.cpp">
       <Filter>Classes\common</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\LoadSpineData.cpp">
-      <Filter>Classes\Battle\Data\SpineData</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\ReloadResCoverLayer.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
@@ -1180,9 +1195,6 @@
     <ClCompile Include="..\Classes\Battle\BattleTools.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleTrap.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\BufExp.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
@@ -1309,9 +1321,6 @@
     <ClCompile Include="..\Classes\scene\layer\LoginLayerDefault.cpp">
       <Filter>Classes\scene\layer</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\scene\layer\LoginLayerFaceBook.cpp">
-      <Filter>Classes\scene\layer</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\SDK\GooglePayJni.cpp">
       <Filter>Classes\SDK</Filter>
     </ClCompile>
@@ -1354,19 +1363,7 @@
     <ClCompile Include="..\Classes\Battle\Landform\MapNode.cpp">
       <Filter>Classes\Battle\Landform</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\Landform\TerrainExp.cpp">
-      <Filter>Classes\Battle\Landform</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\Landform\terrainLayer.cpp">
-      <Filter>Classes\Battle\Landform</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\Landform\TerrainManager.cpp">
-      <Filter>Classes\Battle\Landform</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\BuffManage.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\MapManager.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\WarManager.cpp">
@@ -1376,6 +1373,51 @@
       <Filter>Classes\model</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\BattleCenter.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\TrapData.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\SpineDataManage.cpp">
+      <Filter>Classes\Battle\Data\SpineData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\TrapManage.cpp">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\TrapLayer.cpp">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Config\ConfigManage.cpp">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\BattleTrap.cpp">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\ObstacleTrap.cpp">
+      <Filter>Classes\Battle\Landform\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\NatureTrap.cpp">
+      <Filter>Classes\Battle\Landform\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Landform\TrapObject.cpp">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Coords\Coords.cpp">
+      <Filter>Classes\Battle\Coords</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\layer\LoginLayerMix.cpp">
+      <Filter>Classes\scene\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SDK\GoogleLoginSDK.cpp">
+      <Filter>Classes\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuckyWheel\LuckyWheelData.cpp">
+      <Filter>Classes\LuckyWheel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuckyWheel\LuckyWheelLayer.cpp">
+      <Filter>Classes\LuckyWheel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\CoordsManage.cpp">
       <Filter>Classes\Battle</Filter>
     </ClCompile>
   </ItemGroup>
@@ -2329,9 +2371,6 @@
     <ClInclude Include="..\Classes\Battle\BattleMacro.h">
       <Filter>Classes\Battle\Macro</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\LoadSpineData.h">
-      <Filter>Classes\Battle\Data\SpineData</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\ReloadResCoverLayer.h">
       <Filter>Classes</Filter>
     </ClInclude>
@@ -2539,9 +2578,6 @@
     <ClInclude Include="..\Classes\Battle\BattleTools.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleTrap.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\BufExp.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
@@ -2677,9 +2713,6 @@
     <ClInclude Include="..\Classes\scene\layer\LoginLayerDefault.h">
       <Filter>Classes\scene\layer</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\scene\layer\LoginLayerFaceBook.h">
-      <Filter>Classes\scene\layer</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\SDK\GooglePayJni.h">
       <Filter>Classes\SDK</Filter>
     </ClInclude>
@@ -2704,14 +2737,12 @@
     <ClInclude Include="..\Classes\Battle\BattleModel.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\Battle\Strategy\PvEStrategy.h">
       <Filter>Classes\Battle\Strategy</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\BattleConfigMacro.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\GamePlatfomDefine.h" />
     <ClInclude Include="..\Classes\SDK\GamePlatfomCompile.h">
       <Filter>Classes\SDK</Filter>
     </ClInclude>
@@ -2739,19 +2770,7 @@
     <ClInclude Include="..\Classes\Battle\Landform\MapNode.h">
       <Filter>Classes\Battle\Landform</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\Landform\TerrainExp.h">
-      <Filter>Classes\Battle\Landform</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\Landform\terrainLayer.h">
-      <Filter>Classes\Battle\Landform</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\Landform\TerrainManager.h">
-      <Filter>Classes\Battle\Landform</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\BuffManage.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\MapManager.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\WarManager.h">
@@ -2763,6 +2782,55 @@
     <ClInclude Include="..\Classes\Battle\BattleCenter.h">
       <Filter>Classes\Battle</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\Battle\TrapData.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\SpineDataManage.h">
+      <Filter>Classes\Battle\Data\SpineData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\TrapManage.h">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\TrapLayer.h">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\BattleTrap.h">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Config\ConfigManage.h">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\ObstacleTrap.h">
+      <Filter>Classes\Battle\Landform\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\NatureTrap.h">
+      <Filter>Classes\Battle\Landform\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Landform\TrapObject.h">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleObjectMacro.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Coords\Coords.h">
+      <Filter>Classes\Battle\Coords</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\layer\LoginLayerMix.h">
+      <Filter>Classes\scene\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SDK\GoogleLoginSDK.h">
+      <Filter>Classes\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Classes\LuckyWheel\LuckyWheelLayer.h">
+      <Filter>Classes\LuckyWheel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuckyWheel\LuckyWheelData.h">
+      <Filter>Classes\LuckyWheel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\CoordsManage.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Classes\google\protobuf\io\gzip_stream_unittest.sh">
@@ -2771,5 +2839,8 @@
     <None Include="..\Classes\google\protobuf\descriptor.proto">
       <Filter>Classes\google\protobuf</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DaShiSha_Tai.rc" />
   </ItemGroup>
 </Project>
