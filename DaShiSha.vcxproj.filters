@@ -127,23 +127,11 @@
     <Filter Include="Classes\Battle\Macro">
       <UniqueIdentifier>{701adb87-5ba0-4c83-95da-06be7c8d318d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Battle\Data">
-      <UniqueIdentifier>{8f16d6b3-2e85-42ff-8701-2f300274a5ea}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Battle\Data\SpineData">
-      <UniqueIdentifier>{3fe6d4d3-e916-422c-ae25-eeb9dfc25917}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Battle\Data\RoleConfig">
-      <UniqueIdentifier>{ecec8cd3-3b04-435b-a696-602cb7d3c8cc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\pvp_UI">
       <UniqueIdentifier>{f15d528c-69b1-4261-aa4e-a17410ab9405}</UniqueIdentifier>
     </Filter>
     <Filter Include="Classes\Battle\AffectArea">
       <UniqueIdentifier>{8260a237-ae23-4d86-8e0f-c5f0c1c0f60b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Battle\BattleLayer">
-      <UniqueIdentifier>{a269d2fb-a767-453a-be65-c2f76e34e3ad}</UniqueIdentifier>
     </Filter>
     <Filter Include="Classes\Battle\BattleScene">
       <UniqueIdentifier>{a10d8597-d4a1-400b-a3b9-2c67013de427}</UniqueIdentifier>
@@ -166,12 +154,6 @@
     <Filter Include="Classes\Battle\Config">
       <UniqueIdentifier>{5f5c0d69-a33b-4b62-a1ae-6adfe8f1c107}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Battle\BattlePattern">
-      <UniqueIdentifier>{3862e7d9-dcf1-4ab8-a828-8436dd480b3a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Battle\BattlePattern\ClosePattern">
-      <UniqueIdentifier>{d6d5cf19-7866-49d9-a440-f7624195b6f6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\Battle\Landform\Trap">
       <UniqueIdentifier>{c7985f22-0ee6-4ab8-82bd-dff1d7844ba0}</UniqueIdentifier>
     </Filter>
@@ -180,6 +162,21 @@
     </Filter>
     <Filter Include="Classes\LuckyWheel">
       <UniqueIdentifier>{5f521616-1dc8-420d-9bd6-8f2fa996bd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\ManageCenter">
+      <UniqueIdentifier>{7d0ef9ef-1e90-4f41-a1ff-5fef46b85977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Guide">
+      <UniqueIdentifier>{fa7bcf6f-ee82-4731-9211-e71c7b0fa1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Role">
+      <UniqueIdentifier>{63dd3aa1-c629-417b-a409-80a11c7cb718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Buff">
+      <UniqueIdentifier>{6e8d8528-3ace-448d-916b-8fa1b33971a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\BattleLayer">
+      <UniqueIdentifier>{a269d2fb-a767-453a-be65-c2f76e34e3ad}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1012,15 +1009,6 @@
     <ClCompile Include="..\Classes\roleImg\RoleUpdate.cpp">
       <Filter>Classes\roleImg</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleDataCenter.cpp">
-      <Filter>Classes\Battle\Data</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\RoleConfigData.cpp">
-      <Filter>Classes\Battle\Data\RoleConfig</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\ParseRoleConfigFile.cpp">
-      <Filter>Classes\Battle\Data\RoleConfig</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\model\DataPool.cpp">
       <Filter>Classes\model</Filter>
     </ClCompile>
@@ -1078,9 +1066,6 @@
     <ClCompile Include="..\Classes\pvp_ui\SelecPvptArmy.cpp">
       <Filter>Classes\pvp_UI</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\LoadPngData.cpp">
-      <Filter>Classes\Battle</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectArea.cpp">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClCompile>
@@ -1129,9 +1114,6 @@
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectVertical.cpp">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleLayer\BattleMapLayer.cpp">
-      <Filter>Classes\Battle\BattleLayer</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\BattleLayer\BattleRoleLayer.cpp">
       <Filter>Classes\Battle\BattleLayer</Filter>
     </ClCompile>
@@ -1171,21 +1153,6 @@
     <ClCompile Include="..\Classes\Battle\StateManage\StateManager.cpp">
       <Filter>Classes\Battle\StateManage</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AnimationManager.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\AreaCount.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\ArmatureEventDataMgr.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BaseRole.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BaseRoleData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\BattleField.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
@@ -1195,112 +1162,19 @@
     <ClCompile Include="..\Classes\Battle\BattleTools.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BufExp.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BuffData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\CaptainSkill.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\CHeroSoundData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\CombatEffect.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\CombatGuideData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\CombatGuideLayer.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\CombatGuideManage.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\ComBatLogic.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\CombatTask.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\CPlayerSkillData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\DropItem.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\EffectData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\EffectObject.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\GuardArea.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\HeroData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\HurtCount.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\MapEffect.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\MonsterData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\MoveObject.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\MoveRule.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\ParseFileData.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\RandomBusineseMan.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\RoleSkill.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\skEffectData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\SkillRange.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\SkillTips.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\TouchIntercept.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\WarAssist.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\WarBackLayer.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\WarControl.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\WarFailLayer.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\WarWinLayer.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\WorldBossEndLayer.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\HeroRole.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\MonsterRole.cpp">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\hero\HeroEvolveDataPanel.cpp">
@@ -1330,14 +1204,8 @@
     <ClCompile Include="..\Classes\mainCity\mainCityBuild.cpp">
       <Filter>Classes\mainCity</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleClose.cpp">
-      <Filter>Classes\Battle</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\hero\SkillUpdate.cpp">
       <Filter>Classes\hero</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleModel.cpp">
-      <Filter>Classes\Battle</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\Strategy\PvEStrategy.cpp">
       <Filter>Classes\Battle\Strategy</Filter>
@@ -1347,9 +1215,6 @@
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\BattleLayer\BattleTips.cpp">
       <Filter>Classes\Battle\BattleLayer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\PvpEndLayer.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\tollgate\FaceBookImg.cpp">
       <Filter>Classes\tollgate</Filter>
@@ -1363,23 +1228,8 @@
     <ClCompile Include="..\Classes\Battle\Landform\MapNode.cpp">
       <Filter>Classes\Battle\Landform</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BuffManage.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\WarManager.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\model\CRoleData.cpp">
       <Filter>Classes\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\BattleCenter.cpp">
-      <Filter>Classes\Battle</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\TrapData.cpp">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Battle\SpineDataManage.cpp">
-      <Filter>Classes\Battle\Data\SpineData</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\Landform\TrapManage.cpp">
       <Filter>Classes\Battle\Landform</Filter>
@@ -1417,8 +1267,146 @@
     <ClCompile Include="..\Classes\LuckyWheel\LuckyWheelLayer.cpp">
       <Filter>Classes\LuckyWheel</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleCenter.cpp">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleModel.cpp">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AnimationManager.cpp">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\ArmatureEventDataMgr.cpp">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\CombatGuideLayer.cpp">
+      <Filter>Classes\Battle\Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\CombatGuideData.cpp">
+      <Filter>Classes\Battle\Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BufExp.cpp">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BuffData.cpp">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BuffManage.cpp">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BaseRoleData.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\CombatEffect.cpp">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\CPlayerSkillData.cpp">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\WorldBossEndLayer.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\WarWinLayer.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\WarFailLayer.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\WarBackLayer.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\TouchIntercept.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\PvpEndLayer.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MoveObject.cpp">
+      <Filter>Classes\Battle\RoleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BaseRole.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\CaptainSkill.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\EffectObject.cpp">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\EffectData.cpp">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\HeroData.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\GuardArea.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MoveRule.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MonsterData.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\HurtCount.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleDataCenter.cpp">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\SpineDataManage.cpp">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\ParseRoleConfigFile.cpp">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\RoleConfigData.cpp">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AreaCount.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\WarControl.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\TrapData.cpp">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\WarManager.cpp">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\ParseFileData.cpp">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\RoleSkill.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\SkillRange.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\skEffectData.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\SkillTips.cpp">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleClose.cpp">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClCompile>
     <ClCompile Include="..\Classes\Battle\CoordsManage.cpp">
-      <Filter>Classes\Battle</Filter>
+      <Filter>Classes\Battle\Coords</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleLayer\BattleMapLayer.cpp">
+      <Filter>Classes\Battle\Coords</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MapEffect.cpp">
+      <Filter>Classes\Battle\Coords</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\RoleConfig.cpp">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\CombatGuideManage.cpp">
+      <Filter>Classes\Battle\ManageCenter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2392,15 +2380,6 @@
     <ClInclude Include="..\Classes\roleImg\RoleUpdate.h">
       <Filter>Classes\roleImg</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleDataCenter.h">
-      <Filter>Classes\Battle\Data</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleConfigData.h">
-      <Filter>Classes\Battle\Data\RoleConfig</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\ParseRoleConfigFile.h">
-      <Filter>Classes\Battle\Data\RoleConfig</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\model\DataPool.h">
       <Filter>Classes\model</Filter>
     </ClInclude>
@@ -2458,9 +2437,6 @@
     <ClInclude Include="..\Classes\pvp_ui\SelectPvpArmy.h">
       <Filter>Classes\pvp_UI</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\LoadPngData.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectArea.h">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClInclude>
@@ -2509,9 +2485,6 @@
     <ClInclude Include="..\Classes\Battle\AffectArea\AffectVertical.h">
       <Filter>Classes\Battle\AffectArea</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleLayer\BattleMapLayer.h">
-      <Filter>Classes\Battle\BattleLayer</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\BattleLayer\BattleRoleLayer.h">
       <Filter>Classes\Battle\BattleLayer</Filter>
     </ClInclude>
@@ -2551,55 +2524,10 @@
     <ClInclude Include="..\Classes\Battle\StateManage\StateManager.h">
       <Filter>Classes\Battle\StateManage</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\ActionNameDefine.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AnimationManager.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\AreaCount.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\ArmatureEventDataMgr.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BaseRole.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BaseRoleData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\BattleField.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleResult.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\BattleTools.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BufExp.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BuffData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\CaptainSkill.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\CHeroSoundData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\CombatEffect.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\CombatGuideData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\CombatGuideLayer.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\CombatGuideManage.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\ComBatLogic.h">
@@ -2611,88 +2539,13 @@
     <ClInclude Include="..\Classes\Battle\ConstNum.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\CPlayerSkillData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\DropItem.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\EffectData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\EffectObject.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\GuardArea.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\HeroData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\HurtCount.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\MapEffect.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\MonsterData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\MoveObject.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\MoveRule.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\ParseFileData.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\RandomBusineseMan.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleMacro.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleSkill.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\skEffectData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\SkillRange.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\SkillTips.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\TouchIntercept.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\WarAssist.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\WarBackLayer.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\WarControl.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\WarFailLayer.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\WarWinLayer.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\WorldBossEndLayer.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleMessage.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\HeroRole.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\MonsterRole.h">
       <Filter>Classes\Battle\UnClassify</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\hero\HeroEvolveDataPanel.h">
@@ -2725,23 +2578,14 @@
     <ClInclude Include="..\Classes\mainCity\mainCityBuild.h">
       <Filter>Classes\mainCity</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleClose.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\BattlePoint.h">
       <Filter>Classes\Battle\Macro</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\hero\SkillUpdate.h">
       <Filter>Classes\hero</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleModel.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\Strategy\PvEStrategy.h">
       <Filter>Classes\Battle\Strategy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleConfigMacro.h">
-      <Filter>Classes\Battle</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\SDK\GamePlatfomCompile.h">
       <Filter>Classes\SDK</Filter>
@@ -2755,9 +2599,6 @@
     <ClInclude Include="..\Classes\Battle\BattleLayer\BattleTips.h">
       <Filter>Classes\Battle\BattleLayer</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\PvpEndLayer.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\tollgate\FaceBookImg.h">
       <Filter>Classes\tollgate</Filter>
     </ClInclude>
@@ -2770,23 +2611,8 @@
     <ClInclude Include="..\Classes\Battle\Landform\MapNode.h">
       <Filter>Classes\Battle\Landform</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BuffManage.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\WarManager.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\model\CRoleData.h">
       <Filter>Classes\model</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\BattleCenter.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\TrapData.h">
-      <Filter>Classes\Battle\UnClassify</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Battle\SpineDataManage.h">
-      <Filter>Classes\Battle\Data\SpineData</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\Landform\TrapManage.h">
       <Filter>Classes\Battle\Landform</Filter>
@@ -2809,9 +2635,6 @@
     <ClInclude Include="..\Classes\Battle\Landform\TrapObject.h">
       <Filter>Classes\Battle\Landform</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Battle\RoleObjectMacro.h">
-      <Filter>Classes\Battle</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\Coords\Coords.h">
       <Filter>Classes\Battle\Coords</Filter>
     </ClInclude>
@@ -2828,8 +2651,164 @@
     <ClInclude Include="..\Classes\LuckyWheel\LuckyWheelData.h">
       <Filter>Classes\LuckyWheel</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleCenter.h">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleObjectMacro.h">
+      <Filter>Classes\Battle\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleConfigMacro.h">
+      <Filter>Classes\Battle\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleModel.h">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleMessage.h">
+      <Filter>Classes\Battle\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\ActionNameDefine.h">
+      <Filter>Classes\Battle\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AnimationManager.h">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\ArmatureEventDataMgr.h">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleResult.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\CombatGuideLayer.h">
+      <Filter>Classes\Battle\Guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\CombatGuideData.h">
+      <Filter>Classes\Battle\Guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BufExp.h">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BuffData.h">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BuffManage.h">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BaseRoleData.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\CombatEffect.h">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\CPlayerSkillData.h">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\WorldBossEndLayer.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\WarWinLayer.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\WarFailLayer.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\WarBackLayer.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\TouchIntercept.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\PvpEndLayer.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MoveObject.h">
+      <Filter>Classes\Battle\RoleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BaseRole.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\CaptainSkill.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\EffectObject.h">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\EffectData.h">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\HeroData.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\GuardArea.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MoveRule.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MonsterData.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\HurtCount.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleDataCenter.h">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\SpineDataManage.h">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleConfigData.h">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\ParseRoleConfigFile.h">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AreaCount.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\WarControl.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\TrapData.h">
+      <Filter>Classes\Battle\Landform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\WarManager.h">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleSkill.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleMacro.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\SkillRange.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\skEffectData.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\ParseFileData.h">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\SkillTips.h">
+      <Filter>Classes\Battle\BattleLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleClose.h">
+      <Filter>Classes\Battle\UnClassify</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\Battle\CoordsManage.h">
-      <Filter>Classes\Battle</Filter>
+      <Filter>Classes\Battle\Coords</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleLayer\BattleMapLayer.h">
+      <Filter>Classes\Battle\Coords</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MapEffect.h">
+      <Filter>Classes\Battle\Coords</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleConfig.h">
+      <Filter>Classes\Battle\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\CombatGuideManage.h">
+      <Filter>Classes\Battle\ManageCenter</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -2839,8 +2818,5 @@
     <None Include="..\Classes\google\protobuf\descriptor.proto">
       <Filter>Classes\google\protobuf</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="DaShiSha_Tai.rc" />
   </ItemGroup>
 </Project>
