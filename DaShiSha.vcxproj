@@ -147,6 +147,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\bag\BagScene.cpp" />
     <ClCompile Include="..\Classes\bag\ItemTip.cpp" />
     <ClCompile Include="..\Classes\bag\StuffTip.cpp" />
+    <ClCompile Include="..\Classes\Battle\ActionModel.cpp" />
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectArea.cpp" />
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectBackArea.cpp" />
     <ClCompile Include="..\Classes\Battle\AffectArea\AffectCamp.cpp" />
@@ -181,12 +182,16 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\Battle\BattleScene\LoadBattleResource.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleScene\LogoScene.cpp" />
     <ClCompile Include="..\Classes\Battle\BattleTools.cpp" />
+    <ClCompile Include="..\Classes\Battle\Buff\BattleBuff.cpp" />
+    <ClCompile Include="..\Classes\Battle\Buff\Buff_Property.cpp" />
+    <ClCompile Include="..\Classes\Battle\Buff\Buff_Simpleness.cpp" />
     <ClCompile Include="..\Classes\Battle\Config\ConfigManage.cpp" />
     <ClCompile Include="..\Classes\Battle\Coords\Coords.cpp" />
     <ClCompile Include="..\Classes\Battle\Landform\BattleTrap.cpp" />
     <ClCompile Include="..\Classes\Battle\Landform\NatureTrap.cpp" />
     <ClCompile Include="..\Classes\Battle\Landform\ObstacleTrap.cpp" />
     <ClCompile Include="..\Classes\Battle\Landform\TrapObject.cpp" />
+    <ClCompile Include="..\Classes\Battle\RoleVariant.cpp" />
     <ClCompile Include="..\Classes\Battle\TrapData.cpp" />
     <ClCompile Include="..\Classes\Battle\BufExp.cpp" />
     <ClCompile Include="..\Classes\Battle\BuffData.cpp" />
@@ -349,6 +354,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\guide\GuideData.cpp" />
     <ClCompile Include="..\Classes\guide\GuideLayer.cpp" />
     <ClCompile Include="..\Classes\guide\GuideManager.cpp" />
+    <ClCompile Include="..\Classes\handBook\HandBookEffectTip.cpp" />
     <ClCompile Include="..\Classes\handBook\HandBookEquip.cpp" />
     <ClCompile Include="..\Classes\handBook\HandBookHero.cpp" />
     <ClCompile Include="..\Classes\handBook\HandBookMonster.cpp" />
@@ -376,8 +382,9 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\jsonCpp\json_reader.cpp" />
     <ClCompile Include="..\Classes\jsonCpp\json_value.cpp" />
     <ClCompile Include="..\Classes\jsonCpp\json_writer.cpp" />
-    <ClCompile Include="..\Classes\LuckyWheel\LuckyWheelData.cpp" />
-    <ClCompile Include="..\Classes\LuckyWheel\LuckyWheelLayer.cpp" />
+    <ClCompile Include="..\Classes\LuckyActive\LuckyWheelData.cpp" />
+    <ClCompile Include="..\Classes\LuckyActive\LuckyWheelLayer.cpp" />
+    <ClCompile Include="..\Classes\LuckyActive\PairCardsActivity.cpp" />
     <ClCompile Include="..\Classes\mail\EmailControl.cpp" />
     <ClCompile Include="..\Classes\mail\EmailData.cpp" />
     <ClCompile Include="..\Classes\mail\EmailLayer.cpp" />
@@ -407,6 +414,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\mainCity\StarUpItem.cpp" />
     <ClCompile Include="..\Classes\mainCity\Strengthen.cpp" />
     <ClCompile Include="..\Classes\mainCity\StrengthenItem.cpp" />
+    <ClCompile Include="..\Classes\mainCity\TimeGift.cpp" />
     <ClCompile Include="..\Classes\mainCity\TopLayer.cpp" />
     <ClCompile Include="..\Classes\model\CRoleData.cpp" />
     <ClCompile Include="..\Classes\model\CWholeBodyShowData.cpp" />
@@ -428,6 +436,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\net\CNetSocket.cpp" />
     <ClCompile Include="..\Classes\net\CProtoType.cpp" />
     <ClCompile Include="..\Classes\protos\act_protocol.pb.cc" />
+    <ClCompile Include="..\Classes\protos\atlas_protocol.pb.cc" />
     <ClCompile Include="..\Classes\protos\auth_protocol.pb.cc" />
     <ClCompile Include="..\Classes\protos\boss_protocol.pb.cc" />
     <ClCompile Include="..\Classes\protos\bounty_protocol.pb.cc" />
@@ -536,6 +545,9 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\tools\StringUtil.cpp" />
     <ClCompile Include="..\Classes\tools\texttip.cpp" />
     <ClCompile Include="..\Classes\tools\UICloneMgr.cpp" />
+    <ClCompile Include="..\Classes\Tower\TowerLayer.cpp" />
+    <ClCompile Include="..\Classes\Tower\TowerRankLayer.cpp" />
+    <ClCompile Include="..\Classes\Tower\TowerShopLayer.cpp" />
     <ClCompile Include="..\Classes\update\CDownloadPackage.cpp" />
     <ClCompile Include="..\Classes\update\CPackageVersionJson.cpp" />
     <ClCompile Include="..\Classes\update\CUpdateLayer.cpp" />
@@ -557,6 +569,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\activity\HttpLoadImage.h" />
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\ApplicationDefine.h" />
+    <ClInclude Include="..\Classes\Battle\ActionModel.h" />
     <ClInclude Include="..\Classes\Battle\BattleClose.h" />
     <ClInclude Include="..\Classes\Battle\BattleConfigMacro.h" />
     <ClInclude Include="..\Classes\Battle\BattleLayer\BattleTips.h" />
@@ -604,6 +617,9 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\Battle\BattleScene\LoadBattleResource.h" />
     <ClInclude Include="..\Classes\Battle\BattleScene\LogoScene.h" />
     <ClInclude Include="..\Classes\Battle\BattleTools.h" />
+    <ClInclude Include="..\Classes\Battle\Buff\BattleBuff.h" />
+    <ClInclude Include="..\Classes\Battle\Buff\Buff_Property.h" />
+    <ClInclude Include="..\Classes\Battle\Buff\Buff_Simpleness.h" />
     <ClInclude Include="..\Classes\Battle\Config\ConfigManage.h" />
     <ClInclude Include="..\Classes\Battle\Coords\Coords.h" />
     <ClInclude Include="..\Classes\Battle\Landform\BattleTrap.h" />
@@ -611,6 +627,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\Battle\Landform\ObstacleTrap.h" />
     <ClInclude Include="..\Classes\Battle\Landform\TrapObject.h" />
     <ClInclude Include="..\Classes\Battle\RoleObjectMacro.h" />
+    <ClInclude Include="..\Classes\Battle\RoleVariant.h" />
     <ClInclude Include="..\Classes\Battle\TrapData.h" />
     <ClInclude Include="..\Classes\Battle\BufExp.h" />
     <ClInclude Include="..\Classes\Battle\BuffData.h" />
@@ -803,6 +820,8 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\guide\GuideData.h" />
     <ClInclude Include="..\Classes\guide\GuideLayer.h" />
     <ClInclude Include="..\Classes\guide\GuideManager.h" />
+    <ClInclude Include="..\Classes\handBook\HandBookControl.h" />
+    <ClInclude Include="..\Classes\handBook\HandBookEffectTip.h" />
     <ClInclude Include="..\Classes\handBook\HandBookEquip.h" />
     <ClInclude Include="..\Classes\handBook\HandBookHero.h" />
     <ClInclude Include="..\Classes\handBook\HandBookMonster.h" />
@@ -836,8 +855,9 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\jsonCpp\reader.h" />
     <ClInclude Include="..\Classes\jsonCpp\value.h" />
     <ClInclude Include="..\Classes\jsonCpp\writer.h" />
-    <ClInclude Include="..\Classes\LuckyWheel\LuckyWheelData.h" />
-    <ClInclude Include="..\Classes\LuckyWheel\LuckyWheelLayer.h" />
+    <ClInclude Include="..\Classes\LuckyActive\LuckyWheelData.h" />
+    <ClInclude Include="..\Classes\LuckyActive\LuckyWheelLayer.h" />
+    <ClInclude Include="..\Classes\LuckyActive\PairCardsActivity.h" />
     <ClInclude Include="..\Classes\mail\EmailControl.h" />
     <ClInclude Include="..\Classes\mail\EmailData.h" />
     <ClInclude Include="..\Classes\mail\EmailLayer.h" />
@@ -868,6 +888,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\mainCity\Strengthen.h" />
     <ClInclude Include="..\Classes\mainCity\StrengthenItem.h" />
     <ClInclude Include="..\Classes\GMessage.h" />
+    <ClInclude Include="..\Classes\mainCity\TimeGift.h" />
     <ClInclude Include="..\Classes\mainCity\TopLayer.h" />
     <ClInclude Include="..\Classes\model\CRoleData.h" />
     <ClInclude Include="..\Classes\model\CWholeBodyShowData.h" />
@@ -890,6 +911,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\net\CProtoType.h" />
     <ClInclude Include="..\Classes\net\MessageHandler.h" />
     <ClInclude Include="..\Classes\protos\act_protocol.pb.h" />
+    <ClInclude Include="..\Classes\protos\atlas_protocol.pb.h" />
     <ClInclude Include="..\Classes\protos\auth_protocol.pb.h" />
     <ClInclude Include="..\Classes\protos\boss_protocol.pb.h" />
     <ClInclude Include="..\Classes\protos\bounty_protocol.pb.h" />
@@ -1006,6 +1028,9 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\tools\texttip.h" />
     <ClInclude Include="..\Classes\tools\ToolDefine.h" />
     <ClInclude Include="..\Classes\tools\UICloneMgr.h" />
+    <ClInclude Include="..\Classes\Tower\TowerLayer.h" />
+    <ClInclude Include="..\Classes\Tower\TowerRankLayer.h" />
+    <ClInclude Include="..\Classes\Tower\TowerShopLayer.h" />
     <ClInclude Include="..\Classes\update\CDownloadPackage.h" />
     <ClInclude Include="..\Classes\update\CDownloadPackageDelegate.h" />
     <ClInclude Include="..\Classes\update\CPackageVersionJson.h" />

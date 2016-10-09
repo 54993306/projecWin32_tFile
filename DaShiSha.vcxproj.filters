@@ -160,9 +160,6 @@
     <Filter Include="Classes\Battle\Coords">
       <UniqueIdentifier>{5988e823-2d27-4088-a2c8-4f75a02d0e57}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\LuckyWheel">
-      <UniqueIdentifier>{5f521616-1dc8-420d-9bd6-8f2fa996bd51}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\Battle\ManageCenter">
       <UniqueIdentifier>{7d0ef9ef-1e90-4f41-a1ff-5fef46b85977}</UniqueIdentifier>
     </Filter>
@@ -177,6 +174,15 @@
     </Filter>
     <Filter Include="Classes\Battle\BattleLayer">
       <UniqueIdentifier>{a269d2fb-a767-453a-be65-c2f76e34e3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\handBook">
+      <UniqueIdentifier>{330be727-1d39-4134-bc84-151613238e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\LuckyActive">
+      <UniqueIdentifier>{5f521616-1dc8-420d-9bd6-8f2fa996bd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Tower">
+      <UniqueIdentifier>{082bf89b-24e4-44c6-8ccd-10af19c8d0cd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1261,12 +1267,6 @@
     <ClCompile Include="..\Classes\SDK\GoogleLoginSDK.cpp">
       <Filter>Classes\SDK</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\LuckyWheel\LuckyWheelData.cpp">
-      <Filter>Classes\LuckyWheel</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\LuckyWheel\LuckyWheelLayer.cpp">
-      <Filter>Classes\LuckyWheel</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Battle\BattleCenter.cpp">
       <Filter>Classes\Battle\ManageCenter</Filter>
     </ClCompile>
@@ -1407,6 +1407,63 @@
     </ClCompile>
     <ClCompile Include="..\Classes\Battle\CombatGuideManage.cpp">
       <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\handBook\HandBookEffectTip.cpp">
+      <Filter>Classes\handBook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\handBook\HandBookEquip.cpp">
+      <Filter>Classes\handBook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\handBook\HandBookHero.cpp">
+      <Filter>Classes\handBook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\handBook\HandBookMonster.cpp">
+      <Filter>Classes\handBook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\handBook\HandBookPanel.cpp">
+      <Filter>Classes\handBook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SDK\GameEventMonitor.cpp">
+      <Filter>Classes\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mainCity\TimeGift.cpp">
+      <Filter>Classes\mainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\RoleVariant.cpp">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protos\atlas_protocol.pb.cc">
+      <Filter>Classes\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\ActionModel.cpp">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Buff\BattleBuff.cpp">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Buff\Buff_Property.cpp">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Buff\Buff_Simpleness.cpp">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuckyActive\LuckyWheelData.cpp">
+      <Filter>Classes\LuckyActive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuckyActive\LuckyWheelLayer.cpp">
+      <Filter>Classes\LuckyActive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuckyActive\PairCardsActivity.cpp">
+      <Filter>Classes\LuckyActive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tower\TowerLayer.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tower\TowerRankLayer.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tower\TowerShopLayer.cpp">
+      <Filter>Classes\Tower</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2644,13 +2701,6 @@
     <ClInclude Include="..\Classes\SDK\GoogleLoginSDK.h">
       <Filter>Classes\SDK</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h" />
-    <ClInclude Include="..\Classes\LuckyWheel\LuckyWheelLayer.h">
-      <Filter>Classes\LuckyWheel</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\LuckyWheel\LuckyWheelData.h">
-      <Filter>Classes\LuckyWheel</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Battle\BattleCenter.h">
       <Filter>Classes\Battle\ManageCenter</Filter>
     </ClInclude>
@@ -2809,6 +2859,66 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Battle\CombatGuideManage.h">
       <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\handBook\HandBookEffectTip.h">
+      <Filter>Classes\handBook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\handBook\HandBookEquip.h">
+      <Filter>Classes\handBook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\handBook\HandBookHero.h">
+      <Filter>Classes\handBook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\handBook\HandBookMonster.h">
+      <Filter>Classes\handBook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\handBook\HandBookPanel.h">
+      <Filter>Classes\handBook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SDK\GameEventMonitor.h">
+      <Filter>Classes\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mainCity\TimeGift.h">
+      <Filter>Classes\mainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\RoleVariant.h">
+      <Filter>Classes\Battle\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\handBook\HandBookControl.h">
+      <Filter>Classes\handBook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protos\atlas_protocol.pb.h">
+      <Filter>Classes\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\ActionModel.h">
+      <Filter>Classes\Battle\ManageCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Buff\BattleBuff.h">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Buff\Buff_Property.h">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Buff\Buff_Simpleness.h">
+      <Filter>Classes\Battle\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuckyActive\LuckyWheelData.h">
+      <Filter>Classes\LuckyActive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuckyActive\LuckyWheelLayer.h">
+      <Filter>Classes\LuckyActive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuckyActive\PairCardsActivity.h">
+      <Filter>Classes\LuckyActive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tower\TowerLayer.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tower\TowerRankLayer.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tower\TowerShopLayer.h">
+      <Filter>Classes\Tower</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
